@@ -3,7 +3,6 @@
   "/service/service3/page": "app/service/service3/page.js",
   "/service/service-details/page": "app/service/service-details/page.js",
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/blog/blog-standard/page": "app/blog/blog-standard/page.js",
   "/not-found": "app/not-found.js"
 }
