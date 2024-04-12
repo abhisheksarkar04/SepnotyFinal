@@ -122,9 +122,8 @@ const Footer = () => {
                   </div>
                   <div className="content">
                     <p>
-                      Welcome to Zenfy, where innovation meets our passion in a
-                      journey that started with a simple idea and a shared
-                      dream.
+                      Sepnoty here to help, no matter where you are in your
+                      business journey. No question is too big or small for us
                     </p>
                   </div>
                   <ul className="rating-area">
@@ -278,8 +277,9 @@ const Footer = () => {
           <div className="footer-bottom">
             <div className="copyright-area">
               <p>
-                Copyright 2024 <a href="#">Zenfy</a> | Design By{" "}
-                <a href="https://www.egenslab.com/">Egens Lab</a>
+                © 2024 <a href="#"> Sepnoty Technologies Pvt Ltd.</a> All rights
+                reserved.{" "}
+                {/* <a href="https://www.egenslab.com/">Egens Lab</a> */}
               </p>
             </div>
             <div className="footer-bottom-right">

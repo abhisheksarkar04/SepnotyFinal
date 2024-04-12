@@ -1,4 +1,4 @@
-// File: D:\SepnotyFinal\nextjs-files\SepnotyFinal\src\app\portfolio\portfolio-masonary\page.js
+// File: C:\Users\VARAPRASAD REDDY\SepnotyWebsite\SepnotyFinal\src\app\portfolio\portfolio-masonary\page.js
 import * as entry from '../../../../../src/app/portfolio/portfolio-masonary/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
