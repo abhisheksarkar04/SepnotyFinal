@@ -348,7 +348,7 @@ const ServicePage3 = () => {
                   </div>
                   <h5>Brand Identity </h5>
                   <div className="services-img">
-                    <img src="/assets/img/home4/services-01.jpg" alt="" />
+                    {/* <img src="/assets/img/home4/services-01.jpg" alt="" /> */}
                   </div>
                   <div className="content">
                     <p>
@@ -410,7 +410,7 @@ const ServicePage3 = () => {
                   </div>
                   <h5>Graphic Design</h5>
                   <div className="services-img">
-                    <img src="/assets/img/home4/services-02.jpg" alt="" />
+                    {/* <img src="/assets/img/home4/services-02.jpg" alt="" /> */}
                   </div>
                   <div className="content">
                     <p>
@@ -463,7 +463,7 @@ const ServicePage3 = () => {
                   </div>
                   <h5>Web Design</h5>
                   <div className="services-img">
-                    <img src="/assets/img/home4/services-03.jpg" alt="" />
+                    {/* <img src="/assets/img/home4/services-03.jpg" alt="" /> */}
                   </div>
                   <div className="content">
                     <p>
@@ -516,7 +516,7 @@ const ServicePage3 = () => {
                   </div>
                   <h5>Digital Marketing</h5>
                   <div className="services-img">
-                    <img src="/assets/img/home4/services-04.jpg" alt="" />
+                    {/* <img src="/assets/img/home4/services-04.jpg" alt="" /> */}
                   </div>
                   <div className="content">
                     <p>
@@ -586,7 +586,7 @@ const ServicePage3 = () => {
                   </div>
                   <h5>Content Creation</h5>
                   <div className="services-img">
-                    <img src="/assets/img/home4/services-05.jpg" alt="" />
+                    {/* <img src="/assets/img/home4/services-05.jpg" alt="" /> */}
                   </div>
                   <div className="content">
                     <p>
@@ -639,7 +639,7 @@ const ServicePage3 = () => {
                   </div>
                   <h5>Video Production</h5>
                   <div className="services-img">
-                    <img src="/assets/img/home4/services-06.jpg" alt="" />
+                    {/* <img src="/assets/img/home4/services-06.jpg" alt="" /> */}
                   </div>
                   <div className="content">
                     <p>
