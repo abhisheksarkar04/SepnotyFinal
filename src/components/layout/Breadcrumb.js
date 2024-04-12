@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import breadcrumbData from "../../data/Breadcrumb.json";
 import { usePathname } from "next/navigation";
@@ -15,10 +15,11 @@ const Breadcrumb = () => {
   // Render the breadcrumb only if there's a matching slug
   if (filteredBreadcrumbData.length === 0) {
     return (
-        <div
+      <div
         className="breadcrumb-section"
         style={{
-          backgroundImage: "url(/assets/img/innerpage/breadcrumb-bg1.png), linear-gradient(180deg, #121212 0%, #121212 100%)",
+          backgroundImage:
+            "url(/assets/img/innerpage/breadcrumb-bg1.png), linear-gradient(180deg, #121212 0%, #121212 100%)",
         }}
       >
         <div className="container">
@@ -33,16 +34,14 @@ const Breadcrumb = () => {
                   </ul>
                   <h1>Path Not Match</h1>
                 </div>
-               
               </div>
             </div>
           </div>
         </div>
       </div>
-    )
+    );
   }
 
-  
   const currentBreadcrumb = filteredBreadcrumbData[0];
 
   return (
