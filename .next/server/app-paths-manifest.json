@@ -1,4 +1,4 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/case-study/page": "app/case-study/page.js",
   "/page": "app/page.js"
 }
