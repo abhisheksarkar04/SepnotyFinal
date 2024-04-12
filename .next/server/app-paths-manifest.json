@@ -1,3 +1,9 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/service/service3/page": "app/service/service3/page.js",
+  "/blog/blog-standard/page": "app/blog/blog-standard/page.js",
+  "/about/page": "app/about/page.js",
+  "/portfolio/portfolio-masonary/page": "app/portfolio/portfolio-masonary/page.js",
+  "/not-found": "app/not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
