@@ -129,8 +129,8 @@ const Header1 = () => {
               <div className="sidebar-menu-wrap">
                 <ul className="main-menu">
                   <li>
-                    <Link href="/">Agency </Link>
-                    <span
+                    <Link href="/">Startup Agency </Link>
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "home" ? "active" : ""
                       }`}
@@ -311,11 +311,11 @@ const Header1 = () => {
                           </li>
                         </ul>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
-                    <Link href="/service">Services</Link>
-                    <span
+                    <Link href="/service/service3">Services</Link>
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "service" ? "active" : ""
                       }`}
@@ -393,11 +393,11 @@ const Header1 = () => {
                           </svg>
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link href="/case-study">Case Study</Link>
-                    <span
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "case-study" ? "active" : ""
                       }`}
@@ -449,24 +449,24 @@ const Header1 = () => {
                           </svg>
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
-                    <Link href="/blog">Blog</Link>
-                    <span
+                    <Link href="/blog/blog-standard">Blog</Link>
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "blog" ? "active" : ""
                       }`}
                       onClick={() => toggleMenu("blog")}
                     >
                       <i className="bi bi-plus" />
-                    </span>
+                    </span> */}
                     <ul
                       className={`submenu-list ${
                         state.activeMenu === "blog" ? "d-block" : "d-none"
                       }`}
                     >
-                      <li>
+                      {/* <li>
                         <Link href="/blog">
                           Blog Grid
                           <svg
@@ -504,9 +504,9 @@ const Header1 = () => {
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
-                        <Link href="/blog/blog-standard">
+                        {/* <Link href="/blog/blog-standard">
                           Blog Standard
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -516,9 +516,9 @@ const Header1 = () => {
                           >
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
-                        </Link>
+                        </Link> */}
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/blog/blog-details">
                           Blog Details Style 01
                           <svg
@@ -530,7 +530,7 @@ const Header1 = () => {
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/blog/blog-details2">
                           Blog Details Style 02
@@ -575,15 +575,15 @@ const Header1 = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">Portfolio </Link>
-                        <span
+                        <Link href="/portfolio/portfolio-masonary">Portfolio </Link>
+                        {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "portfolio" ? "active" : ""
                           }`}
                           onClick={() => toggleSubMenu("portfolio")}
                         >
                           <i className="bi bi-plus" />
-                        </span>
+                        </span> */}
                         <ul
                           className={`submenu-list ${
                             state.activeSubMenu === "portfolio"
@@ -591,7 +591,7 @@ const Header1 = () => {
                               : "d-none"
                           }`}
                         >
-                          <li>
+                          {/* <li>
                             <Link href="/portfolio">
                               Portfolio Grid
                               <svg
@@ -655,10 +655,10 @@ const Header1 = () => {
                                 <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                               </svg>
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/team">Our Team</Link>
                         <span
                           className={`dropdown-icon2 two ${
@@ -702,7 +702,7 @@ const Header1 = () => {
                             </Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/features">
                           Features
@@ -718,7 +718,7 @@ const Header1 = () => {
                       </li>
                       <li>
                         <Link href="/shop">Shop</Link>
-                        <span
+                        {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "shop" ? "active" : ""
                           }`}
@@ -785,9 +785,9 @@ const Header1 = () => {
                               </svg>
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/pricing-plan">
                           Pricing Plan
                           <svg
@@ -799,7 +799,7 @@ const Header1 = () => {
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/faq">
                           Faq

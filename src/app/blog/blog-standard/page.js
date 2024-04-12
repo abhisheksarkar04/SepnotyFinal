@@ -21,7 +21,7 @@ const BlogStandardPage = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/blog-details2" className="card-img">
                     <img src="/assets/img/home4/blog-img1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -43,7 +43,7 @@ const BlogStandardPage = () => {
                       </div>
                     </div>
                     <h4>
-                      <Link href="/blog/blog-details">
+                      <Link href="/blog/blog-details2">
                         Decoding the Cloud And Deep Dive Told Creative Design
                         For Work.
                       </Link>
@@ -58,7 +58,7 @@ const BlogStandardPage = () => {
                     </p>
                   </div>
                   <div className="star-btn">
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog/blog-details2">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +85,7 @@ const BlogStandardPage = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/blog-details2" className="card-img">
                     <img src="/assets/img/home4/blog-img2.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -107,7 +107,7 @@ const BlogStandardPage = () => {
                       </div>
                     </div>
                     <h4>
-                      <Link href="/blog/blog-details">
+                      <Link href="/blog/blog-details2">
                         Beyond then Canvas Exploring Innovative Design Trends.
                       </Link>
                     </h4>
@@ -121,7 +121,7 @@ const BlogStandardPage = () => {
                     </p>
                   </div>
                   <div className="star-btn">
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog/blog-details2">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +148,7 @@ const BlogStandardPage = () => {
                 data-wow-duration="1500ms"
               >
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/blog-details2" className="card-img">
                     <img src="/assets/img/home4/blog-img4.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -170,7 +170,7 @@ const BlogStandardPage = () => {
                       </div>
                     </div>
                     <h4>
-                      <Link href="/blog/blog-details">
+                      <Link href="/blog/blog-details2">
                         Challenges creating strucui a multi-brand system.
                       </Link>
                     </h4>
@@ -183,7 +183,7 @@ const BlogStandardPage = () => {
                     </p>
                   </div>
                   <div className="star-btn">
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog/blog-details2">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -405,7 +405,7 @@ const BlogStandardPage = () => {
                   <h5 className="widget-title">Popular Post </h5>
                   <div className="recent-post-widget mb-20">
                     <div className="recent-post-img">
-                      <Link href="/blog/blog-details">
+                      <Link href="/blog/blog-details2">
                         <img
                           src="/assets/img/innerpage/popular-post-img1.png"
                           alt=""
@@ -415,7 +415,7 @@ const BlogStandardPage = () => {
                     <div className="recent-post-content">
                       <Link href="/blog">20 January, 2024</Link>
                       <h6>
-                        <Link href="/blog/blog-details">
+                        <Link href="/blog/blog-details2">
                           Looking Inspiration Traveling The World.
                         </Link>
                       </h6>
@@ -423,7 +423,7 @@ const BlogStandardPage = () => {
                   </div>
                   <div className="recent-post-widget mb-20">
                     <div className="recent-post-img">
-                      <Link href="/blog/blog-details">
+                      <Link href="/blog/blog-details2">
                         <img
                           src="/assets/img/innerpage/popular-post-img2.png"
                           alt=""
@@ -433,7 +433,7 @@ const BlogStandardPage = () => {
                     <div className="recent-post-content">
                       <Link href="/blog">12 January, 2024</Link>
                       <h6>
-                        <Link href="/blog/blog-details">
+                        <Link href="/blog/blog-details2">
                           Challenges creating a multi-brand system.
                         </Link>
                       </h6>
@@ -441,7 +441,7 @@ const BlogStandardPage = () => {
                   </div>
                   <div className="recent-post-widget mb-20">
                     <div className="recent-post-img">
-                      <Link href="/blog/blog-details">
+                      <Link href="/blog/blog-details2">
                         <img
                           src="/assets/img/innerpage/popular-post-img3.png"
                           alt=""
@@ -451,7 +451,7 @@ const BlogStandardPage = () => {
                     <div className="recent-post-content">
                       <Link href="/blog">04 January, 2024</Link>
                       <h6>
-                        <Link href="/blog/blog-details">
+                        <Link href="/blog/blog-details2">
                           Decoding the Cloud And Deep Dive Creative.
                         </Link>
                       </h6>
