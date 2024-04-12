@@ -93,11 +93,16 @@ const Home1Testimonial = () => {
                       </g>
                     </svg>
                   </span>
-                  <h2>Happy Client Stories</h2>
+                  <h2>
+                    Discover the Impact: Real Stories from CR Consumer Reports
+                    Advocates
+                  </h2>
                   <p>
-                    These voices echo the confidence and satisfaction of clients
-                    who've witnessed firsthand the impact of our solutions. At
-                    Zenfy, our clients aren't just partners.
+                    Welcome to our testimonials and success stories section,
+                    where real customers share their experiences and triumphs
+                    with CR Consumer Reports. Dive in to discover firsthand
+                    accounts of how our services have made a difference in
+                    people's lives.
                   </p>
                 </div>
                 <ul className="rating-area">
@@ -190,10 +195,10 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Digital Marketing!</span>
                         <p>
-                          “You can adjust the length and style of the line to
-                          match the overall design and formatting of your
-                          document. Some other divider options include dashes,
-                          stars, or even a graphical element.”
+                          “Outstanding service! Sepnoty Technologies truly
+                          exceeded my expectations. Their attention to detail
+                          and commitment to delivering top-notch solutions is
+                          commendable. Highly recommend!”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -204,8 +209,8 @@ const Home1Testimonial = () => {
                               />
                             </div>
                             <div className="content">
-                              <h6>Luke Julian</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Rajesh Sharma</h6>
+                              <span>Marketing Manager</span>
                             </div>
                           </div>
                           <div className="logo">
@@ -221,10 +226,10 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Consulting!</span>
                         <p>
-                          “The line's length and style can be changed to better
-                          fit your document's general layout and style. Stars,
-                          dashes, or even a graphical element are some other
-                          divider alternatives.”
+                          “Sepnoty Innovate R&D provided invaluable insights
+                          that helped us innovate and stay ahead in our
+                          industry. Their expertise and dedication to pushing
+                          boundaries are truly impressive..”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -235,8 +240,8 @@ const Home1Testimonial = () => {
                               />
                             </div>
                             <div className="content">
-                              <h6>David Beckham</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Priya Patel</h6>
+                              <span>Research Scientist</span>
                             </div>
                           </div>
                           <div className="logo">
@@ -252,10 +257,10 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Digital Marketing!</span>
                         <p>
-                          “You can adjust the length and style of the line to
-                          match the overall design and formatting of your
-                          document. Some other divider options include dashes,
-                          stars, or even a graphical element.”
+                          “Sepnoty Nexus Hub connected us with the right
+                          partners and resources to accelerate our growth. Their
+                          collaborative approach and network are invaluable
+                          assets for any business.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -266,8 +271,8 @@ const Home1Testimonial = () => {
                               />
                             </div>
                             <div className="content">
-                              <h6>Daniel Scoot</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Ankit Gupta</h6>
+                              <span>Business Development Executive</span>
                             </div>
                           </div>
                           <div className="logo">
@@ -283,10 +288,10 @@ const Home1Testimonial = () => {
                       <div className="testimonial-card3 style-2">
                         <span>Great Consulting!</span>
                         <p>
-                          “The line's length and style can be changed to better
-                          fit your document's general layout and style. Stars,
-                          dashes, or even a graphical element are some other
-                          divider alternatives.”
+                          “Sepnoty Strategic Solutions & Consultancy offered
+                          strategic guidance that transformed our business.
+                          Their tailored strategies and actionable advice have
+                          been instrumental in our success.”
                         </p>
                         <div className="author-and-logo-area">
                           <div className="author-area">
@@ -297,8 +302,8 @@ const Home1Testimonial = () => {
                               />
                             </div>
                             <div className="content">
-                              <h6>Flurance Miyagi</h6>
-                              <span>CEO At astra.com</span>
+                              <h6>Neha Singh</h6>
+                              <span>CEO</span>
                             </div>
                           </div>
                           <div className="logo">

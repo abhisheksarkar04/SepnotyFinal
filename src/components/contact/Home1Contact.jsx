@@ -36,11 +36,10 @@ const Home1Contact = () => {
                       </g>
                     </svg>
                   </span>
-                  <h2>Connect with Zenfy</h2>
+                  <h2>Book a Meeting with Our Experts!</h2>
                   <p>
-                    Ready to take the first step towards unlocking
-                    opportunities, realizing goals, and embracing innovation?
-                    We're here and eager to connect.
+                    Welcome to our support hub! Get answers to your questions
+                    and solutions for your projects from our dedicated team.
                   </p>
                 </div>
                 <div
@@ -142,7 +141,10 @@ const Home1Contact = () => {
             >
               <div className="contact-form-wrap">
                 <div className="contact-form-area">
-                  <h3>Your Success Starts Here!</h3>
+                  <h3>
+                    Need Assistance or Have a Query? Let Our Team Illuminate
+                    Your Path!
+                  </h3>
                   <form>
                     <div className="row">
                       <div className="col-lg-6 mb-20">
@@ -178,7 +180,10 @@ const Home1Contact = () => {
                       <div className="col-lg-12 mb-30">
                         <div className="form-inner">
                           <label>Message *</label>
-                          <textarea defaultValue={""} />
+                          <textarea
+                            defaultValue={""}
+                            placeholder="How may we assist you today?"
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12">
