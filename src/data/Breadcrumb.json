@@ -56,6 +56,62 @@
         "section_down_scroll": "#case-study-card-section"
     },
     {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details2",
+        "pageTitle": "Digital Transformation: Long Journey to Industry",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details3",
+        "pageTitle": "Overcoming Expansion: An Initial Agency's Triumph",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details4",
+        "pageTitle": "Business Consulting to Increase Marketing Analytics",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details5",
+        "pageTitle": "Small Business Triumph: Overcoming Challenges",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details6",
+        "pageTitle": "Global Impact: Scaling Across Borders",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details7",
+        "pageTitle": "Enhancing Customer Engagement: A Case Study in E-commerce Optimization",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details8",
+        "pageTitle": "Streamlining Operations: A Case Study in Workflow Automation",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "8",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details9",
+        "pageTitle": "Securing Digital Assets: A Case Study in Cybersecurity Enhancement",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
         "id": "9",
         "name": "BLOG",
         "slug": "/blog",
