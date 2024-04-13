@@ -99,7 +99,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="contact-section">
+     {/*  <div className="contact-section">
         <div className="container">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-5">
@@ -295,7 +295,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </MainLayout>
   );
 };
