@@ -3,5 +3,6 @@
   "/blog/blog-details/page": "app/blog/blog-details/page.js",
   "/page": "app/page.js",
   "/case-study/page": "app/case-study/page.js",
-  "/case-study/case-study-details/page": "app/case-study/case-study-details/page.js"
+  "/case-study/case-study-details/page": "app/case-study/case-study-details/page.js",
+  "/service/page": "app/service/page.js"
 }
