@@ -1,7 +1,7 @@
 {
-  "/case-study/page": "app/case-study/page.js",
-  "/case-study/case-study-details/page": "app/case-study/case-study-details/page.js",
   "/page": "app/page.js",
-  "/case-study/case-study-details2/page": "app/case-study/case-study-details2/page.js",
-  "/case-study/case-study-details3/page": "app/case-study/case-study-details3/page.js"
+  "/contact/page": "app/contact/page.js",
+  "/about/page": "app/about/page.js",
+  "/case-study/page": "app/case-study/page.js",
+  "/case-study/case-study-details5/page": "app/case-study/case-study-details5/page.js"
 }

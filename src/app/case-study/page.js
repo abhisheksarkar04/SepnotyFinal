@@ -260,16 +260,16 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/home1/case-study-img4.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Marketing</Link>
+                  <Link href="/case-study">Enhancing Customer Engagement</Link>
                   <h4>
                     <Link href="/case-study/case-study-details7">
-                      A Business Consulting to Increase Marketing Analaytic
+                    A Case Study in E-commerce Optimization
                     </Link>
                   </h4>
                   <p>
-                    This case study unveils the strategic roadmap, the
-                    technology stack deployed, and the tangible benefits reaped
-                    by Egenslab.
+                  Explore how Sepnoty helped an online retailer boost customer engagement and sales
+through strategic website optimization , personalized marketing campaigns,driving heightened customer engagement and increased sales.
+
                   </p>
                   <Link
                     href="/case-study/case-study-details7"
@@ -299,16 +299,16 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/innerpage/case-study-img4.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Global Impact</Link>
+                  <Link href="/case-study"> Streamlining Operations</Link>
                   <h4>
                     <Link href="/case-study/case-study-details8">
-                      Small Business Triumph Over coming Challenges.
+                   A Case Study in Workflow Automation
                     </Link>
                   </h4>
                   <p>
-                    In this case study, we dissect the challenges faci the
-                    strategies employed, and the remarkable oun achieved through
-                    our collaborative efforts.
+                  Discover how Sepnoty transformed a client's business operations by implementing
+custom workflow automation solutions, resulting in increased efficiency, reduced errors, and
+significant cost savings
                   </p>
                   <Link
                     href="/case-study/case-study-details8"
@@ -338,16 +338,17 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/innerpage/case-study-img5.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Global Impact</Link>
+                  <Link href="/case-study">Securing Digital Assets</Link>
                   <h4>
                     <Link href="/case-study/case-study-details9">
-                      Global Impact Scaling Across Operations Borders.
+                    A Case Study in Cybersecurity Enhancement
                     </Link>
                   </h4>
                   <p>
-                    In this case study, we dissect the challenges faci the
-                    strategies employed, and the remarkable oun achieved through
-                    our collaborative efforts.
+                  Learn how Sepnoty bolstered a client's cybersecurity posture through comprehensive
+threat detection, incident response planning, and employee training initiatives, ensuring
+robust protection against evolving cyber threats.
+
                   </p>
                   <Link
                     href="/case-study/case-study-details9"
