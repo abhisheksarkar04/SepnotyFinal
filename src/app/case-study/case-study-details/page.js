@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const CaseStudyDetails = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -19,12 +19,11 @@ const CaseStudyDetails = () => {
                 <img src="/assets/img/innerpage/case-thumb.jpg" alt="" />
               </div>
               <div className="case-details-content">
-                <h3>Unveiling Creative Solutions</h3>
+                <h3>Navigating Growth: A Startup Agency Success Story</h3>
                 <p>
-                  Welcome to our Case Study Details Page, where we unravel the
-                  stories behind our portfolio projects. Immerse yourself in the
-                  intricacies of our design thinking, development challenges,
-                  and triumphant solutions.
+                  "Embark on a journey of growth and innovation as we share the
+                  success story of a startup agency navigating the challenges of
+                  scaling and achieving success in a competitive landscape.
                 </p>
                 <p>
                   Each case study is a testament to our commitment to innovation

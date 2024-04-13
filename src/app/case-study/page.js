@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const CaseStudyPage = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -27,13 +27,13 @@ const CaseStudyPage = () => {
                   <Link href="/case-study">Startup Company</Link>
                   <h4>
                     <Link href="/case-study/case-study-details">
-                      Navigating Growth A Startup Agency Success Story.
+                      Navigating Growth: A Startup Agency Success Story
                     </Link>
                   </h4>
                   <p>
-                    In this case study, we dissect the challenges faci the
-                    strategies employed, and the remarkable oun achieved through
-                    our collaborative efforts.
+                    Embark on a journey of growth and innovation as we share the
+                    success story of a startup agency navigating the challenges
+                    of scaling and achieving success in a competitive landscape.
                   </p>
                   <Link
                     href="/case-study/case-study-details"
@@ -65,17 +65,18 @@ const CaseStudyPage = () => {
                 <div className="card-content">
                   <Link href="/case-study">Design Agency</Link>
                   <h4>
-                    <Link href="/case-study/case-study-details">
-                      Customer Centric Strategies Acquiring Retaining.
+                    <Link href="/case-study/case-study-details2">
+                      Digital Transformation: Long Journey to Industry
                     </Link>
                   </h4>
                   <p>
-                    This case study unveils the strategic roadmap, the
-                    technology stack deployed, and the tangible benefits reaped
-                    by Egenslab.
+                    Experience the transformative power of digital innovation as
+                    we delve into the journey of organizations embracing digital
+                    transformation to stay relevant and competitive in their
+                    industries.
                   </p>
                   <Link
-                    href="/case-study/case-study-details"
+                    href="/case-study/case-study-details2"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -104,17 +105,17 @@ const CaseStudyPage = () => {
                 <div className="card-content">
                   <Link href="/case-study">Digital Transformation</Link>
                   <h4>
-                    <Link href="/case-study/case-study-details">
-                      Tech Breakthroughs Solution Pioneering Digital Age.
+                    <Link href="/case-study/case-study-details3">
+                      Overcoming Expansion: An Initial Agency's Triumph
                     </Link>
                   </h4>
                   <p>
-                    In this case study, we dissect the challenges faci the
-                    strategies employed, and the remarkable oun achieved through
-                    our collaborative efforts.
+                    Explore the inspiring tale of an initial agency overcoming
+                    the hurdles of expansion, demonstrating resilience, and
+                    achieving success in new markets.
                   </p>
                   <Link
-                    href="/case-study/case-study-details"
+                    href="/case-study/case-study-details3"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -143,17 +144,17 @@ const CaseStudyPage = () => {
                 <div className="card-content">
                   <Link href="/case-study">Startup Company</Link>
                   <h4>
-                    <Link href="/case-study/case-study-details">
-                      Navigating Growth A Startup Agency Success Story.
+                    <Link href="/case-study/case-study-details4">
+                      Business Consulting to Increase Marketing Analytics
                     </Link>
                   </h4>
                   <p>
-                    In this case study, we dissect the challenges faci the
-                    strategies employed, and the remarkable oun achieved through
-                    our collaborative efforts.
+                    Discover how strategic business consulting helps businesses
+                    enhance their marketing analytics, empowering them to make
+                    data-driven decisions and achieve greater marketing success.
                   </p>
                   <Link
-                    href="/case-study/case-study-details"
+                    href="/case-study/case-study-details4"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -182,17 +183,17 @@ const CaseStudyPage = () => {
                 <div className="card-content">
                   <Link href="/case-study">It Agency</Link>
                   <h4>
-                    <Link href="/case-study/case-study-details">
-                      Digital Transformation Long Journey to Industry.
+                    <Link href="/case-study/case-study-details5">
+                      Small Business Triumph: Overcoming Challenges
                     </Link>
                   </h4>
                   <p>
-                    This case study unveils the strategic roadmap, the
-                    technology stack deployed, and the tangible benefits reaped
-                    by Egenslab.
+                    Witness the resilience and determination of small businesses
+                    as they overcome challenges, navigate obstacles, and emerge
+                    triumphant in today's dynamic market landscape.
                   </p>
                   <Link
-                    href="/case-study/case-study-details"
+                    href="/case-study/case-study-details5"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -221,17 +222,18 @@ const CaseStudyPage = () => {
                 <div className="card-content">
                   <Link href="/case-study">Creative Agency</Link>
                   <h4>
-                    <Link href="/case-study/case-study-details">
-                      Overcoming Expansion An Initial Agency's Triumph
+                    <Link href="/case-study/case-study-details6">
+                      Global Impact: Scaling Across Borders
                     </Link>
                   </h4>
                   <p>
-                    In this case study, we dissect the challenges faci the
-                    strategies employed, and the remarkable oun achieved through
-                    our collaborative efforts.
+                    Dive into the story of organizations making a global impact
+                    as they scale operations across borders, showcasing
+                    innovation, adaptability, and success on the international
+                    stage.
                   </p>
                   <Link
-                    href="/case-study/case-study-details"
+                    href="/case-study/case-study-details6"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -260,7 +262,7 @@ const CaseStudyPage = () => {
                 <div className="card-content">
                   <Link href="/case-study">Marketing</Link>
                   <h4>
-                    <Link href="/case-study/case-study-details">
+                    <Link href="/case-study/case-study-details7">
                       A Business Consulting to Increase Marketing Analaytic
                     </Link>
                   </h4>
@@ -270,7 +272,7 @@ const CaseStudyPage = () => {
                     by Egenslab.
                   </p>
                   <Link
-                    href="/case-study/case-study-details"
+                    href="/case-study/case-study-details7"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -299,7 +301,7 @@ const CaseStudyPage = () => {
                 <div className="card-content">
                   <Link href="/case-study">Global Impact</Link>
                   <h4>
-                    <Link href="/case-study/case-study-details">
+                    <Link href="/case-study/case-study-details8">
                       Small Business Triumph Over coming Challenges.
                     </Link>
                   </h4>
@@ -309,7 +311,7 @@ const CaseStudyPage = () => {
                     our collaborative efforts.
                   </p>
                   <Link
-                    href="/case-study/case-study-details"
+                    href="/case-study/case-study-details8"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -338,7 +340,7 @@ const CaseStudyPage = () => {
                 <div className="card-content">
                   <Link href="/case-study">Global Impact</Link>
                   <h4>
-                    <Link href="/case-study/case-study-details">
+                    <Link href="/case-study/case-study-details9">
                       Global Impact Scaling Across Operations Borders.
                     </Link>
                   </h4>
@@ -348,7 +350,7 @@ const CaseStudyPage = () => {
                     our collaborative efforts.
                   </p>
                   <Link
-                    href="/case-study/case-study-details"
+                    href="/case-study/case-study-details9"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -366,7 +368,7 @@ const CaseStudyPage = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div
               className="col-lg-12 d-flex justify-content-center wow animate fadeInUp"
               data-wow-delay="400ms"
@@ -381,7 +383,7 @@ const CaseStudyPage = () => {
                 </span>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </MainLayout>
