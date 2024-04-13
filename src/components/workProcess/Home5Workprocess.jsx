@@ -84,7 +84,7 @@ const Home5Workprocess = () => {
               </svg>
             </span>
             <h2>
-              Bringing the best IT <span> Vendors To You.</span>
+            Connecting You with Top IT <span> Vendors for Superior Solutions</span>
             </h2>
           </div>
         </div>
@@ -109,9 +109,7 @@ const Home5Workprocess = () => {
                         <div className="content">
                           <h4>Client Consultation</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                          Tailored consultations ensure a clear grasp of your goals.
                           </p>
                         </div>
                       </div>
@@ -131,9 +129,7 @@ const Home5Workprocess = () => {
                         <div className="content">
                           <h4>Strategy Development</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                          Crafting custom strategies for success.
                           </p>
                         </div>
                       </div>
@@ -153,9 +149,7 @@ const Home5Workprocess = () => {
                         <div className="content">
                           <h4>Market Research</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                          Informed decisions through comprehensive insights.
                           </p>
                         </div>
                       </div>
@@ -173,11 +167,9 @@ const Home5Workprocess = () => {
                           </div>
                         </div>
                         <div className="content">
-                          <h4>Campaign Planning</h4>
+                          <h4>Design Thinking Workshops</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                          Cultivating innovation through collaborative sessions.
                           </p>
                         </div>
                       </div>
@@ -191,11 +183,9 @@ const Home5Workprocess = () => {
                           </div>
                         </div>
                         <div className="content">
-                          <h4>Campaign Planning</h4>
+                          <h4>Competitor Analysis</h4>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci.
+                          Gaining competitive advantage through thorough examination.
                           </p>
                         </div>
                       </div>
