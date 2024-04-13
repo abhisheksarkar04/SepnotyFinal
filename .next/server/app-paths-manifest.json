@@ -1,8 +1,7 @@
 {
+  "/about/page": "app/about/page.js",
   "/blog/blog-details/page": "app/blog/blog-details/page.js",
-  "/service/service3/page": "app/service/service3/page.js",
-  "/service/service-details/page": "app/service/service-details/page.js",
   "/page": "app/page.js",
-  "/blog/blog-standard/page": "app/blog/blog-standard/page.js",
-  "/not-found": "app/not-found.js"
+  "/case-study/page": "app/case-study/page.js",
+  "/case-study/case-study-details/page": "app/case-study/case-study-details/page.js"
 }
