@@ -1,6 +1,44 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 
 const Home1Contact = () => {
+  const [userDetails, setUserDetails] = useState({
+    username: "",
+    company: "",
+    email: "",
+    subject: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setUserDetails({ ...userDetails, [name]: value });
+  };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const res = await fetch(`http://localhost:8800/contactUsForm/contactForm`, {
+      method: "POST",
+      body: JSON.stringify(userDetails),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((res) => {
+        setUserDetails({
+          username: "",
+          company: "",
+          email: "",
+          subject: "",
+          phone: "",
+          message: "",
+        });
+      })
+      .catch((err) => console.log(err));
+  };
   return (
     <>
       <div className="contact-section">
@@ -150,39 +188,84 @@ const Home1Contact = () => {
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Full Name</label>
-                          <input type="text" />
+                          <input
+                            type="text"
+                            id="nameInput"
+                            name="username"
+                            value={userDetails.username}
+                            onChange={handleInputChange}
+                            placeholder="Enter Your Full Name"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company / Organization *</label>
-                          <input type="text" />
+                          <input
+                            type="text"
+                            id="company"
+                            name="company"
+                            value={userDetails.company}
+                            onChange={handleInputChange}
+                            placeholder="Enter Your Company / Organization"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Phone *</label>
-                          <input type="text" />
+                          <input
+                            type="number"
+                            id="phoneInput"
+                            name="phone"
+                            value={userDetails.phone}
+                            onChange={handleInputChange}
+                            placeholder="Contact Number"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company email *</label>
-                          <input type="email" />
+                          <input
+                            type="email"
+                            id="emailInput"
+                            name="email"
+                            value={userDetails.email}
+                            onChange={handleInputChange}
+                            placeholder="Enter e-mail"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Your Subject *</label>
-                          <input type="text" />
+                          <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            value={userDetails.subject}
+                            onChange={handleInputChange}
+                            placeholder="Enter subject"
+                            required
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-30">
                         <div className="form-inner">
                           <label>Message *</label>
-                          <textarea
-                            defaultValue={""}
-                            placeholder="How may we assist you today?"
+                          <input
+                            type="textarea"
+                            id="messageInput"
+                            name="message"
+                            value={userDetails.message}
+                            onChange={handleInputChange}
+                            placeholder=" How may we assist you today?"
+                            required
                           />
                         </div>
                       </div>
@@ -192,6 +275,7 @@ const Home1Contact = () => {
                             className="primary-btn2"
                             type="submit"
                             data-text="Submit Now"
+                            onClick={handleSubmit}
                           >
                             <span>Submit Now</span>
                           </button>

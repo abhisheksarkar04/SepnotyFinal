@@ -1,7 +1,6 @@
 {
-  "/case-study/case-study-details2/page": "app/case-study/case-study-details2/page.js",
-  "/case-study/case-study-details3/page": "app/case-study/case-study-details3/page.js",
-  "/case-study/case-study-details7/page": "app/case-study/case-study-details7/page.js",
-  "/case-study/case-study-details9/page": "app/case-study/case-study-details9/page.js",
-  "/case-study/case-study-details/page": "app/case-study/case-study-details/page.js"
+  "/portfolio/portfolio-details/page": "app/portfolio/portfolio-details/page.js",
+  "/case-study/DigitalTransformation/page": "app/case-study/DigitalTransformation/page.js",
+  "/case-study/OvercomingExpansion/page": "app/case-study/OvercomingExpansion/page.js",
+  "/page": "app/page.js"
 }
