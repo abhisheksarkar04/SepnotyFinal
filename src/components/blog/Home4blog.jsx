@@ -54,7 +54,7 @@ const Home4Blog = () => {
                         </Link>
                         <Link href="/blog" className="date">
                           <span>
-                            <strong>15</strong> January
+                            <strong>15</strong> Jan
                           </span>
                         </Link>
                       </div>

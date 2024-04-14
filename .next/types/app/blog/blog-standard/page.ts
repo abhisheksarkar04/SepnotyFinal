@@ -1,4 +1,4 @@
-// File: D:\SepnotyFinal\nextjs-files\SepnotyFinal\src\app\blog\blog-standard\page.js
+// File: C:\Users\HP\OneDrive\Desktop\SepnotyFinal\SepnotyFinal\src\app\blog\blog-standard\page.js
 import * as entry from '../../../../../src/app/blog/blog-standard/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

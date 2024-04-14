@@ -1,9 +1,8 @@
 {
-  "/blog/blog-details/page": "app/blog/blog-details/page.js",
-  "/service/service3/page": "app/service/service3/page.js",
-  "/service/service-details/page": "app/service/service-details/page.js",
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/blog/blog-details2/page": "app/blog/blog-details2/page.js",
+  "/blog/blogDetails2/page": "app/blog/blogDetails2/page.js",
+  "/blog/blogDetails3/page": "app/blog/blogDetails3/page.js",
+  "/blog/blogDetails4/page": "app/blog/blogDetails4/page.js",
   "/blog/blog-standard/page": "app/blog/blog-standard/page.js",
   "/not-found": "app/not-found.js"
 }
