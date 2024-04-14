@@ -80,6 +80,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/case-study/case-study-details5/page.js"
+    ],
+    "/case-study/case-study-details7/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/case-study/case-study-details7/page.js"
+    ],
+    "/case-study/case-study-details9/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/case-study/case-study-details9/page.js"
     ]
   }
 }
