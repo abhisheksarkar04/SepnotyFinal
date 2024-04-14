@@ -1,6 +1,8 @@
 {
-  "/portfolio/portfolio-details/page": "app/portfolio/portfolio-details/page.js",
-  "/case-study/DigitalTransformation/page": "app/case-study/DigitalTransformation/page.js",
-  "/case-study/OvercomingExpansion/page": "app/case-study/OvercomingExpansion/page.js",
-  "/page": "app/page.js"
+  "/service/service3/page": "app/service/service3/page.js",
+  "/service/service-details/page": "app/service/service-details/page.js",
+  "/service/page": "app/service/page.js",
+  "/service/web-app/page": "app/service/web-app/page.js",
+  "/not-found": "app/not-found.js",
+  "/service/cyber/page": "app/service/cyber/page.js"
 }

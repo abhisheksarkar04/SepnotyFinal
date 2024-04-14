@@ -278,5 +278,69 @@
         "slug": "/about",
         "pageTitle": "We are a IT service Company working with talents on delivering unique ideas.",
         "section_down_scroll": "#about-section"
+    },
+    {
+        "id": "29",
+        "name": "SOLUTIONS",
+        "slug": "/service/web-app",
+        "pageTitle": "Sepnoty: Where creativity meets technology, and innovation knows no bounds",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "30",
+        "name": "SOLUTIONS",
+        "slug": "/service/consulting",
+        "pageTitle": "Empowering businesses with innovative digital solutions to thrive in the ever-evolving tech landscape",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "31",
+        "name": "SOLUTIONS",
+        "slug": "/service/cyber",
+        "pageTitle": "Sepnoty: Empowering businesses to thrive in the digital age with innovation, expertise, and excellence",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "32",
+        "name": "SOLUTIONS",
+        "slug": "/service/e-commerce",
+        "pageTitle": "Empowering innovation, driving success - Sepnoty is your partner in digital transformation.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "33",
+        "name": "SOLUTIONS",
+        "slug": "/service/data",
+        "pageTitle": "Sepnoty: Where innovation meets excellence, and every solution is crafted with care.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "34",
+        "name": "SOLUTIONS",
+        "slug": "/service/cloud",
+        "pageTitle": "Empowering businesses with innovation and excellence - that's the Sepnoty promise",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "35",
+        "name": "SOLUTIONS",
+        "slug": "/service/software",
+        "pageTitle": "Empowering businesses to thrive in the digital age with innovative solutions and unparalleled expertise.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "4",
+        "name": "SOLUTIONS",
+        "slug": "/service/ui-ux",
+        "pageTitle": "Empowering innovation, transforming businesses. That's the Sepnoty promise.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "4",
+        "name": "SOLUTIONS",
+        "slug": "/service/graphic",
+        "pageTitle": "Unlocking potential, powering innovation – that's the essence of Sepnoty.",
+        "section_down_scroll": "#service-section"
     }
+    
 ]
