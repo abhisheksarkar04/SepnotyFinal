@@ -22,7 +22,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">
+                    <Link href="/service/web-app">
                       Web &amp; App Development
                     </Link>
                   </h4>
@@ -47,7 +47,7 @@ const ServicePage = () => {
                     creativity
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/web-app" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -70,7 +70,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">
+                    <Link href="/service/consulting">
                       Consulting Services
                     </Link>
                   </h4>
@@ -101,7 +101,7 @@ const ServicePage = () => {
                     opportunities, address challenges, and drive growth.
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/consulting" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -124,7 +124,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">Cyber Security</Link>
+                    <Link href="/service/cyber">Cyber Security</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@ const ServicePage = () => {
                     keep your data secure.
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/cyber" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -168,7 +168,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">
+                    <Link href="/service/e-commerce">
                       E-commerce Solutions
                     </Link>
                   </h4>
@@ -190,7 +190,7 @@ const ServicePage = () => {
                     solutions that drive sales and enhance user experience.
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/e-commerce" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -213,7 +213,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">Data Analytics</Link>
+                    <Link href="/service/data">Data Analytics</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -243,7 +243,7 @@ const ServicePage = () => {
                     informed decision-making and business growth.
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/data" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -266,7 +266,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">Cloud Services</Link>
+                    <Link href="/service/cloud">Cloud Services</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -303,7 +303,7 @@ const ServicePage = () => {
                     efficiency
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/cloud" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -326,7 +326,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">
+                    <Link href="/service/software">
                       Software Development
                     </Link>
                   </h4>
@@ -347,7 +347,7 @@ const ServicePage = () => {
                     software that meets your unique business needs.
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/software" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -370,7 +370,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">UI/UX Design</Link>
+                    <Link href="/service/ui-ux">UI/UX Design</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -391,7 +391,7 @@ const ServicePage = () => {
                     interfaces that captivate users and drive results."
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/ui-ux" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -414,7 +414,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">Graphic Design</Link>
+                    <Link href="/service/graphic">Graphic Design</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -434,7 +434,7 @@ const ServicePage = () => {
                     identity and leave a lasting impression.
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/graphic" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
