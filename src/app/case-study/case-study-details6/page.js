@@ -19,33 +19,37 @@ const CaseStudyDetails = () => {
                 <img src="/assets/img/innerpage/case-thumb.jpg" alt="" />
               </div>
               <div className="case-details-content">
-                <h3>Global Impact: Scaling Across Borders</h3>
+                <h3>Revealing Innovative Solutions</h3>
                 <p>
                   Dive into the story of organizations making a global impact as
                   they scale operations across borders, showcasing innovation,
                   adaptability, and success on the international stage.
                 </p>
                 <p>
-                  Each case study is a testament to our commitment to innovation
-                  and client success. Join us on a journey through our work,
-                  showcasing how we turn challenges into opportunities and ideas
-                  into impactful digital experiences. Explore the
-                  behind-the-scenes narratives that highlight our passion for
-                  problem-solving and our dedication to delivering exceptional
-                  results.{" "}
+                  In this case study, we delve into Sepnoty's innovative
+                  solutions that have enabled businesses to scale across borders
+                  effectively. Through a combination of market research,
+                  strategic planning, and tailored solutions, Sepnoty has
+                  facilitated the expansion of numerous organizations into new
+                  markets worldwide.{" "}
                 </p>
-                <h3>Case Studies Unveiled</h3>
+                <h3>Exploring Case Studies</h3>
                 <p>
-                  Step behind the curtain and explore the heart of our projects
-                  on the Case Study Details Page. This curated collection delves
-                  into the intricacies of our design processes, strategic
-                  thinking, and collaborative endeavors.{" "}
+                  We explore real-life case studies where Sepnoty has partnered
+                  with businesses to navigate the complexities of global
+                  expansion. These case studies offer insights into the
+                  challenges faced by organizations seeking to scale
+                  internationally and the innovative solutions implemented by
+                  Sepnoty to overcome these hurdles.{" "}
                 </p>
-                <h3>What did Zenfy do</h3>
+                <h3>Sepnoty's Achievements</h3>
                 <p>
-                  Urna Aenean onewaryzo eleifend vitae tellus a facilisis. Nunc
-                  posuere at augue eget porta. Inei odio tellus, dignissim
-                  fermentumara purus nec, consequat dapibus metus.
+                  Sepnoty's achievements in facilitating global impact are
+                  highlighted, showcasing its expertise in developing and
+                  executing strategies for international growth. From market
+                  entry strategies to localization efforts, Sepnoty has
+                  successfully supported businesses in expanding their presence
+                  across borders and establishing a global footprint.
                 </p>
                 <ul className="features">
                   <li>
@@ -61,8 +65,9 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Donec a urna porta lacinia erat sed sagittis arcu.
-                    Pellentesque habitant morbi tristique senectus et netus.
+                    Strategic Market Entry: Successfully assisted clients in
+                    entering new markets by providing comprehensive market
+                    research and localization strategies.
                   </li>
                   <li>
                     <svg
@@ -77,8 +82,9 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Mauris convallis est vel feugiat dapibus. Quisque velit
-                    erat, ullamcorper viverra pharetra vitae, varius in dui.
+                    Cross-Cultural Expertise: Leveraged extensive cross-cultural
+                    knowledge to help businesses navigate diverse international
+                    markets effectively.
                   </li>
                   <li>
                     <svg
@@ -93,8 +99,9 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Aliquam mattis finibus ipsum nec commodo. Pellentesque et
-                    sapien skoper that we are spoken dolor.
+                    Seamless Expansion: Enabled seamless expansion for clients
+                    by offering scalable solutions tailored to their unique
+                    needs and market requirements.
                   </li>
                   <li>
                     <svg
@@ -109,8 +116,9 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Vivamus eu turpis ac lacus pretium commodo eu ut lorem.
-                    Aliquam mattis finibus ipsum necless offer that.
+                    Global Network: Established a global network of partners and
+                    resources to support clients throughout every stage of their
+                    international expansion journey.
                   </li>
                 </ul>
                 <div className="case-img-group">
@@ -133,13 +141,15 @@ const CaseStudyDetails = () => {
                     </div>
                   </div>
                 </div>
-                <h3>The Results</h3>
+                <h3>Outcomes Revealed</h3>
                 <p>
-                  urna Aenean onewaryzo eleifend vitae tellus a facilisis. Nunc
-                  posuere at augue eget porta. Inei odio tellus, dignissim
-                  fermentumara purus nec, consequat dapibus metus.Vivamus urna
-                  worlda mauris, faucibus at egestas quis, fermentum egetonav
-                  neque. Duis pharetra lectus nec risusonl pellentesque
+                  The outcomes revealed in this case study demonstrate the
+                  tangible results achieved by businesses that have partnered
+                  with Sepnoty to scale across borders. These outcomes include
+                  increased market share, expanded customer base, enhanced brand
+                  visibility, and improved profitability, illustrating the
+                  transformative impact of Sepnoty's solutions on global
+                  expansion initiatives.
                 </p>
                 <ul className="features two">
                   <li>
@@ -155,7 +165,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Nulla vestibulum vestibulum varius told this.
+                    Increased Market Penetration
                   </li>
                   <li>
                     <svg
@@ -170,7 +180,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Est vel feugiat dapibus. Quisque velit ullamcorp.
+                    Enhanced Customer Engagement
                   </li>
                   <li>
                     <svg
@@ -185,7 +195,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Consequat congue sem. In convallis purus ut.
+                    Revenue Growth
                   </li>
                   <li>
                     <svg
@@ -200,7 +210,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Pharetra vitae, varius in dui. Cras et aliquam.
+                    Streamlined Operations
                   </li>
                   <li>
                     <svg
@@ -215,7 +225,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Vitae efficitur risus molestie. Donec laoreet.
+                    Competitive Advantage
                   </li>
                   <li>
                     <svg
@@ -230,7 +240,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Tortor eget vestibulum vestibulum, leo cursus.
+                    Sustainable Growth
                   </li>
                 </ul>
               </div>

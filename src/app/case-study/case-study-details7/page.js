@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const CaseStudyDetails = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -19,34 +19,38 @@ const CaseStudyDetails = () => {
                 <img src="/assets/img/innerpage/case-thumb.jpg" alt="" />
               </div>
               <div className="case-details-content">
-                <h3>Unveiling Creative Solutions</h3>
+                <h3>Revealing Innovative Solutions</h3>
                 <p>
-                  Welcome to our Case Study Details Page, where we unravel the
-                  stories behind our portfolio projects. Immerse yourself in the
-                  intricacies of our design thinking, development challenges,
-                  and triumphant solutions.
+                  Explore how Sepnoty helped an online retailer boost customer
+                  engagement and sales through strategic website optimization
+                  and personalized marketing campaigns.
                 </p>
                 <p>
-                  Each case study is a testament to our commitment to innovation
-                  and client success. Join us on a journey through our work,
-                  showcasing how we turn challenges into opportunities and ideas
-                  into impactful digital experiences. Explore the
-                  behind-the-scenes narratives that highlight our passion for
-                  problem-solving and our dedication to delivering exceptional
-                  results.{" "}
+                  In the realm of e-commerce optimization, Sepnoty introduced a
+                  range of innovative solutions aimed at enhancing customer
+                  engagement and driving business growth. Leveraging cuttingedge
+                  technology and industry expertise, Sepnoty devised strategies
+                  tailored to the specific needs and challenges of e-commerce
+                  businesses.{" "}
                 </p>
-                <h3>Case Studies Unveiled</h3>
+                <h3>Exploring Case Studies</h3>
                 <p>
-                  Step behind the curtain and explore the heart of our projects
-                  on the Case Study Details Page. This curated collection delves
-                  into the intricacies of our design processes, strategic
-                  thinking, and collaborative endeavors.{" "}
+                  Through in-depth case studies, Sepnoty showcased how its
+                  innovative solutions transformed the customer engagement
+                  landscape for e-commerce clients. By analyzing real-world
+                  examples and success stories, Sepnoty demonstrated the
+                  effectiveness of its strategies in driving tangible results
+                  and achieving business objectives.{" "}
                 </p>
-                <h3>What did Zenfy do</h3>
+                <h3>Sepnoty's Achievements</h3>
                 <p>
-                  Urna Aenean onewaryzo eleifend vitae tellus a facilisis. Nunc
-                  posuere at augue eget porta. Inei odio tellus, dignissim
-                  fermentumara purus nec, consequat dapibus metus.
+                  Sepnoty has demonstrated exceptional prowess in the realm of
+                  e-commerce optimization, achieving remarkable milestones
+                  through innovative strategies and cutting-edge solutions. With
+                  a relentless commitment to excellence, Sepnoty has transformed
+                  the landscape of customer engagement for e-commerce
+                  businesses, driving tangible results and setting new standards
+                  of success.
                 </p>
                 <ul className="features">
                   <li>
@@ -62,8 +66,10 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Donec a urna porta lacinia erat sed sagittis arcu.
-                    Pellentesque habitant morbi tristique senectus et netus.
+                    Personalized Customer Experiences: Sepnoty implemented
+                    personalized customer experiences through advanced data
+                    analytics and AI-driven recommendations, resulting in higher
+                    conversion rates and customer satisfaction.
                   </li>
                   <li>
                     <svg
@@ -78,8 +84,10 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Mauris convallis est vel feugiat dapibus. Quisque velit
-                    erat, ullamcorper viverra pharetra vitae, varius in dui.
+                    Seamless Omnichannel Integration: Sepnoty facilitated
+                    seamless omnichannel integration for e-commerce businesses,
+                    enabling consistent and cohesive customer experiences across
+                    all touchpoints.
                   </li>
                   <li>
                     <svg
@@ -94,8 +102,10 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Aliquam mattis finibus ipsum nec commodo. Pellentesque et
-                    sapien skoper that we are spoken dolor.
+                    Enhanced Product Discovery: Sepnoty optimized product
+                    discovery and navigation through intuitive UX/UI design and
+                    enhanced search functionality, leading to increased
+                    engagement and sales.
                   </li>
                   <li>
                     <svg
@@ -110,8 +120,10 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Vivamus eu turpis ac lacus pretium commodo eu ut lorem.
-                    Aliquam mattis finibus ipsum necless offer that.
+                    Dynamic Content Strategies: Sepnoty developed dynamic
+                    content strategies, including personalized product
+                    recommendations and targeted marketing campaigns, to engage
+                    customers at every stage of their journey.
                   </li>
                 </ul>
                 <div className="case-img-group">
@@ -134,13 +146,14 @@ const CaseStudyDetails = () => {
                     </div>
                   </div>
                 </div>
-                <h3>The Results</h3>
+                <h3>Outcomes Revealed</h3>
                 <p>
-                  urna Aenean onewaryzo eleifend vitae tellus a facilisis. Nunc
-                  posuere at augue eget porta. Inei odio tellus, dignissim
-                  fermentumara purus nec, consequat dapibus metus.Vivamus urna
-                  worlda mauris, faucibus at egestas quis, fermentum egetonav
-                  neque. Duis pharetra lectus nec risusonl pellentesque
+                  Through Sepnoty's innovative solutions, e-commerce clients
+                  have witnessed significant improvements across various key
+                  performance indicators. From enhanced conversion rates and
+                  increased customer retention to improved brand perception and
+                  data-driven decision-making, the outcomes speak volumes about
+                  Sepnoty's impact and the value it brings to its clients.
                 </p>
                 <ul className="features two">
                   <li>
@@ -156,7 +169,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Nulla vestibulum vestibulum varius told this.
+                    Improved Conversion Rates
                   </li>
                   <li>
                     <svg
@@ -171,7 +184,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Est vel feugiat dapibus. Quisque velit ullamcorp.
+                    Increased Customer Retention
                   </li>
                   <li>
                     <svg
@@ -186,7 +199,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Consequat congue sem. In convallis purus ut.
+                    Enhanced Brand Perception
                   </li>
                   <li>
                     <svg
@@ -201,7 +214,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Pharetra vitae, varius in dui. Cras et aliquam.
+                    Enhanced Data Insights
                   </li>
                   <li>
                     <svg

@@ -19,33 +19,34 @@ const CaseStudyDetails = () => {
                 <img src="/assets/img/innerpage/case-thumb.jpg" alt="" />
               </div>
               <div className="case-details-content">
-                <h3>Small Business Triumph: Overcoming Challenges</h3>
+                <h3>Revealing Innovative Solutions</h3>
                 <p>
                   Witness the resilience and determination of small businesses
                   as they overcome challenges, navigate obstacles, and emerge
                   triumphant in today's dynamic market landscape.
                 </p>
                 <p>
-                  Each case study is a testament to our commitment to innovation
-                  and client success. Join us on a journey through our work,
-                  showcasing how we turn challenges into opportunities and ideas
-                  into impactful digital experiences. Explore the
-                  behind-the-scenes narratives that highlight our passion for
-                  problem-solving and our dedication to delivering exceptional
-                  results.{" "}
+                  Sepnoty's innovative approach to addressing the challenges
+                  faced by small businesses involved a comprehensive assessment
+                  of the client's operational landscape, identifying pain
+                  points, and devising tailored solutions to overcome them.{" "}
                 </p>
-                <h3>Case Studies Unveiled</h3>
+                <h3>Exploring Case Studies</h3>
                 <p>
-                  Step behind the curtain and explore the heart of our projects
-                  on the Case Study Details Page. This curated collection delves
-                  into the intricacies of our design processes, strategic
-                  thinking, and collaborative endeavors.{" "}
+                  Sepnoty delved into various case studies of small businesses,
+                  analyzing their unique challenges and successful strategies
+                  for growth. By understanding industry-specific dynamics and
+                  best practices, Sepnoty was able to offer targeted
+                  recommendations to its client.{" "}
                 </p>
-                <h3>What did Zenfy do</h3>
+                <h3>Sepnoty's Achievements</h3>
                 <p>
-                  Urna Aenean onewaryzo eleifend vitae tellus a facilisis. Nunc
-                  posuere at augue eget porta. Inei odio tellus, dignissim
-                  fermentumara purus nec, consequat dapibus metus.
+                  Sepnoty's achievements highlight its commitment to delivering
+                  exceptional results and driving meaningful impact for its
+                  clients. Through a combination of innovative strategies,
+                  expert guidance, and collaborative partnerships, Sepnoty has
+                  consistently surpassed expectations and achieved significant
+                  milestones
                 </p>
                 <ul className="features">
                   <li>
@@ -61,8 +62,9 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Donec a urna porta lacinia erat sed sagittis arcu.
-                    Pellentesque habitant morbi tristique senectus et netus.
+                    Tailored Strategies: Sepnoty developed customized strategies
+                    for the client, considering factors such as industry trends,
+                    market dynamics, and competitive landscape.
                   </li>
                   <li>
                     <svg
@@ -77,8 +79,9 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Mauris convallis est vel feugiat dapibus. Quisque velit
-                    erat, ullamcorper viverra pharetra vitae, varius in dui.
+                    Operational Efficiency: Sepnoty implemented streamlined
+                    processes and optimized workflows to enhance operational
+                    efficiency and reduce overhead costs.
                   </li>
                   <li>
                     <svg
@@ -93,8 +96,10 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Aliquam mattis finibus ipsum nec commodo. Pellentesque et
-                    sapien skoper that we are spoken dolor.
+                    Technology Integration: Leveraging its expertise in
+                    technology, Sepnoty facilitated the integration of
+                    innovative tools and platforms to automate tasks and improve
+                    productivity.
                   </li>
                   <li>
                     <svg
@@ -109,8 +114,10 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Vivamus eu turpis ac lacus pretium commodo eu ut lorem.
-                    Aliquam mattis finibus ipsum necless offer that.
+                    Collaborative Approach: Sepnoty fostered a collaborative
+                    partnership with the client, providing ongoing support and
+                    guidance to navigate challenges and capitalize on
+                    opportunities.
                   </li>
                 </ul>
                 <div className="case-img-group">
@@ -133,13 +140,15 @@ const CaseStudyDetails = () => {
                     </div>
                   </div>
                 </div>
-                <h3>The Results</h3>
+                <h3>Outcomes Revealed</h3>
                 <p>
-                  urna Aenean onewaryzo eleifend vitae tellus a facilisis. Nunc
-                  posuere at augue eget porta. Inei odio tellus, dignissim
-                  fermentumara purus nec, consequat dapibus metus.Vivamus urna
-                  worlda mauris, faucibus at egestas quis, fermentum egetonav
-                  neque. Duis pharetra lectus nec risusonl pellentesque
+                  The outcomes revealed underscore Sepnoty's ability to
+                  translate its strategies into tangible results. From increased
+                  profitability and operational efficiency to enhanced customer
+                  satisfaction and sustainable growth, Sepnoty's solutions have
+                  consistently delivered measurable benefits for its clients.
+                  These outcomes serve as a testament to Sepnoty's dedication to
+                  driving success and creating lasting value.
                 </p>
                 <ul className="features two">
                   <li>
@@ -155,7 +164,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Nulla vestibulum vestibulum varius told this.
+                    Increased Profitability
                   </li>
                   <li>
                     <svg
@@ -170,7 +179,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Est vel feugiat dapibus. Quisque velit ullamcorp.
+                    Enhanced Customer Experience
                   </li>
                   <li>
                     <svg
@@ -185,7 +194,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Consequat congue sem. In convallis purus ut.
+                    Sustainable Growth
                   </li>
                   <li>
                     <svg
@@ -200,7 +209,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Pharetra vitae, varius in dui. Cras et aliquam.
+                    Competitive Edge
                   </li>
                   <li>
                     <svg
@@ -215,7 +224,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Vitae efficitur risus molestie. Donec laoreet.
+                    Resilience
                   </li>
                   <li>
                     <svg
@@ -230,7 +239,7 @@ const CaseStudyDetails = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Tortor eget vestibulum vestibulum, leo cursus.
+                    Empowerment
                   </li>
                 </ul>
               </div>
