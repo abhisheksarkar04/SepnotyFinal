@@ -70,7 +70,7 @@ const BlogPage = () => {
           <div className="row g-lg-4 gy-5 mb-100">
             <div className="col-lg-8">
               <div className="blog-details-content mb-0">
-                <p className="first-para">
+                {/* <p className="first-para">
                   Welcome to our blog details page, your gateway to in-depth
                   captivating narratives. Dive into thought-provoking
                   articles,and engaging content that goes beyond the surface
@@ -93,9 +93,9 @@ const BlogPage = () => {
                     toldagona exceeds my expectations with his quality work and
                     fastestopa tope service, very smooth and simple
                     communication."
-                  </p>
-                  <h3 className="blockquote-author">Leslie Alexander</h3>
-                  <svg
+                  </p> */}
+                  {/* <h3 className="blockquote-author">Leslie Alexander</h3> */}
+                 {/*  <svg
                     className="quotes"
                     xmlns="http://www.w3.org/2000/svg"
                     width={93}
@@ -103,8 +103,17 @@ const BlogPage = () => {
                     viewBox="0 0 93 90"
                   >
                     <path d="M52.3886 44.806L92.5 88.7114V0.5H52.3886V44.806ZM0.5 44.806L40.61 88.7114V0.5H0.5V44.806Z" />
-                  </svg>
-                </blockquote>
+                  </svg> */}
+                {/* </blockquote> */}
+                <h3> Understanding AI's Role in Business Transformation</h3>
+                <p>
+                Artificial Intelligence (AI) is revolutionizing the business landscape, o ering unprecedented 
+opportunities for growth and innovation. At its core, AI refers to the simulation of human 
+intelligence processes by machines, enabling them to analyze data, recognize patterns, and 
+make decisions with minimal human intervention. In the context of business, AI holds 
+immense potential to drive e ciency, enhance decision-making, and unlock new avenues for 
+revenue generation.
+                </p>
                 <div className="row mb-50">
                   <div className="col-lg-12">
                     <img

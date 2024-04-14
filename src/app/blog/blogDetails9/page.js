@@ -70,7 +70,7 @@ const BlogDetails9 = () => {
           <div className="blog-details-content">
             <div className="row justify-content-center g-4">
               <div className="col-lg-8">
-                <p className="first-para">
+               {/*  <p className="first-para">
                   Welcome to our blog details page, your gateway to in-depth
                   captivating narratives. Dive into thought-provoking
                   articles,and engaging content that goes beyond the surface
@@ -86,16 +86,16 @@ const BlogDetails9 = () => {
                   our blog's rich tapestry of content. From the latest trends to
                   expert advice, we curate information that sparks curiosity and
                   fuels your quest for knowledge.
-                </p>
-                <blockquote className="text-center mb-50">
+                </p> */}
+                {/* <blockquote className="text-center mb-50">
                   <p className="blockquote-text">
                     "I work with Alguneb Johnl on many projects, he always
                     toldagona exceeds my expectations with his quality work and
                     fastestopa tope service, very smooth and simple
                     communication."
                   </p>
-                  <h3 className="blockquote-author">Leslie Alexander</h3>
-                  <svg
+                  <h3 className="blockquote-author">Leslie Alexander</h3> */}
+                 {/*  <svg
                     className="quotes"
                     xmlns="http://www.w3.org/2000/svg"
                     width={93}
@@ -103,8 +103,16 @@ const BlogDetails9 = () => {
                     viewBox="0 0 93 90"
                   >
                     <path d="M52.3886 44.806L92.5 88.7114V0.5H52.3886V44.806ZM0.5 44.806L40.61 88.7114V0.5H0.5V44.806Z" />
-                  </svg>
-                </blockquote>
+                  </svg> */}
+                  <h3>Key Strategies for Startup Success</h3>
+                <p>
+                To thrive in the digital landscape, startups must adopt strategic approaches that align with 
+their goals and objectives. This involves identifying niche markets, crafting compelling brand 
+narratives, and delivering exceptional customer experiences. Additionally, startups must 
+prioritize innovation, agility, and adaptability to stay competitive in an ever-evolving digital 
+ecosystem.
+                </p>
+               {/*  </blockquote> */}
                 <div className="row mb-50">
                   <div className="col-lg-12">
                     <img

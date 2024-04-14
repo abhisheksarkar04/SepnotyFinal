@@ -21,50 +21,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/blog/blog-standard/page.js"
     ],
-    "/blog/blog-details2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/blog/blog-details2/page.js"
-    ],
     "/blog/blogDetails2/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/blog/blogDetails2/page.js"
     ],
-    "/blog/page": [
+    "/blog/blog-details2/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blog/page.js"
-    ],
-    "/blog/blog-details/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/blog/blog-details/page.js"
+      "static/chunks/app/blog/blog-details2/page.js"
     ],
     "/blog/blogDetails3/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/blog/blogDetails3/page.js"
-    ],
-    "/service/service3/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/service/service3/page.js"
-    ],
-    "/service/service-details/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/service/service-details/page.js"
-    ],
-    "/case-study/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-study/page.js"
-    ],
-    "/case-study/case-study-details/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-study/case-study-details/page.js"
     ],
     "/blog/blogDetails4/page": [
       "static/chunks/webpack.js",
@@ -75,16 +45,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/blog/blogDetails5/page.js"
-    ],
-    "/blog/blogDetails8/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/blog/blogDetails8/page.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
     ]
   }
 }
