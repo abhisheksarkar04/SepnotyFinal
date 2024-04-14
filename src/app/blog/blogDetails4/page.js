@@ -240,6 +240,10 @@ meet the growing demand for socially responsible shopping options.
                 </ul>
               </div>
             </div>
+
+
+
+            
           </div>
           <div className="blog-tag-and-social-area">
             <div className="blog-tag">

@@ -616,7 +616,7 @@ resonates with their target audience.
                   <h5 className="widget-title">Category</h5>
                   <ul className="category-list">
                     <li>
-                      <Link href="/blog/blog-sidebar">
+                      <Link href="">
                         <span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -636,7 +636,7 @@ resonates with their target audience.
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog/blog-sidebar">
+                      <Link href="">
                         <span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -656,7 +656,7 @@ resonates with their target audience.
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog/blog-sidebar">
+                      <Link href="">
                         <span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -676,7 +676,7 @@ resonates with their target audience.
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog/blog-sidebar">
+                      <Link href="">
                         <span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -696,7 +696,7 @@ resonates with their target audience.
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog/blog-sidebar">
+                      <Link href="">
                         <span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -716,7 +716,7 @@ resonates with their target audience.
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog/blog-sidebar">
+                      <Link href="">
                         <span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -736,7 +736,7 @@ resonates with their target audience.
                       </Link>
                     </li>
                     <li>
-                      <Link href="/blog/blog-sidebar">
+                      <Link href="">
                         <span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -756,6 +756,10 @@ resonates with their target audience.
                       </Link>
                     </li>
                   </ul>
+
+
+
+                  
                 </div>
                 <div className="single-widget mb-30">
                   <h5 className="widget-title">Popular Post </h5>

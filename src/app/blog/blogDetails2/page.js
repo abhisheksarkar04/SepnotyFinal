@@ -115,6 +115,11 @@ with their target audience.
                 </p>
                {/*  </blockquote> */}
                 <div className="row mb-50">
+
+
+
+
+                  
                   <div className="col-lg-12">
                     <img
                       src="/assets/img/innerpage/blog-details-img1.jpg"

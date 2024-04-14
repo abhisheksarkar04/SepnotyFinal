@@ -105,6 +105,10 @@ const BlogDetails3 = () => {
                     <path d="M52.3886 44.806L92.5 88.7114V0.5H52.3886V44.806ZM0.5 44.806L40.61 88.7114V0.5H0.5V44.806Z" />
                   </svg> */}
                   <h3> Understanding the Significance of Data Analytics</h3>
+
+
+
+                  
                 <p>
                 In today's data-driven world, organizations across industries are realizing the immense value 
 of data analytics in driving informed decision-making and unlocking new opportunities for 
