@@ -128,19 +128,19 @@ const Header2 = () => {
                 <ul className="main-menu">
                   <li>
                     <Link href="/">Agency </Link>
-                    <span
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "home" ? "active" : ""
                       }`}
                       onClick={() => toggleMenu("home")}
                     >
                       <i className="bi bi-plus" />
-                    </span>
-                    <ul
+                    </span> */}
+                   {/*  <ul
                       className={`submenu-list active ${
                         state.activeMenu === "home" ? "d-block" : "d-none"
                       }`}
-                    >
+                    > 
                       <li>
                         <a href="#">Light Version</a>
                         <span
@@ -309,19 +309,19 @@ const Header2 = () => {
                           </li>
                         </ul>
                       </li>
-                    </ul>
+                    </ul>*/}
                   </li>
                   <li>
                     <Link href="/service">Services</Link>
-                    <span
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "service" ? "active" : ""
                       }`}
                       onClick={() => toggleMenu("service")}
                     >
                       <i className="bi bi-plus" />
-                    </span>
-                    <ul
+                    </span> */}
+                   {/*  <ul
                       className={`submenu-list ${
                         state.activeMenu === "service" ? "d-block" : "d-none"
                       }`}
@@ -391,19 +391,19 @@ const Header2 = () => {
                           </svg>
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link href="/case-study">Case Study</Link>
-                    <span
+                   {/*  <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "case-study" ? "active" : ""
                       }`}
                       onClick={() => toggleMenu("case-study")}
                     >
                       <i className="bi bi-plus" />
-                    </span>
-                    <ul
+                    </span> */}
+                    {/* <ul
                       className={`submenu-list ${
                         state.activeMenu === "case-study" ? "d-block" : "d-none"
                       }`}
@@ -447,19 +447,19 @@ const Header2 = () => {
                           </svg>
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link href="/blog">Blog</Link>
-                    <span
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "blog" ? "active" : ""
                       }`}
                       onClick={() => toggleMenu("blog")}
                     >
                       <i className="bi bi-plus" />
-                    </span>
-                    <ul
+                    </span> */}
+                    {/* <ul
                       className={`submenu-list ${
                         state.activeMenu === "blog" ? "d-block" : "d-none"
                       }`}
@@ -542,7 +542,7 @@ const Header2 = () => {
                           </svg>
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <a href="#">Pages</a>
@@ -574,15 +574,15 @@ const Header2 = () => {
                       </li>
                       <li>
                         <Link href="/portfolio">Portfolio </Link>
-                        <span
+                        {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "portfolio" ? "active" : ""
                           }`}
                           onClick={() => toggleSubMenu("portfolio")}
                         >
                           <i className="bi bi-plus" />
-                        </span>
-                        <ul
+                        </span> */}
+                        {/* <ul
                           className={`submenu-list ${
                             state.activeSubMenu === "portfolio"
                               ? "d-block"
@@ -654,9 +654,9 @@ const Header2 = () => {
                               </svg>
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/team">Our Team</Link>
                         <span
                           className={`dropdown-icon2 two ${
@@ -700,7 +700,7 @@ const Header2 = () => {
                             </Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/features">
                           Features
@@ -716,15 +716,15 @@ const Header2 = () => {
                       </li>
                       <li>
                         <Link href="/shop">Shop</Link>
-                        <span
+                        {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "shop" ? "active" : ""
                           }`}
                           onClick={() => toggleSubMenu("shop")}
                         >
                           <i className="bi bi-plus" />
-                        </span>
-                        <ul
+                        </span> */}
+                        {/* <ul
                           className={`submenu-list ${
                             state.activeSubMenu === "shop"
                               ? "d-block"
@@ -783,9 +783,9 @@ const Header2 = () => {
                               </svg>
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
-                      <li>
+                     {/*  <li>
                         <Link href="/pricing-plan">
                           Pricing Plan
                           <svg
@@ -797,7 +797,7 @@ const Header2 = () => {
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/faq">
                           Faq

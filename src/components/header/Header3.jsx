@@ -128,19 +128,19 @@ const Header3 = () => {
                 <ul className="main-menu">
                   <li>
                     <Link href="/">Agency </Link>
-                    <span
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "home" ? "active" : ""
                       }`}
                       onClick={() => toggleMenu("home")}
                     >
                       <i className="bi bi-plus" />
-                    </span>
-                    <ul
+                    </span> */}
+                    {/* <ul
                       className={`submenu-list active ${
                         state.activeMenu === "home" ? "d-block" : "d-none"
                       }`}
-                    >
+                    > */}
                       <li>
                         <a href="#">Light Version</a>
                         <span
