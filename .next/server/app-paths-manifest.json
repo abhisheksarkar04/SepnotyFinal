@@ -1,7 +1,8 @@
 {
-  "/case-study/case-study-details2/page": "app/case-study/case-study-details2/page.js",
-  "/case-study/case-study-details3/page": "app/case-study/case-study-details3/page.js",
-  "/case-study/case-study-details7/page": "app/case-study/case-study-details7/page.js",
-  "/case-study/case-study-details9/page": "app/case-study/case-study-details9/page.js",
-  "/case-study/case-study-details/page": "app/case-study/case-study-details/page.js"
+  "/portfolio/portfolio-details/page": "app/portfolio/portfolio-details/page.js",
+  "/portfolio/portfolio-details4/page": "app/portfolio/portfolio-details4/page.js",
+  "/portfolio/portfolio-details3/page": "app/portfolio/portfolio-details3/page.js",
+  "/not-found": "app/not-found.js",
+  "/portfolio/portfolio-details5/page": "app/portfolio/portfolio-details5/page.js",
+  "/portfolio/portfolio-details1/page": "app/portfolio/portfolio-details1/page.js"
 }

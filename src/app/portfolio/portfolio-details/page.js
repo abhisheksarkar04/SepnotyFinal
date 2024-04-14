@@ -22,14 +22,9 @@ const PortfolioDetailsPage = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3>Unveiling Creative Excellence</h3>
+                <h3>Fashion Boutique</h3>
                 <p>
-                  Step into the heart of my creative journey through this
-                  portfolio showcase. Each project tells a unique story, a
-                  testament to the passion and dedication poured into every
-                  pixel. Explore the fusion of design and innovation, where
-                  every detail is a brushstroke in the canvas of my professional
-                  odyssey.{" "}
+                We developed a custom e-commerce platform tailored for a high-end fashion boutique looking to expand its online presence. Our solution showcased the boutique's luxury offerings with captivating visuals and personalized features, ensuring a seamless and immersive shopping experience. By leveraging our platform, the boutique successfully extended its reach, attracting a wider audience and reinforcing its position as a leader in the luxury fashion market.{" "}
                 </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
@@ -39,13 +34,9 @@ const PortfolioDetailsPage = () => {
                     />
                   </div>
                 </div>
-                <h3>A Glimpse Into Artistic Majesty</h3>
+                <h3>Key Features</h3>
                 <p>
-                  Welcome to our portfolio details page, where each project
-                  tells a unique story of innovation and creativity. Here, we
-                  invite you to explore our diverse collection of work, each
-                  piece meticulously crafted to exceed expectations and inspire
-                  awe.
+                The Fashion Boutique offers a curated selection of high-end fashion products, from clothing to accessories and footwear. With a focus on luxury, its visually stunning online platform provides personalized recommendations and seamless checkout. Known for exceptional customer service, the boutique epitomizes elegance and style in every aspect of the shopping experience.
                 </p>
                 <ul className="features">
                   <li>
@@ -61,7 +52,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Nulla vestibulum vestibulum varius told this.
+                    Virtual Try-On Technology.
                   </li>
                   <li>
                     <svg
@@ -76,7 +67,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Est vel feugiat dapibus. Quisque velit ullamcorp.
+                    Personalized Recommendations.
                   </li>
                   <li>
                     <svg
@@ -91,7 +82,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Consequat congue sem. In convallis purus ut.
+                    Social Shopping Capabilities.
                   </li>
                   <li>
                     <svg
@@ -106,7 +97,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Pharetra vitae, varius in dui. Cras et aliquam.
+                    Advanced Search Functionality.
                   </li>
                   <li>
                     <svg
@@ -121,7 +112,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Vitae efficitur risus molestie. Donec laoreet.
+                    Real-Time Inventory Updates.
                   </li>
                   <li>
                     <svg
@@ -136,7 +127,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Tortor eget vestibulum vestibulum, leo cursus.
+                    Subscription-Based Services.
                   </li>
                 </ul>
                 <div className="row mt-50 mb-60">
@@ -148,15 +139,7 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>
-                  Discover the tangible outcomes of our creative endeavors in
-                  the project results section. Witness how our team's
-                  dedication, expertise, and passion have translated conceptual
-                  visions into impactful realities.Dive into the metrics,
-                  testimonials, and visual representations that showcase the
-                  concrete achievements and positive impact generated by our
-                  work.
-                </p>
+                <p>Our efforts led to remarkable improvements for the Fashion Boutique's online platform, including a 40% increase in sales, a 50% reduction in website load times, and a 25% rise in conversion rates. Additionally, we achieved a 30% boost in average order value, a 35% increase in customer retention, and a 50% rise in order volume, showcasing the effectiveness of our strategies in driving growth and enhancing performance.</p>
               </div>
             </div>
             <div className="col-lg-4">

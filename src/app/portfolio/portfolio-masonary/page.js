@@ -23,13 +23,17 @@ const PortfolioMasonaryPage = () => {
                 <div className="image-and-tag">
                   <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Web Design</Link>
+                      <Link href="/portfolio">Ecommerce</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Development</Link>
+                      <Link href="/portfolio">OnlineShopping </Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Software</Link>
+                      <Link href="/portfolio">InventoryManagement</Link>
+                    </li>
+                    <li>
+                      <Link href="/portfolio">PaymentGateways
+                      </Link>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -39,7 +43,7 @@ const PortfolioMasonaryPage = () => {
                 <div className="portfolio-content">
                   <h4>
                     <Link href="/portfolio/portfolio-details">
-                      Smart Design, Smarter Solutions.
+                    E-commerce Solutions Portfolio.
                     </Link>
                   </h4>
                   <Link
@@ -67,13 +71,17 @@ const PortfolioMasonaryPage = () => {
                 <div className="image-and-tag">
                   <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      <Link href="/portfolio">WebDevelopment</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      <Link href="/portfolio">AppDevelopment</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      <Link href="/portfolio">ResponsiveDesign </Link>
+                    </li>
+                    <li>
+                      <Link href="/portfolio">MobileApplications
+                      </Link>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -82,13 +90,13 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
-                      Where Vision Meets Technology.
+                    <Link href="/portfolio/portfolio-details1">
+                    Web & App Development Portfolio.
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="/portfolio/portfolio-details1"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -111,13 +119,16 @@ const PortfolioMasonaryPage = () => {
                 <div className="image-and-tag">
                   <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      <Link href="/portfolio">DigitalMarketing </Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      <Link href="/portfolio">SocialMedia</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      <Link href="/portfolio">SEO</Link>
+                    </li>
+                    <li>
+                      <Link href="/portfolio">Campaigns</Link>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -126,13 +137,13 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
-                      Studio Navigating the Digital Wave.
+                    <Link href="/portfolio/portfolio-details2">
+                    Digital Marketing Portfolio.
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="/portfolio/portfolio-details2"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -155,13 +166,16 @@ const PortfolioMasonaryPage = () => {
                 <div className="image-and-tag">
                   <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      <Link href="/portfolio">Cybersecurity</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      <Link href="/portfolio">ThreatDetection </Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      <Link href="/portfolio">IncidentResponse</Link>
+                    </li>
+                    <li>
+                      <Link href="/portfolio">Compliance</Link>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -170,13 +184,13 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
-                      NexGen Pioneering Digital Solutions.
+                    <Link href="/portfolio/portfolio-details3">
+                    Cybersecurity Solutions Portfolio.
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="/portfolio/portfolio-details3"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -199,13 +213,17 @@ const PortfolioMasonaryPage = () => {
                 <div className="image-and-tag">
                   <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      <Link href="/portfolio">UIUXDesign</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      <Link href="/portfolio">UserExperience</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      <Link href="/portfolio">UserInterface</Link>
+                    </li>
+                    <li>
+                      <Link href="/portfolio">GraphicDesign
+                      </Link>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -214,13 +232,13 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
-                      Unveiling Iconic Identities
+                    <Link href="/portfolio/portfolio-details4">
+                    UI/UX Design Portfolio
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="/portfolio/portfolio-details4"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -243,13 +261,16 @@ const PortfolioMasonaryPage = () => {
                 <div className="image-and-tag">
                   <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      <Link href="/portfolio">DataAnalytics</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      <Link href="/portfolio">Insights</Link>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      <Link href="/portfolio">DataDrivenDecisions</Link>
+                    </li>
+                    <li>
+                      <Link href="/portfolio">Optimization</Link>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -258,13 +279,14 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
-                      Innovative digital options from NexGen.
+                    <Link href="/portfolio/portfolio-details5">
+                    Data Analytics Portfolio
+.
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="/portfolio/portfolio-details5"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -279,22 +301,7 @@ const PortfolioMasonaryPage = () => {
               </div>
             </div>
           </div>
-          <div className="row">
-            <div
-              className="col-lg-12 d-flex justify-content-center wow animate fadeInUp"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <Link href="/" className="load-btn">
-                <span>
-                  Load More
-                  <svg viewBox="0 0 13 20">
-                    <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
-                  </svg>
-                </span>
-              </Link>
-            </div>
-          </div>
+
         </div>
       </div>
     </MainLayout>
