@@ -241,7 +241,7 @@
         "id": "23",
         "name": "shop",
         "slug": "/shop",
-        "pageTitle": "Explore Our Shop.",
+        "pageTitle": "Comming Soon.",
         "section_down_scroll": "#shop"
     },
     {
@@ -329,14 +329,14 @@
         "section_down_scroll": "#service-section"
     },
     {
-        "id": "4",
+        "id": "36",
         "name": "SOLUTIONS",
         "slug": "/service/ui-ux",
         "pageTitle": "Empowering innovation, transforming businesses. That's the Sepnoty promise.",
         "section_down_scroll": "#service-section"
     },
     {
-        "id": "4",
+        "id": "37",
         "name": "SOLUTIONS",
         "slug": "/service/graphic",
         "pageTitle": "Unlocking potential, powering innovation – that's the essence of Sepnoty.",
