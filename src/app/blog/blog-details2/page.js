@@ -138,10 +138,6 @@ processes, unlock actionable insights, and deliver tangible value to our clients
                         alt=""
                       />
                     </div>
-
-
-
-                    
                     <div className="col-md-6">
                       <img
                         src="/assets/img/innerpage/blog-details-img3.jpg"
