@@ -53,7 +53,7 @@ const Home4award = () => {
                     Our Award Time
                   </span>
                   <h2>
-                    Celebrating Zenfy's <span>Award-Winning </span>Excellence.
+                  Discovering Sepnoty's  <span>Award-Winning </span>Excellence.
                   </h2>
                 </div>
                 <Link href="/about" className="details-button">
@@ -134,8 +134,8 @@ const Home4award = () => {
                 >
                   <div className="content">
                     <span>2024</span>
-                    <h5>Innovation Ignition Award</h5>
-                    <p>Site Of The Day</p>
+                    <h5>"Innovation Excellence Award</h5>
+                    <p>January 2024</p>
                   </div>
                   <Link className="explore-btn" href="/about">
                     <svg
@@ -152,7 +152,7 @@ const Home4award = () => {
                     </svg>
                   </Link>
                   <div className="services-img">
-                    <img src="assets/img/home4/award-img1.jpg" alt="" />
+                    {/* <img src="assets/img/home4/award-img1.jpg" alt="" /> */}
                   </div>
                 </div>
                 <div
@@ -162,8 +162,8 @@ const Home4award = () => {
                 >
                   <div className="content">
                     <span>2024</span>
-                    <h5>CSS Design Award</h5>
-                    <p>Site Of The Month</p>
+                    <h5>Customer Satisfaction Award   </h5>
+                    <p>March 2023</p>
                   </div>
                   <Link className="explore-btn" href="/about">
                     <svg
@@ -180,7 +180,7 @@ const Home4award = () => {
                     </svg>
                   </Link>
                   <div className="services-img">
-                    <img src="assets/img/home4/award-img2.jpg" alt="" />
+                    {/* <img src="assets/img/home4/award-img2.jpg" alt="" /> */}
                   </div>
                 </div>
                 <div
@@ -190,8 +190,8 @@ const Home4award = () => {
                 >
                   <div className="content">
                     <span>2024</span>
-                    <h5>Masterpiece Maker</h5>
-                    <p>Awards Jury 2024</p>
+                    <h5>Tech Innovator of the Year</h5>
+                    <p>November 2022</p>
                   </div>
                   <Link className="explore-btn" href="/about">
                     <svg
@@ -208,7 +208,7 @@ const Home4award = () => {
                     </svg>
                   </Link>
                   <div className="services-img">
-                    <img src="assets/img/home4/award-img3.jpg" alt="" />
+                    {/* <img src="assets/img/home4/award-img3.jpg" alt="" /> */}
                   </div>
                 </div>
                 <div
@@ -218,8 +218,8 @@ const Home4award = () => {
                 >
                   <div className="content">
                     <span>2024</span>
-                    <h5>Alchemy Achievement</h5>
-                    <p>Site Of The Day</p>
+                    <h5>Industry Disruptor Award  </h5>
+                    <p>May 2021</p>
                   </div>
                   <Link className="explore-btn" href="/about">
                     <svg
@@ -236,7 +236,7 @@ const Home4award = () => {
                     </svg>
                   </Link>
                   <div className="services-img">
-                    <img src="assets/img/home4/award-img4.jpg" alt="" />
+                    {/* <img src="assets/img/home4/award-img4.jpg" alt="" /> */}
                   </div>
                 </div>
               </div>

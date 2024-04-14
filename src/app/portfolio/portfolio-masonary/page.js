@@ -23,13 +23,16 @@ const PortfolioMasonaryPage = () => {
                 <div className="image-and-tag">
                   <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Web Design</Link>
+                      {/* <Link href="/portfolio">Web Design</Link> */}
+                      <a>Web Design</a>
                     </li>
                     <li>
-                      <Link href="/portfolio">Development</Link>
+                      {/* <Link href="/portfolio">Development</Link> */}
+                      <a>Development</a>
                     </li>
                     <li>
-                      <Link href="/portfolio">Software</Link>
+                      {/* <Link href="/portfolio">Software</Link> */}
+                      <a>Software</a>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -67,13 +70,17 @@ const PortfolioMasonaryPage = () => {
                 <div className="image-and-tag">
                   <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      {/* <Link href="/portfolio">Logo</Link> */}
+                      <a>Logo</a>
+
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      {/* <Link href="/portfolio">Color</Link> */}
+                      <a>Color</a>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      {/* <Link href="/portfolio">Typography</Link> */}
+                      <a>Typography</a>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -109,15 +116,19 @@ const PortfolioMasonaryPage = () => {
             >
               <div className="portfolio-card">
                 <div className="image-and-tag">
-                  <ul className="tag">
+                <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      {/* <Link href="/portfolio">Logo</Link> */}
+                      <a>Logo</a>
+
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      {/* <Link href="/portfolio">Color</Link> */}
+                      <a>Color</a>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      {/* <Link href="/portfolio">Typography</Link> */}
+                      <a>Typography</a>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -153,15 +164,19 @@ const PortfolioMasonaryPage = () => {
             >
               <div className="portfolio-card">
                 <div className="image-and-tag">
-                  <ul className="tag">
+                <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      {/* <Link href="/portfolio">Logo</Link> */}
+                      <a>Logo</a>
+
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      {/* <Link href="/portfolio">Color</Link> */}
+                      <a>Color</a>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      {/* <Link href="/portfolio">Typography</Link> */}
+                      <a>Typography</a>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -197,15 +212,19 @@ const PortfolioMasonaryPage = () => {
             >
               <div className="portfolio-card">
                 <div className="image-and-tag">
-                  <ul className="tag">
+                <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      {/* <Link href="/portfolio">Logo</Link> */}
+                      <a>Logo</a>
+
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      {/* <Link href="/portfolio">Color</Link> */}
+                      <a>Color</a>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      {/* <Link href="/portfolio">Typography</Link> */}
+                      <a>Typography</a>
                     </li>
                   </ul>
                   <div className="portfolio-img">
@@ -241,15 +260,19 @@ const PortfolioMasonaryPage = () => {
             >
               <div className="portfolio-card">
                 <div className="image-and-tag">
-                  <ul className="tag">
+                <ul className="tag">
                     <li>
-                      <Link href="/portfolio">Logo</Link>
+                      {/* <Link href="/portfolio">Logo</Link> */}
+                      <a>Logo</a>
+
                     </li>
                     <li>
-                      <Link href="/portfolio">Color</Link>
+                      {/* <Link href="/portfolio">Color</Link> */}
+                      <a>Color</a>
                     </li>
                     <li>
-                      <Link href="/portfolio">Typography</Link>
+                      {/* <Link href="/portfolio">Typography</Link> */}
+                      <a>Typography</a>
                     </li>
                   </ul>
                   <div className="portfolio-img">
