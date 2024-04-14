@@ -24,9 +24,9 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/innerpage/case-study-img1.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Startup Company</Link>
+                  <p>Startup Company</p>
                   <h4>
-                    <Link href="/case-study/case-study-details">
+                    <Link href="/case-study/NavigatingGrowth">
                       Navigating Growth: A Startup Agency Success Story
                     </Link>
                   </h4>
@@ -36,7 +36,7 @@ const CaseStudyPage = () => {
                     of scaling and achieving success in a competitive landscape.
                   </p>
                   <Link
-                    href="/case-study/case-study-details"
+                    href="/case-study/NavigatingGrowth"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -63,9 +63,9 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/innerpage/case-study-img2.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Design Agency</Link>
+                  <p>Digital Transformation</p>
                   <h4>
-                    <Link href="/case-study/case-study-details2">
+                    <Link href="/case-study/DigitalTransformation">
                       Digital Transformation: Long Journey to Industry
                     </Link>
                   </h4>
@@ -76,7 +76,7 @@ const CaseStudyPage = () => {
                     industries.
                   </p>
                   <Link
-                    href="/case-study/case-study-details2"
+                    href="/case-study/DigitalTransformation"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -103,9 +103,9 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/innerpage/case-study-img3.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Digital Transformation</Link>
+                  <p>Overcoming Expansion</p>
                   <h4>
-                    <Link href="/case-study/case-study-details3">
+                    <Link href="/case-study/OvercomingExpansion">
                       Overcoming Expansion: An Initial Agency's Triumph
                     </Link>
                   </h4>
@@ -115,7 +115,7 @@ const CaseStudyPage = () => {
                     achieving success in new markets.
                   </p>
                   <Link
-                    href="/case-study/case-study-details3"
+                    href="/case-study/OvercomingExpansion"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -142,9 +142,9 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/home1/case-study-img1.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Startup Company</Link>
+                  <p>Business</p>
                   <h4>
-                    <Link href="/case-study/case-study-details4">
+                    <Link href="/case-study/Business">
                       Business Consulting to Increase Marketing Analytics
                     </Link>
                   </h4>
@@ -153,10 +153,7 @@ const CaseStudyPage = () => {
                     enhance their marketing analytics, empowering them to make
                     data-driven decisions and achieve greater marketing success.
                   </p>
-                  <Link
-                    href="/case-study/case-study-details4"
-                    className="learn-more-btn"
-                  >
+                  <Link href="/case-study/Business" className="learn-more-btn">
                     Learn MORE
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -181,9 +178,9 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/home1/case-study-img2.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">It Agency</Link>
+                  <p> Small Business Triumph</p>
                   <h4>
-                    <Link href="/case-study/case-study-details5">
+                    <Link href="/case-study/SmallBusinessTriumph">
                       Small Business Triumph: Overcoming Challenges
                     </Link>
                   </h4>
@@ -193,7 +190,7 @@ const CaseStudyPage = () => {
                     triumphant in today's dynamic market landscape.
                   </p>
                   <Link
-                    href="/case-study/case-study-details5"
+                    href="/case-study/SmallBusinessTriumph"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -220,9 +217,9 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/home1/case-study-img3.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Creative Agency</Link>
+                  <p>Global Impact</p>
                   <h4>
-                    <Link href="/case-study/case-study-details6">
+                    <Link href="/case-study/GlobalImpact">
                       Global Impact: Scaling Across Borders
                     </Link>
                   </h4>
@@ -233,7 +230,7 @@ const CaseStudyPage = () => {
                     stage.
                   </p>
                   <Link
-                    href="/case-study/case-study-details6"
+                    href="/case-study/GlobalImpact"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -260,19 +257,20 @@ const CaseStudyPage = () => {
                   <img src="/assets/img/home1/case-study-img4.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Enhancing Customer Engagement</Link>
+                  <p>Enhancing Customer Engagement</p>
                   <h4>
-                    <Link href="/case-study/case-study-details7">
-                    A Case Study in E-commerce Optimization
+                    <Link href="/case-study/EnhancingCustomerEngagement">
+                      A Case Study in E-commerce Optimization
                     </Link>
                   </h4>
                   <p>
-                  Explore how Sepnoty helped an online retailer boost customer engagement and sales
-through strategic website optimization , personalized marketing campaigns,driving heightened customer engagement and increased sales.
-
+                    Explore how Sepnoty helped an online retailer boost customer
+                    engagement and sales through strategic website optimization
+                    , personalized marketing campaigns,driving heightened
+                    customer engagement and increased sales.
                   </p>
                   <Link
-                    href="/case-study/case-study-details7"
+                    href="/case-study/EnhancingCustomerEngagement"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -299,19 +297,20 @@ through strategic website optimization , personalized marketing campaigns,drivin
                   <img src="/assets/img/innerpage/case-study-img4.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study"> Streamlining Operations</Link>
+                  <p> Streamlining Operations</p>
                   <h4>
-                    <Link href="/case-study/case-study-details8">
-                   A Case Study in Workflow Automation
+                    <Link href="/case-study/StreamliningOperations">
+                      A Case Study in Workflow Automation
                     </Link>
                   </h4>
                   <p>
-                  Discover how Sepnoty transformed a client's business operations by implementing
-custom workflow automation solutions, resulting in increased efficiency, reduced errors, and
-significant cost savings
+                    Discover how Sepnoty transformed a client's business
+                    operations by implementing custom workflow automation
+                    solutions, resulting in increased efficiency, reduced
+                    errors, and significant cost savings
                   </p>
                   <Link
-                    href="/case-study/case-study-details8"
+                    href="/case-study/StreamliningOperations"
                     className="learn-more-btn"
                   >
                     Learn MORE
@@ -338,20 +337,20 @@ significant cost savings
                   <img src="/assets/img/innerpage/case-study-img5.jpg" alt="" />
                 </div>
                 <div className="card-content">
-                  <Link href="/case-study">Securing Digital Assets</Link>
+                  <p>Securing Digital Assets</p>
                   <h4>
-                    <Link href="/case-study/case-study-details9">
-                    A Case Study in Cybersecurity Enhancement
+                    <Link href="/case-study/SecuringDigitalAssets">
+                      A Case Study in Cybersecurity Enhancement
                     </Link>
                   </h4>
                   <p>
-                  Learn how Sepnoty bolstered a client's cybersecurity posture through comprehensive
-threat detection, incident response planning, and employee training initiatives, ensuring
-robust protection against evolving cyber threats.
-
+                    Learn how Sepnoty bolstered a client's cybersecurity posture
+                    through comprehensive threat detection, incident response
+                    planning, and employee training initiatives, ensuring robust
+                    protection against evolving cyber threats.
                   </p>
                   <Link
-                    href="/case-study/case-study-details9"
+                    href="/case-study/SecuringDigitalAssets"
                     className="learn-more-btn"
                   >
                     Learn MORE

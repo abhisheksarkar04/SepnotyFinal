@@ -36,11 +36,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/case-study/page.js"
     ],
-    "/case-study/case-study-details/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-study/case-study-details/page.js"
-    ],
     "/portfolio/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -50,11 +45,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/blog/blog-standard/page.js"
-    ],
-    "/case-study/case-study-details2/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-study/case-study-details2/page.js"
     ],
     "/contact/page": [
       "static/chunks/webpack.js",
@@ -66,30 +56,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/blog/page.js"
     ],
-    "/case-study/case-study-details3/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/case-study/case-study-details3/page.js"
-    ],
     "/about/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/about/page.js"
     ],
-    "/case-study/case-study-details5/page": [
+    "/blog/blog-details2/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/case-study/case-study-details5/page.js"
+      "static/chunks/app/blog/blog-details2/page.js"
     ],
-    "/case-study/case-study-details7/page": [
+    "/portfolio/portfolio-masonary/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/case-study/case-study-details7/page.js"
+      "static/chunks/app/portfolio/portfolio-masonary/page.js"
     ],
-    "/case-study/case-study-details9/page": [
+    "/portfolio/portfolio-details/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/case-study/case-study-details9/page.js"
+      "static/chunks/app/portfolio/portfolio-details/page.js"
+    ],
+    "/case-study/DigitalTransformation/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/case-study/DigitalTransformation/page.js"
+    ],
+    "/case-study/OvercomingExpansion/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/case-study/OvercomingExpansion/page.js"
     ]
   }
 }
