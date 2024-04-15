@@ -73,7 +73,7 @@ const Home5Workprocess = () => {
               >
                 <path d="M3.7081 12.9544C3.41861 13.1128 3.09011 12.8352 3.14861 12.4808L3.7711 8.69694L1.12886 6.01223C0.882112 5.76104 1.01036 5.30186 1.34111 5.25226L5.0146 4.69548L6.6526 1.23399C6.80035 0.922003 7.2001 0.922003 7.34785 1.23399L8.98584 4.69548L12.6593 5.25226C12.9901 5.30186 13.1183 5.76104 12.8708 6.01223L10.2293 8.69694L10.8518 12.4808C10.9103 12.8352 10.5818 13.1128 10.2923 12.9544L6.9991 11.1497L3.7081 12.9544Z" />
               </svg>
-              Working Process
+              Operational Workflow
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={14}
@@ -84,7 +84,7 @@ const Home5Workprocess = () => {
               </svg>
             </span>
             <h2>
-            Connecting You with Top IT <span> Vendors for Superior Solutions</span>
+            Curating Top IT <span> Partners for You</span>
             </h2>
           </div>
         </div>
@@ -109,7 +109,7 @@ const Home5Workprocess = () => {
                         <div className="content">
                           <h4>Client Consultation</h4>
                           <p>
-                          Tailored consultations ensure a clear grasp of your goals.
+                          Personalized insights and collaborative solutions tailored to your business needs.
                           </p>
                         </div>
                       </div>
@@ -129,7 +129,7 @@ const Home5Workprocess = () => {
                         <div className="content">
                           <h4>Strategy Development</h4>
                           <p>
-                          Crafting custom strategies for success.
+                          Crafting innovative strategies to drive growth and sustainable success.
                           </p>
                         </div>
                       </div>
@@ -149,7 +149,7 @@ const Home5Workprocess = () => {
                         <div className="content">
                           <h4>Market Research</h4>
                           <p>
-                          Informed decisions through comprehensive insights.
+                          Unlocking actionable intelligence to stay ahead in dynamic markets.
                           </p>
                         </div>
                       </div>
@@ -167,9 +167,9 @@ const Home5Workprocess = () => {
                           </div>
                         </div>
                         <div className="content">
-                          <h4>Design Thinking Workshops</h4>
+                          <h4>Campaign Planning</h4>
                           <p>
-                          Cultivating innovation through collaborative sessions.
+                          Strategic planning for impactful marketing initiatives and maximum ROI."
                           </p>
                         </div>
                       </div>
@@ -183,9 +183,9 @@ const Home5Workprocess = () => {
                           </div>
                         </div>
                         <div className="content">
-                          <h4>Competitor Analysis</h4>
+                          <h4>Data Analysis</h4>
                           <p>
-                          Gaining competitive advantage through thorough examination.
+                          Harnessing the power of data for informed decision-making and optimization.
                           </p>
                         </div>
                       </div>

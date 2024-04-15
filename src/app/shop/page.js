@@ -9,8 +9,8 @@ const ShopPage = () => {
   return (
     <MainLayout>
       <div className="shop-page scroll-margin pt-120 pb-120" id="shop">
-        <div className="container">
-          <div className="row g-4 mb-50">
+        {/* <div className="container"> */}
+          {/* <div className="row g-4 mb-50">
             <div
               className="col-lg-4 col-md-6 wow animate fadeInDown"
               data-wow-delay="200ms"
@@ -461,8 +461,8 @@ const ShopPage = () => {
                 <span className="for-border" />
               </div>
             </div>
-          </div>
-          <div className="row">
+          </div> */}
+          {/* <div className="row">
             <div
               className="col-lg-12 d-flex justify-content-center wow animate fadeInUp"
               data-wow-delay="400ms"
@@ -495,8 +495,8 @@ const ShopPage = () => {
                 </ul>
               </div>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </MainLayout>
   );

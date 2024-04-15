@@ -140,7 +140,7 @@ const Header3 = () => {
                       className={`submenu-list active ${
                         state.activeMenu === "home" ? "d-block" : "d-none"
                       }`}
-                    > */}
+                    > 
                       <li>
                         <a href="#">Light Version</a>
                         <span
@@ -309,7 +309,7 @@ const Header3 = () => {
                           </li>
                         </ul>
                       </li>
-                    </ul>
+                    </ul>*/}
                   </li>
                   <li>
                     <Link href="/service">Services</Link>

@@ -25,7 +25,7 @@ const FaqPage = () => {
                         aria-expanded="true"
                         aria-controls="faqcollapseOne"
                       >
-                        01. What is Task Management and how does it work?
+                        01.What is Sepnoty and what does it offer?
                       </button>
                     </h2>
                     <div
@@ -35,10 +35,10 @@ const FaqPage = () => {
                       data-bs-parent="#accordionGeneral"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inci only Integer purus onthis felis non
-                        aliquam.Mauris nec just vitae ann auctor tol euismod sit
-                        amet non ipsul growing this
+                        Task management involves organizing and overseeing
+                        tasks to achieve goals. It includes planning, tracking
+                        progress, and optimizing workflows. Tools like to-do
+                        lists and project management software facilitate.
                       </div>
                     </div>
                   </div>
@@ -52,7 +52,7 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapseTwo"
                       >
-                        02. Is Zenfy suitable for my business?
+                        02. How can Sepnoty help my business?
                       </button>
                     </h2>
                     <div
@@ -62,11 +62,9 @@ const FaqPage = () => {
                       data-bs-parent="#accordionGeneral"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Sepnoty can help your business by improving productivity, enhancing collaboration among
+                        team members, centralizing project management, and providing valuable insights through
+                        analytics and reporting
                       </div>
                     </div>
                   </div>
@@ -80,7 +78,7 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapseThree"
                       >
-                        03. the system requirements using Task Management?
+                        03. Is Sepnoty suitable for small businesses?
                       </button>
                     </h2>
                     <div
@@ -90,11 +88,9 @@ const FaqPage = () => {
                       data-bs-parent="#accordionGeneral"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Yes, Sepnoty is suitable for small businesses as it offers scalable solutions that can be
+                        tailored to the specific needs and size of your organization.
+
                       </div>
                     </div>
                   </div>
@@ -108,7 +104,8 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapseFour"
                       >
-                        04. How can I upgrade my subscription?
+                        04. What industries does Sepnoty cater to?
+
                       </button>
                     </h2>
                     <div
@@ -118,11 +115,8 @@ const FaqPage = () => {
                       data-bs-parent="#accordionGeneral"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Sepnoty caters to a diverse range of industries including technology, marketing, finance,
+                        healthcare, education, and more.
                       </div>
                     </div>
                   </div>
@@ -136,7 +130,8 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapseFive"
                       >
-                        05. What measures are in protect user privacy?
+                        05. How does Sepnoty ensure data security?
+
                       </button>
                     </h2>
                     <div
@@ -146,11 +141,8 @@ const FaqPage = () => {
                       data-bs-parent="#accordionGeneral"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Sepnoty prioritizes data security and employs robust measures such as encryption, access
+                        controls, and regular security audits to ensure the safety and confidentiality of your data
                       </div>
                     </div>
                   </div>
@@ -164,7 +156,8 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapseSix"
                       >
-                        06. I'm Find technical issues. What should I do?
+                        06. Can Sepnoty be customized to fit my business needs?
+
                       </button>
                     </h2>
                     <div
@@ -174,11 +167,8 @@ const FaqPage = () => {
                       data-bs-parent="#accordionGeneral"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Yes, Sepnoty can be customized to fit your business needs through features like customizable
+                        workflows, task templates, and integrations with third-party tools
                       </div>
                     </div>
                   </div>
@@ -192,7 +182,7 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapseSeven"
                       >
-                        07. How can I reach customer support?
+                        07. What kind of support does Sepnoty provide?
                       </button>
                     </h2>
                     <div
@@ -202,11 +192,8 @@ const FaqPage = () => {
                       data-bs-parent="#accordionGeneral"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Sepnoty provides comprehensive support to its users including documentation, tutorials,
+                        email support, and live chat assistance
                       </div>
                     </div>
                   </div>
@@ -220,7 +207,7 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapseEight"
                       >
-                        08. a community forum for Task Management users?
+                        08. How does Sepnoty handle software updates and improvements?
                       </button>
                     </h2>
                     <div
@@ -230,11 +217,10 @@ const FaqPage = () => {
                       data-bs-parent="#accordionGeneral"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Sepnoty continuously updates its software to improve performance, add new features, and
+                        address any issues or bugs reported by users. Updates are rolled out regularly to ensure that
+                        users always have access to the latest improvements and enhancements.
+
                       </div>
                     </div>
                   </div>
@@ -261,7 +247,7 @@ const FaqPage = () => {
                         aria-expanded="true"
                         aria-controls="faqcollapse2One"
                       >
-                        01. What is Task Management and how does it work?
+                        01. What payment methods does Sepnoty accept?
                       </button>
                     </h2>
                     <div
@@ -271,10 +257,9 @@ const FaqPage = () => {
                       data-bs-parent="#accordionPayment"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inci only Integer purus onthis felis non
-                        aliquam.Mauris nec just vitae ann auctor tol euismod sit
-                        amet non ipsul growing this
+                        Sepnoty accepts various payment methods, including credit cards, debit cards, PayPal, and
+                        bank transfers.
+
                       </div>
                     </div>
                   </div>
@@ -288,7 +273,8 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapse2Two"
                       >
-                        02. Is Zenfy suitable for my business?
+                        02. Is there a setup fee for using Sepnoty?
+
                       </button>
                     </h2>
                     <div
@@ -298,11 +284,8 @@ const FaqPage = () => {
                       data-bs-parent="#accordionPayment"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Sepnoty does not charge a setup fee. You can start using the platform immediately after
+                        signing up for a subscription plan.
                       </div>
                     </div>
                   </div>
@@ -316,7 +299,8 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapse2Three"
                       >
-                        03. the system requirements using Task Management?
+                        03. Are there any hidden fees with Sepnoty's subscription plans?
+
                       </button>
                     </h2>
                     <div
@@ -326,11 +310,8 @@ const FaqPage = () => {
                       data-bs-parent="#accordionPayment"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        No, Sepnoty's subscription plans are transparent, and there are no hidden fees. The pricing is
+                        clearly outlined on the website, and you only pay for the selected plan
                       </div>
                     </div>
                   </div>
@@ -344,7 +325,7 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapse2Four"
                       >
-                        04. How can I upgrade my subscription?
+                        04. Can I upgrade or downgrade my subscription plan at any time?
                       </button>
                     </h2>
                     <div
@@ -354,11 +335,9 @@ const FaqPage = () => {
                       data-bs-parent="#accordionPayment"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Yes, you can upgrade or downgrade your subscription plan at any time. The changes will take
+                        effect immediately, and you will be charged or credited accordingly.
+
                       </div>
                     </div>
                   </div>
@@ -372,7 +351,8 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapse2Five"
                       >
-                        05. What measures are in protect user privacy?
+                        05. Is there a contract or commitment required to use Sepnoty?
+
                       </button>
                     </h2>
                     <div
@@ -382,11 +362,9 @@ const FaqPage = () => {
                       data-bs-parent="#accordionPayment"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        No, Sepnoty offers subscription plans on a month-to-month basis with no long-term
+                        contracts or commitments. You can cancel your subscription at any time.
+
                       </div>
                     </div>
                   </div>
@@ -400,7 +378,7 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapse2Six"
                       >
-                        06. I'm Find technical issues. What should I do?
+                        06. Are there volume discounts available for larger teams or organizations?
                       </button>
                     </h2>
                     <div
@@ -410,11 +388,8 @@ const FaqPage = () => {
                       data-bs-parent="#accordionPayment"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Yes, Sepnoty offers volume discounts for larger teams or organizations. Please contact our
+                        sales team for more information and personalized pricing options.
                       </div>
                     </div>
                   </div>
@@ -428,7 +403,8 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapse2Seven"
                       >
-                        07. How can I reach customer support?
+                        07. Is my payment information secure when using Sepnoty?
+
                       </button>
                     </h2>
                     <div
@@ -438,11 +414,9 @@ const FaqPage = () => {
                       data-bs-parent="#accordionPayment"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Yes, Sepnoty takes data security seriously and employs industry-standard encryption
+                        protocols to protect your payment information.
+
                       </div>
                     </div>
                   </div>
@@ -456,7 +430,7 @@ const FaqPage = () => {
                         aria-expanded="false"
                         aria-controls="faqcollapse2Eight"
                       >
-                        08. a community forum for Task Management users?
+                        08. What is the refund policy for Sepnoty's subscription plans?
                       </button>
                     </h2>
                     <div
@@ -466,11 +440,8 @@ const FaqPage = () => {
                       data-bs-parent="#accordionPayment"
                     >
                       <div className="accordion-body">
-                        Aptent taciti sociosqu ad litora torquent per conubia
-                        nostra, per inceptos only Integer purus onthis placerat
-                        felis non aliquam.Mauris nec justo vitae ante auctor tol
-                        euismod sit amet non ipsul growing this Praesent commodo
-                        at massa eget suscipit. Utani vitae enim velit.
+                        Sepnoty offers a 30-day money-back guarantee for new subscription sign-ups. If you are not
+                        satisfied with the service within the first 30 days, you can request a full refund.
                       </div>
                     </div>
                   </div>
