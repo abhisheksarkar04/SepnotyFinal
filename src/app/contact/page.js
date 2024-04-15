@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import React from "react";
 
 const ContactPage = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div className="contact-page scroll-margin pt-120 mb-120" id="contact">
@@ -36,7 +36,7 @@ const ContactPage = () => {
                   </svg>
                 </span>
                 <h2>
-                  Our Office <span>Locations.</span>
+                  Our Office <span>Location</span>
                 </h2>
                 <p>
                   Feel free adapt this based on the specific managed services,
@@ -54,9 +54,15 @@ const ContactPage = () => {
             >
               <div className="contact-area">
                 <div className="address">
-                  <h4 className="title">United Kingdom</h4>
-                  <span>London</span>
-                  <p>28200 Old 41 Rd #208 Bonita Springs, FL 34135</p>
+                  <h4 className="title">India</h4>
+                  <span>Andhrapradesh</span>
+                  <p>
+                    {" "}
+                    Near Meeseva,Machavaram,
+                    <br />
+                    Kandukuru Mandal, Prakasham district,
+                    <br /> Andhrapradesh-523105.
+                  </p>
                 </div>
                 <div className="working-hour">
                   <div className="icon">
@@ -73,9 +79,9 @@ const ContactPage = () => {
                   </div>
                   <div className="content">
                     <span>Working Hours</span>
-                    <h6>Mon to Sat : 8am- 9pm</h6>
+                    <h6>Mon to Fri : 9am- 6pm</h6>
                     <h6>
-                      Sunday : <span>Closed</span>
+                      Saturday &amp; Sunday : <span>Closed</span>
                     </h6>
                   </div>
                 </div>
@@ -88,18 +94,22 @@ const ContactPage = () => {
             >
               <div className="company-map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.5647631857846!2d90.36311167605992!3d23.83407118555764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c14c8682a473%3A0xa6c74743d52adb88!2sEgens%20Lab!5e0!3m2!1sen!2sbd!4v1700138349574!5m2!1sen!2sbd"
-                  allowFullScreen
+                  title="sepnoty"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3855.438013800391!2d79.98526797473207!3d14.9126707856115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b7bf369e53fd7%3A0xe0d967314b1ab7f1!2sSepnoty!5e0!3m2!1sen!2sin!4v1709201233005!5m2!1sen!2sin"
+                  width="100%"
+                  height="600"
+                  style={{ border: "0" }}
+                  allowfullscreen=""
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-     {/*  <div className="contact-section">
+      {/*  <div className="contact-section">
         <div className="container">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-5">
