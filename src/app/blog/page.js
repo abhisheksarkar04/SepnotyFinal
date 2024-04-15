@@ -1,11 +1,10 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 
-
 const Blogpage = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -21,7 +20,10 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link
+                    href="/blog/ArtificialIntelligence"
+                    className="card-img"
+                  >
                     <img src="assets/img/home3/blog-img1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -42,11 +44,15 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      Decoding the Cloud A Deep Dive into SaaS Trends.
+                    <Link href="/blog/ArtificialIntelligence">
+                      The Impact of AI on Business: How Sepnoty Is Embracing
+                      Artificial Intelligence
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link
+                    href="/blog/ArtificialIntelligence"
+                    className="read-more-btn"
+                  >
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +77,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/NavigatingtheDigital" className="card-img">
                     <img src="assets/img/home3/blog-img2.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -92,11 +98,15 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      Mastering Efiecy Tips and Tricks with our Zenfy.
+                    <Link href="/blog/NavigatingtheDigital">
+                      Navigating the Digital Landscape: Strategies for Startup
+                      Success
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link
+                    href="/blog/NavigatingtheDigital"
+                    className="read-more-btn"
+                  >
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +131,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/DataAnalytics" className="card-img">
                     <img src="assets/img/home3/blog-img3.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -142,11 +152,12 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      From Ideas How Xtore Transforms Workflows.
+                    <Link href="/blog/DataAnalytics">
+                      Unlocking the Power of Data Analytics: Insights from
+                      Sepnoty's Experts
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/DataAnalytics" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +182,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/Ecommerce" className="card-img">
                     <img src="assets/img/home1/blog-img1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -192,11 +203,12 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      How to Been population the Startup Company of this.
+                    <Link href="/blog/Ecommerce">
+                      The Future of E-commerce: Trends and Innovations Shaping
+                      the Industry
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/Ecommerce" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +233,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/Cybersecurity" className="card-img">
                     <img src="assets/img/home1/blog-img2.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -242,11 +254,12 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      How to Start and Grow Your Owner Startup Company.
+                    <Link href="/blog/Cybersecurity">
+                      Cybersecurity in the Digital Age: Protecting Your Business
+                      with Sepnoty's Solutions
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/Cybersecurity" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -271,7 +284,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/UIUX" className="card-img">
                     <img src="assets/img/home1/blog-img3.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -292,11 +305,12 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      Innovation The Power of an Startup Company business.
+                    <Link href="/blog/UIUX">
+                      Designing for Success: The Role of UI/UX in Enhancing User
+                      Experience
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/UIUX" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -321,7 +335,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/CloudComputing" className="card-img">
                     <img src="assets/img/innerpage/blog-img1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -342,11 +356,12 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      Innovation The Power of an Startup Company business.
+                    <Link href="/blog/CloudComputing">
+                      Cloud Computing: Revolutionizing Business Operations with
+                      Sepnoty's Cloud Services
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/CloudComputing" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -371,7 +386,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/InnovativeStrategies" className="card-img">
                     <img src="assets/img/innerpage/blog-img2.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -392,11 +407,15 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      Looking For Inspiration &amp; Unique Traveling The World.
+                    <Link href="/blog/InnovativeStrategies">
+                      Innovative Strategies for Small Business Growth: Lessons
+                      from Sepnoty
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link
+                    href="/blog/InnovativeStrategies"
+                    className="read-more-btn"
+                  >
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -421,7 +440,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/SepnotyExpertise" className="card-img">
                     <img src="assets/img/innerpage/blog-img3.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -442,11 +461,12 @@ const Blogpage = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      The complete guide unlocking your team’s power.
+                    <Link href="/blog/SepnotyExpertise">
+                      he Importance of Brand Identity: Building a Strong Brand
+                      with Sepnoty's Expertise
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/SepnotyExpertise" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -465,7 +485,7 @@ const Blogpage = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/*  <div className="row">
             <div
               className="col-lg-12 d-flex justify-content-center wow animate fadeInUp"
               data-wow-delay="400ms"
@@ -498,7 +518,7 @@ const Blogpage = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </MainLayout>

@@ -22,14 +22,14 @@
     {
         "id": "4",
         "label": "Blog",
-        "link": "/blog/blog-standard",
+        "link": "/blog/blogs",
         "icon": false
         
     },
     {
         "id": "5",
         "label": "Pages",
-        "link": "/page",
+        "link": "",
         "icon": true,
         "subMenu": [
             {
