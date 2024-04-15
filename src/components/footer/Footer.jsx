@@ -16,45 +16,50 @@ const Footer = () => {
                   <div className="menu-container">
                     <ul className="widget-list">
                       <li>
-                        <Link href="/service/service-details">
-                          Managed Services
+                        <Link href="/service/web-app">
+                        Web &amp; App Development
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          IT Consulting &amp; Advisory
+                        <Link href="/service/consulting">
+                        Consulting Services
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
+                        <Link href="/service/cyber">
                           Cyber Security
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          Web Development
+                        <Link href="/service/e-commerce">
+                        E-commerce Solutions
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          Mobile Development
+                        <Link href="/service/data">
+                        Data Analytics
                         </Link>
                       </li>
                     </ul>
                     <ul className="widget-list">
                       <li>
-                        <Link href="/service/service-details">
+                        <Link href="/service/cloud">
                           Cloud Services
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          Network Connectivity
+                        <Link href="/service/software">
+                        Software Development
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          ERP Solutions
+                        <Link href="/service/ui-ux">
+                        UI/UX Design
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/service/graphic">
+                        Graphic Design
                         </Link>
                       </li>
                     </ul>
