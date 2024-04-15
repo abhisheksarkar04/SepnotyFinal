@@ -1,11 +1,11 @@
-"use client";
+"use client"
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
-const BlogPage = () => {
-  useWow();
+const BlogDetails2 = () => {
+  useWow()
   return (
     <MainLayout>
       <div
@@ -67,10 +67,10 @@ const BlogPage = () => {
               </div>
             </div>
           </div>
-          <div className="row g-lg-4 gy-5 mb-100">
-            <div className="col-lg-8">
-              <div className="blog-details-content mb-0">
-                <p className="first-para">
+          <div className="blog-details-content">
+            <div className="row justify-content-center g-4">
+              <div className="col-lg-8">
+               {/*  <p className="first-para">
                   Welcome to our blog details page, your gateway to in-depth
                   captivating narratives. Dive into thought-provoking
                   articles,and engaging content that goes beyond the surface
@@ -86,16 +86,16 @@ const BlogPage = () => {
                   our blog's rich tapestry of content. From the latest trends to
                   expert advice, we curate information that sparks curiosity and
                   fuels your quest for knowledge.
-                </p>
-                <blockquote className="text-center mb-50">
+                </p> */}
+                {/* <blockquote className="text-center mb-50">
                   <p className="blockquote-text">
                     "I work with Alguneb Johnl on many projects, he always
                     toldagona exceeds my expectations with his quality work and
                     fastestopa tope service, very smooth and simple
                     communication."
                   </p>
-                  <h3 className="blockquote-author">Leslie Alexander</h3>
-                  <svg
+                  <h3 className="blockquote-author">Leslie Alexander</h3> */}
+                 {/*  <svg
                     className="quotes"
                     xmlns="http://www.w3.org/2000/svg"
                     width={93}
@@ -103,9 +103,23 @@ const BlogPage = () => {
                     viewBox="0 0 93 90"
                   >
                     <path d="M52.3886 44.806L92.5 88.7114V0.5H52.3886V44.806ZM0.5 44.806L40.61 88.7114V0.5H0.5V44.806Z" />
-                  </svg>
-                </blockquote>
+                  </svg> */}
+                  <h3> Understanding the Digital Landscape</h3>
+                <p>
+                In today's digital age, startups face a myriad of challenges and opportunities as they navigate 
+the complex terrain of the online world. Understanding the digital landscape is essential for 
+success, as it involves grasping the latest trends, technologies, and consumer behaviors 
+shaping the marketplace. From social media platforms to e-commerce channels, startups 
+must leverage digital tools and strategies to establish a strong online presence and connect 
+with their target audience.
+                </p>
+               {/*  </blockquote> */}
                 <div className="row mb-50">
+
+
+
+
+                  
                   <div className="col-lg-12">
                     <img
                       src="/assets/img/innerpage/blog-details-img1.jpg"
@@ -113,14 +127,13 @@ const BlogPage = () => {
                     />
                   </div>
                 </div>
-                <h3>Unveiling Creative Journeys</h3>
+                <h3>Key Strategies for Startup Success</h3>
                 <p>
-                  Explore the dynamic stories behind our portfolio pieces on
-                  this blog details page. Each project is a testament to
-                  creativity, innovation, and collaboration. Immerse yourself in
-                  the narratives that shaped these creations, gain insights into
-                  our design philosophy, and discover the passion fueling our
-                  work.
+                To thrive in the digital landscape, startups must adopt strategic approaches that align with 
+their goals and objectives. This involves identifying niche markets, crafting compelling brand 
+narratives, and delivering exceptional customer experiences. Additionally, startups must 
+prioritize innovation, agility, and adaptability to stay competitive in an ever-evolving digital 
+ecosystem.
                 </p>
                 <div className="blog-details-img-grp">
                   <div className="row g-4 mb-50">
@@ -138,12 +151,13 @@ const BlogPage = () => {
                     </div>
                   </div>
                 </div>
-                <h3>Exploring Our Portfolio's Stories</h3>
+                <h3>Sepnoty's Guidance for Startup Growth</h3>
                 <p>
-                  Discover the intricate narratives behind our portfolio pieces
-                  on our blog details page. We offer a glimpse into the creative
-                  process and inspiration driving our projects, providing
-                  valuable insights and perspectives.
+                Sepnoty provides invaluable guidance and support to startups embarking on their digital 
+journey. Leveraging our expertise in digital marketing, branding, and technology, we empower 
+startups to overcome obstacles, seize opportunities, and achieve sustainable growth. From 
+developing comprehensive digital strategies to executing targeted marketing campaigns, 
+Sepnoty serves as a trusted partner for startups seeking to thrive in the digital landscape.
                 </p>
                 <ul>
                   <li>
@@ -155,7 +169,8 @@ const BlogPage = () => {
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Nulla vestibulum vestibulum varius told this.
+                    Market Research: Startups must conduct thorough market research to identify target 
+audiences, understand competitor landscapes, and uncover untapped opportunities.
                   </li>
                   <li>
                     <svg
@@ -166,7 +181,8 @@ const BlogPage = () => {
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Consequat congue sem. In convallis purus ut.
+                    Brand Building: Establishing a strong brand identity is crucial for startups to di erentiate 
+themselves in crowded markets and build credibility with consumers.
                   </li>
                   <li>
                     <svg
@@ -177,7 +193,8 @@ const BlogPage = () => {
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Vitae efficitur risus molestie. Donec laoreet.
+                    Digital Marketing: Leveraging digital marketing channels such as social media, email, and 
+search engine optimization (SEO) can help startups reach and engage their target audience effectively.
                   </li>
                   <li>
                     <svg
@@ -188,7 +205,8 @@ const BlogPage = () => {
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Est vel feugiat dapibus. Quisque velit ullamcorp.
+                    Agility and Flexibility: Startups must embrace agility and flexibility to respond quickly to 
+market changes, customer feedback, and emerging trends.
                   </li>
                   <li>
                     <svg
@@ -199,7 +217,8 @@ const BlogPage = () => {
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Pharetra vitae, varius in dui. Cras et aliquam.
+                    Customer-Centric Approach: Prioritizing customer needs and preferences is paramount for 
+startup success, as it fosters loyalty, satisfaction, and long-term relationships.
                   </li>
                   <li>
                     <svg
@@ -210,290 +229,15 @@ const BlogPage = () => {
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Tortor eget vestibulum vestibulum, leo cursus.
+                    Continuous Learning: Startups should adopt a culture of continuous learning and 
+improvement, staying abreast of industry developments, technological advancements, and 
+best practices to remain competitive in the digital landscape.
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="sidebar-area">
-                <div className="single-widget mb-30">
-                  <h5 className="widget-title">Search Here</h5>
-                  <form>
-                    <div className="search-box">
-                      <input type="text" placeholder="Search Here" />
-                      <button type="submit">
-                        <i className="bx bx-search" />
-                      </button>
-                    </div>
-                  </form>
-                </div>
-                <div className="single-widget mb-30">
-                  <h5 className="widget-title">Category</h5>
-                  <ul className="category-list">
-                    <li>
-                      <Link href="/blog/blog-sidebar">
-                        <span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={13}
-                            height={14}
-                            viewBox="0 0 13 14"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                            />
-                          </svg>
-                          Digital Marketing
-                        </span>
-                        <span>(20)</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/blog-sidebar">
-                        <span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={13}
-                            height={14}
-                            viewBox="0 0 13 14"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                            />
-                          </svg>
-                          Creative Agency
-                        </span>
-                        <span>(15)</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/blog-sidebar">
-                        <span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={13}
-                            height={14}
-                            viewBox="0 0 13 14"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                            />
-                          </svg>
-                          Web Design
-                        </span>
-                        <span>(25)</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/blog-sidebar">
-                        <span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={13}
-                            height={14}
-                            viewBox="0 0 13 14"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                            />
-                          </svg>
-                          Web Development
-                        </span>
-                        <span>(30)</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/blog-sidebar">
-                        <span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={13}
-                            height={14}
-                            viewBox="0 0 13 14"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                            />
-                          </svg>
-                          Content Marketing
-                        </span>
-                        <span>(32)</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/blog-sidebar">
-                        <span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={13}
-                            height={14}
-                            viewBox="0 0 13 14"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                            />
-                          </svg>
-                          App Development
-                        </span>
-                        <span>(35)</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/blog/blog-sidebar">
-                        <span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width={13}
-                            height={14}
-                            viewBox="0 0 13 14"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M11.0354 1.65188L0 12.6867L0.814262 13.501L11.8491 2.46556V10.0955H13V0.500977H3.40552V1.65188H11.0354Z"
-                            />
-                          </svg>
-                          UI/UX Design
-                        </span>
-                        <span>(38)</span>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="single-widget mb-30">
-                  <h5 className="widget-title">Popular Post </h5>
-                  <div className="recent-post-widget mb-20">
-                    <div className="recent-post-img">
-                      <Link href="/blog/blog-details">
-                        <img
-                          src="/assets/img/innerpage/popular-post-img1.png"
-                          alt=""
-                        />
-                      </Link>
-                    </div>
-                    <div className="recent-post-content">
-                      <Link href="/blog">20 February, 2024</Link>
-                      <h6>
-                        <Link href="/blog/blog-details">
-                          Looking Inspiration Traveling The World.
-                        </Link>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="recent-post-widget mb-20">
-                    <div className="recent-post-img">
-                      <Link href="/blog/blog-details">
-                        <img
-                          src="/assets/img/innerpage/popular-post-img2.png"
-                          alt=""
-                        />
-                      </Link>
-                    </div>
-                    <div className="recent-post-content">
-                      <Link href="/blog">12 January, 2024</Link>
-                      <h6>
-                        <Link href="/blog/blog-details">
-                          Challenges creating a multi-brand system.
-                        </Link>
-                      </h6>
-                    </div>
-                  </div>
-                  <div className="recent-post-widget mb-20">
-                    <div className="recent-post-img">
-                      <Link href="/blog/blog-details">
-                        <img
-                          src="/assets/img/innerpage/popular-post-img3.png"
-                          alt=""
-                        />
-                      </Link>
-                    </div>
-                    <div className="recent-post-content">
-                      <Link href="/blog">04 January, 2024</Link>
-                      <h6>
-                        <Link href="/blog/blog-details">
-                          Decoding the Cloud And Deep Dive Creative.
-                        </Link>
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-                <div className="single-widget mb-30">
-                  <h5 className="widget-title">New Tags</h5>
-                  <ul className="tag-list">
-                    <li>
-                      <Link href="/blog">Creative</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog">Web Design</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog">Software</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog">Industry</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog">Marketing</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog">Product</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog">Optimization</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog">Graphic</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog">Natural</Link>
-                    </li>
-                  </ul>
-                </div>
-                <div className="single-widget">
-                  <h5 className="widget-title">Social Share</h5>
-                  <ul className="social-list">
-                    <li>
-                      <a href="https://www.linkedin.com/">
-                        <i className="bi bi-linkedin" />
-                        <span>LinkedIn</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/">
-                        <i className="bi bi-facebook" />
-                        <span>Facebook</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/">
-                        <i className="bi bi-twitter-x" />
-                        <span>Twitter</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/">
-                        <i className="bi bi-instagram" />
-                        <span>Instagram</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
+
           <div className="blog-tag-and-social-area">
             <div className="blog-tag">
               <h6>Tag:</h6>
@@ -512,13 +256,39 @@ const BlogPage = () => {
                 </li>
               </ul>
             </div>
+            <ul className="social-list">
+              <li>
+                <a href="https://www.linkedin.com/">
+                  <i className="bi bi-linkedin" />
+                  <span>LinkedIn</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/">
+                  <i className="bi bi-facebook" />
+                  <span>Facebook</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/">
+                  <i className="bi bi-twitter-x" />
+                  <span>Twitter</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/">
+                  <i className="bi bi-instagram" />
+                  <span>Instagram</span>
+                </a>
+              </li>
+            </ul>
           </div>
           <div className="row mb-120">
             <div className="col-lg-12">
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="#">
+                    <a href="/blog/ArtificialIntelligence">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -548,17 +318,16 @@ const BlogPage = () => {
                   </div>
                   <div className="content">
                     <p>
-                      The complete gu unlocking your team’s power of our unique
-                      work.
+                    The Impact of AI on Business: How Sepnoty Is Embracing Artificial Intelligence
                     </p>
                   </div>
                 </div>
                 <div className="single-navigation two text-end">
                   <div className="content">
-                    <p>Challenges creating structure multiple brand system.</p>
+                    <p> Unlocking the Power of Data Analytics: Insights from Sepnoty's Experts.</p>
                   </div>
                   <div className="star-btn">
-                    <a href="#">
+                    <a href="/blog/DataAnalytics">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -675,7 +444,7 @@ const BlogPage = () => {
                           <div className="comment-content">
                             <div className="author-name-deg">
                               <h6>Robert Smith,</h6>
-                              <span>05 January, 2024</span>
+                              <span>07 January, 2024</span>
                             </div>
                             <p>
                               However, here are some well-regarded car
@@ -814,4 +583,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default BlogDetails2;
