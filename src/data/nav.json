@@ -14,28 +14,28 @@
     },
     {
         "id": "3",
-        "label": "Case Study",
-        "link": "/case-study",
+        "label": "About",
+        "link": "/about",
         "icon": false
         
     },
     {
         "id": "4",
         "label": "Blog",
-        "link": "/blog/blogs",
+        "link": "/blog/blog-standard",
         "icon": false
         
     },
     {
         "id": "5",
         "label": "Pages",
-        "link": "",
+        "link": "/page",
         "icon": true,
         "subMenu": [
             {
                 "id": "1",
-                "label": "About",
-                "link": "/about"
+                "label": "Case Study",
+                "link": "/case-study"
             },
             
             {

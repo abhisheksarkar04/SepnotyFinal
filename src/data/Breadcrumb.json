@@ -135,9 +135,23 @@
     {
         "id": "11",
         "name": "BLOG",
-        "slug": "/blog/blogs",
+        "slug": "/blog/blog-standard",
         "pageTitle": "Latest News Blog & Article.",
         "section_down_scroll": "#blog-grid"
+    },
+    {
+        "id": "12",
+        "name": "BLOG DETAILS",
+        "slug": "/blog/blog-details",
+        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
+        "section_down_scroll": "#blog-details"
+    },
+    {
+        "id": "11",
+        "name": "BLOG DETAILS",
+        "slug": "/blog/blog-details2",
+        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
+        "section_down_scroll": "#blog-details"
     },
     {
         "id": "11",
@@ -200,20 +214,6 @@
         "name": "BLOG DETAILS",
         "slug": "/blog/ArtificialIntelligence",
         "pageTitle": "The Impact of AI on Business: How Sepnoty Is Embracing Artificial Intelligence",
-        "section_down_scroll": "#blog-details"
-    },
-    {
-        "id": "12",
-        "name": "BLOG DETAILS",
-        "slug": "/blog/blog-details",
-        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
-        "section_down_scroll": "#blog-details"
-    },
-    {
-        "id": "11",
-        "name": "BLOG DETAILS",
-        "slug": "/blog/blog-details2",
-        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
         "section_down_scroll": "#blog-details"
     },
     {

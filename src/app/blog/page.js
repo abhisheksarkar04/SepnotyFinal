@@ -1,10 +1,11 @@
-"use client";
+"use client"
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 
+
 const Blogpage = () => {
-  useWow();
+  useWow()
   return (
     <MainLayout>
       <div
@@ -20,10 +21,7 @@ const Blogpage = () => {
             >
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
-                  <Link
-                    href="/blog/ArtificialIntelligence"
-                    className="card-img"
-                  >
+                  <Link href="/blog/ArtificialIntelligence" className="card-img">
                     <img src="assets/img/home3/blog-img1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -45,14 +43,10 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/ArtificialIntelligence">
-                      The Impact of AI on Business: How Sepnoty Is Embracing
-                      Artificial Intelligence
+                    The Impact of AI on Business: How Sepnoty Is Embracing Artificial Intelligence
                     </Link>
                   </h4>
-                  <Link
-                    href="/blog/ArtificialIntelligence"
-                    className="read-more-btn"
-                  >
+                  <Link href="/blog/ArtificialIntelligence" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -99,14 +93,10 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/NavigatingtheDigital">
-                      Navigating the Digital Landscape: Strategies for Startup
-                      Success
+                    Navigating the Digital Landscape: Strategies for Startup Success
                     </Link>
                   </h4>
-                  <Link
-                    href="/blog/NavigatingtheDigital"
-                    className="read-more-btn"
-                  >
+                  <Link href="/blog/NavigatingtheDigital" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -153,8 +143,7 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/DataAnalytics">
-                      Unlocking the Power of Data Analytics: Insights from
-                      Sepnoty's Experts
+                    Unlocking the Power of Data Analytics: Insights from Sepnoty's Experts
                     </Link>
                   </h4>
                   <Link href="/blog/DataAnalytics" className="read-more-btn">
@@ -204,8 +193,7 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/Ecommerce">
-                      The Future of E-commerce: Trends and Innovations Shaping
-                      the Industry
+                    The Future of E-commerce: Trends and Innovations Shaping the Industry
                     </Link>
                   </h4>
                   <Link href="/blog/Ecommerce" className="read-more-btn">
@@ -255,8 +243,7 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/Cybersecurity">
-                      Cybersecurity in the Digital Age: Protecting Your Business
-                      with Sepnoty's Solutions
+                    Cybersecurity in the Digital Age: Protecting Your Business with Sepnoty's Solutions
                     </Link>
                   </h4>
                   <Link href="/blog/Cybersecurity" className="read-more-btn">
@@ -306,8 +293,7 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/UIUX">
-                      Designing for Success: The Role of UI/UX in Enhancing User
-                      Experience
+                    Designing for Success: The Role of UI/UX in Enhancing User Experience
                     </Link>
                   </h4>
                   <Link href="/blog/UIUX" className="read-more-btn">
@@ -357,8 +343,7 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/CloudComputing">
-                      Cloud Computing: Revolutionizing Business Operations with
-                      Sepnoty's Cloud Services
+                    Cloud Computing: Revolutionizing Business Operations with Sepnoty's Cloud Services
                     </Link>
                   </h4>
                   <Link href="/blog/CloudComputing" className="read-more-btn">
@@ -408,14 +393,10 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/InnovativeStrategies">
-                      Innovative Strategies for Small Business Growth: Lessons
-                      from Sepnoty
+                    Innovative Strategies for Small Business Growth: Lessons from Sepnoty
                     </Link>
                   </h4>
-                  <Link
-                    href="/blog/InnovativeStrategies"
-                    className="read-more-btn"
-                  >
+                  <Link href="/blog/InnovativeStrategies" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -462,8 +443,7 @@ const Blogpage = () => {
                   </div>
                   <h4>
                     <Link href="/blog/SepnotyExpertise">
-                      he Importance of Brand Identity: Building a Strong Brand
-                      with Sepnoty's Expertise
+                    he Importance of Brand Identity: Building a Strong Brand with Sepnoty's Expertise
                     </Link>
                   </h4>
                   <Link href="/blog/SepnotyExpertise" className="read-more-btn">
@@ -485,7 +465,7 @@ const Blogpage = () => {
               </div>
             </div>
           </div>
-          {/*  <div className="row">
+         {/*  <div className="row">
             <div
               className="col-lg-12 d-flex justify-content-center wow animate fadeInUp"
               data-wow-delay="400ms"

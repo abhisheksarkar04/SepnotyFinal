@@ -39,7 +39,7 @@ const Home1Solution = () => {
                 <h2>Discover Our Range of Services</h2>
               </div>
               <Link
-                href="/service/service3"
+                href="/service"
                 className="primary-btn2 wow animate fadeInRight"
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
