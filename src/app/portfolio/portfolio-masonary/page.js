@@ -42,13 +42,13 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details">
+                    <Link href="/portfolio/E-commerceSolutionsPortfolio">
                     E-commerce Solutions Portfolio.
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details"
+                    href="/portfolio/E-commerceSolutionsPortfolio"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -90,13 +90,13 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details1">
+                    <Link href="/portfolio/Web&AppDevelopmentPortfolio">
                     Web & App Development Portfolio.
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details1"
+                    href="/portfolio/Web&AppDevelopmentPortfolio"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -137,13 +137,13 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details2">
+                    <Link href="/portfolio/DigitalMarketingPortfolio">
                     Digital Marketing Portfolio.
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details2"
+                    href="/portfolio/DigitalMarketingPortfolio"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -184,13 +184,13 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details3">
-                    Cybersecurity Solutions Portfolio.
+                    <Link href="/portfolio/CybersecuritySolutionsPortfolio">
+                    Cybersecurity Solutions Portfolio
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details3"
+                    href="/portfolio/CybersecuritySolutionsPortfolio"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -232,13 +232,13 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details4">
+                    <Link href="/portfolio/UI-UXPortfolio">
                     UI/UX Design Portfolio
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details4"
+                    href="/portfolio/UI-UXPortfolio"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -279,14 +279,14 @@ const PortfolioMasonaryPage = () => {
                 </div>
                 <div className="portfolio-content">
                   <h4>
-                    <Link href="/portfolio/portfolio-details5">
+                    <Link href="/portfolio/DataAnalyticsPortfolio">
                     Data Analytics Portfolio
-.
+
                     </Link>
                   </h4>
                   <Link
                     className="details-btn"
-                    href="/portfolio/portfolio-details5"
+                    href="/portfolio/DataAnalyticsPortfolio"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
