@@ -1,6 +1,9 @@
 {
-  "/portfolio/portfolio-details/page": "app/portfolio/portfolio-details/page.js",
-  "/case-study/DigitalTransformation/page": "app/case-study/DigitalTransformation/page.js",
-  "/case-study/OvercomingExpansion/page": "app/case-study/OvercomingExpansion/page.js",
-  "/page": "app/page.js"
+  "/about/page": "app/about/page.js",
+  "/not-found": "app/not-found.js",
+  "/blog/blogs/page": "app/blog/blogs/page.js",
+  "/case-study/page": "app/case-study/page.js",
+  "/blog/ArtificialIntelligence/page": "app/blog/ArtificialIntelligence/page.js",
+  "/blog/NavigatingtheDigital/page": "app/blog/NavigatingtheDigital/page.js",
+  "/blog/DataAnalytics/page": "app/blog/DataAnalytics/page.js"
 }

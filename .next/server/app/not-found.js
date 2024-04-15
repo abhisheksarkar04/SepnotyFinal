@@ -404,7 +404,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('[{"id":"1","label":"Startup Agency","link":"/","icon":false},{"id":"2","label":"Services","link":"/service/service3","icon":false},{"id":"3","label":"Case Study","link":"/case-study","icon":false},{"id":"4","label":"Blog","link":"/blog/blog-standard","icon":false},{"id":"5","label":"Pages","link":"/page","icon":true,"subMenu":[{"id":"1","label":"About","link":"/about"},{"id":"3","label":"Portfolio","link":"/portfolio/portfolio-masonary","icon":false},{"id":"5","label":"Features","link":"/features"},{"id":"7","label":"Faqs","link":"/faq"},{"id":"8","label":"Shop","link":"/shop","icon":false}]},{"id":"6","label":"Contact","link":"/contact","icon":false}]');
+module.exports = JSON.parse('[{"id":"1","label":"Startup Agency","link":"/","icon":false},{"id":"2","label":"Services","link":"/service/service3","icon":false},{"id":"3","label":"Case Study","link":"/case-study","icon":false},{"id":"4","label":"Blog","link":"/blog/blogs","icon":false},{"id":"5","label":"Pages","link":"","icon":true,"subMenu":[{"id":"1","label":"About","link":"/about"},{"id":"3","label":"Portfolio","link":"/portfolio/portfolio-masonary","icon":false},{"id":"5","label":"Features","link":"/features"},{"id":"7","label":"Faqs","link":"/faq"},{"id":"8","label":"Shop","link":"/shop","icon":false}]},{"id":"6","label":"Contact","link":"/contact","icon":false}]');
 
 /***/ })
 
@@ -415,7 +415,7 @@ module.exports = JSON.parse('[{"id":"1","label":"Startup Agency","link":"/","ico
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/bootstrap","vendor-chunks/react-modal-video","vendor-chunks/yet-another-react-lightbox","vendor-chunks/react-datepicker"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fnot-found&page=%2Fnot-found&appPaths=&pagePath=private-next-app-dir%2Fnot-found.js&appDir=C%3A%5CUsers%5CVARAPRASAD%20REDDY%5CSepnotyWebsite%5CSepnotyFinal%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CVARAPRASAD%20REDDY%5CSepnotyWebsite%5CSepnotyFinal&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/bootstrap","vendor-chunks/@swc","vendor-chunks/yet-another-react-lightbox","vendor-chunks/react-modal-video","vendor-chunks/react-datepicker"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fnot-found&page=%2Fnot-found&appPaths=&pagePath=private-next-app-dir%2Fnot-found.js&appDir=C%3A%5CUsers%5CVARAPRASAD%20REDDY%5CSepnotyWebsite%5CSepnotyFinal%5Csrc%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5CVARAPRASAD%20REDDY%5CSepnotyWebsite%5CSepnotyFinal&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
