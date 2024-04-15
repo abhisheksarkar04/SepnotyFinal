@@ -1,9 +1,5 @@
 {
   "/about/page": "app/about/page.js",
-  "/not-found": "app/not-found.js",
   "/blog/blogs/page": "app/blog/blogs/page.js",
-  "/case-study/page": "app/case-study/page.js",
-  "/blog/ArtificialIntelligence/page": "app/blog/ArtificialIntelligence/page.js",
-  "/blog/NavigatingtheDigital/page": "app/blog/NavigatingtheDigital/page.js",
-  "/blog/DataAnalytics/page": "app/blog/DataAnalytics/page.js"
+  "/blog/ArtificialIntelligence/page": "app/blog/ArtificialIntelligence/page.js"
 }
