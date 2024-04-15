@@ -168,9 +168,9 @@ const BannerWithCaseStudySlider = () => {
                         />
                       </div>
                       <div className="card-content">
-                        <Link href="/case-study">Startup Company</Link>
+                        <p>Startup Company</p>
                         <h4>
-                          <Link href="/case-study/case-study-details">
+                          <Link href="/case-study/NavigatingGrowth">
                             Navigating Growth: A Startup Agency Success Story
                           </Link>
                         </h4>
@@ -179,9 +179,11 @@ const BannerWithCaseStudySlider = () => {
                           share the success story of a startup agency navigating
                           the challenges of scaling and achieving success in a
                           competitive landscape.
+                          <br />
+                          <br />
                         </p>
                         <Link
-                          href="/case-study/case-study-details"
+                          href="/case-study/NavigatingGrowth"
                           className="learn-more-btn"
                         >
                           Learn MORE
@@ -207,9 +209,9 @@ const BannerWithCaseStudySlider = () => {
                         />
                       </div>
                       <div className="card-content">
-                        <Link href="/case-study">It Agency</Link>
+                        <p> Digital Transformation</p>
                         <h4>
-                          <Link href="/case-study/case-study-details2">
+                          <Link href="/case-study/DigitalTransformation">
                             Digital Transformation: Long Journey to Industry
                           </Link>
                         </h4>
@@ -220,7 +222,7 @@ const BannerWithCaseStudySlider = () => {
                           relevant and competitive in their industries.
                         </p>
                         <Link
-                          href="/case-study/case-study-details2"
+                          href="/case-study/DigitalTransformation"
                           className="learn-more-btn"
                         >
                           Learn MORE
@@ -246,9 +248,9 @@ const BannerWithCaseStudySlider = () => {
                         />
                       </div>
                       <div className="card-content">
-                        <Link href="/case-study">Creative Agency</Link>
+                        <p>Overcoming Expansion</p>
                         <h4>
-                          <Link href="/case-study/case-study-details3">
+                          <Link href="/case-study/OvercomingExpansion">
                             Overcoming Expansion: An Initial Agency's Triumph
                           </Link>
                         </h4>
@@ -256,9 +258,11 @@ const BannerWithCaseStudySlider = () => {
                           Explore the inspiring tale of an initial agency
                           overcoming the hurdles of expansion, demonstrating
                           resilience, and achieving success in new markets.
+                          <br />
+                          <br />
                         </p>
                         <Link
-                          href="/case-study/case-study-details3"
+                          href="/case-study/OvercomingExpansion"
                           className="learn-more-btn"
                         >
                           Learn MORE
@@ -284,9 +288,9 @@ const BannerWithCaseStudySlider = () => {
                         />
                       </div>
                       <div className="card-content">
-                        <Link href="/case-study">Marketing</Link>
+                        <p>Business</p>
                         <h4>
-                          <Link href="/case-study/case-study-details4">
+                          <Link href="/case-study/Business">
                             Business Consulting to Increase Marketing Analytics
                           </Link>
                         </h4>
@@ -297,7 +301,7 @@ const BannerWithCaseStudySlider = () => {
                           achieve greater marketing success.
                         </p>
                         <Link
-                          href="/case-study/case-study-details4"
+                          href="/case-study/Business"
                           className="learn-more-btn"
                         >
                           Learn MORE
@@ -323,9 +327,9 @@ const BannerWithCaseStudySlider = () => {
                         />
                       </div>
                       <div className="card-content">
-                        <Link href="/case-study">Creative Agency</Link>
+                        <p>Small Business Triumph</p>
                         <h4>
-                          <Link href="/case-study/case-study-details5">
+                          <Link href="/case-study/SmallBusinessTriumph">
                             Small Business Triumph: Overcoming Challenges
                           </Link>
                         </h4>
@@ -334,9 +338,11 @@ const BannerWithCaseStudySlider = () => {
                           businesses as they overcome challenges, navigate
                           obstacles, and emerge triumphant in today's dynamic
                           market landscape.
+                          <br />
+                          <br />
                         </p>
                         <Link
-                          href="/case-study/case-study-details5"
+                          href="/case-study/SmallBusinessTriumph"
                           className="learn-more-btn"
                         >
                           Learn MORE
@@ -362,9 +368,9 @@ const BannerWithCaseStudySlider = () => {
                         />
                       </div>
                       <div className="card-content">
-                        <Link href="/case-study">Creative Agency</Link>
+                        <p>Global Impact</p>
                         <h4>
-                          <Link href="/case-study/case-study-details6">
+                          <Link href="/case-study/GlobalImpact">
                             Global Impact: Scaling Across Borders
                           </Link>
                         </h4>
@@ -373,9 +379,11 @@ const BannerWithCaseStudySlider = () => {
                           impact as they scale operations across borders,
                           showcasing innovation, adaptability, and success on
                           the international stage
+                          <br />
+                          <br />
                         </p>
                         <Link
-                          href="/case-study/case-study-details6"
+                          href="/case-study/GlobalImpact"
                           className="learn-more-btn"
                         >
                           Learn MORE

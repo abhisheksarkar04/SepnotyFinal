@@ -117,7 +117,7 @@ const PortfolioMasonaryPage = () => {
             >
               <div className="portfolio-card">
                 <div className="image-and-tag">
-                  <ul className="tag">
+                <ul className="tag">
                     <li>
                       <Link href="/portfolio">DigitalMarketing </Link>
                     </li>
@@ -164,7 +164,7 @@ const PortfolioMasonaryPage = () => {
             >
               <div className="portfolio-card">
                 <div className="image-and-tag">
-                  <ul className="tag">
+                <ul className="tag">
                     <li>
                       <Link href="/portfolio">Cybersecurity</Link>
                     </li>
@@ -176,7 +176,7 @@ const PortfolioMasonaryPage = () => {
                     </li>
                     <li>
                       <Link href="/portfolio">Compliance</Link>
-                    </li>
+                  </li>
                   </ul>
                   <div className="portfolio-img">
                     <img src="/assets/img/home5/portfolio-04.jpg" alt="" />
@@ -211,7 +211,7 @@ const PortfolioMasonaryPage = () => {
             >
               <div className="portfolio-card">
                 <div className="image-and-tag">
-                  <ul className="tag">
+                <ul className="tag">
                     <li>
                       <Link href="/portfolio">UIUXDesign</Link>
                     </li>
@@ -259,7 +259,7 @@ const PortfolioMasonaryPage = () => {
             >
               <div className="portfolio-card">
                 <div className="image-and-tag">
-                  <ul className="tag">
+                <ul className="tag">
                     <li>
                       <Link href="/portfolio">DataAnalytics</Link>
                     </li>
