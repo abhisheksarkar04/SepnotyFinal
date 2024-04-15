@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useReducer, useRef } from "react";
 import navData from "../../data/nav.json";
+import ScrollProgress from "../common/ScrollProgress";
 const initialState = {
   activeMenu: "",
   activeSubMenu: "",
@@ -54,7 +55,7 @@ function reducer(state, action) {
   }
 }
 
-const Header3 = () => {
+const Header1 = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const headerRef = useRef(null);
 
@@ -86,6 +87,7 @@ const Header3 = () => {
 
   return (
     <>
+      <ScrollProgress />
       <div className={`sidebar-menu ${state.isRightSidebar ? "active" : ""}`}>
         <div className="sidebar-menu-top-area">
           <div className="container d-flex align-items-center justify-content-between">
@@ -94,7 +96,7 @@ const Header3 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo.svg"
+                  src="assets/img/SepnotyDark.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
@@ -127,7 +129,7 @@ const Header3 = () => {
               <div className="sidebar-menu-wrap">
                 <ul className="main-menu">
                   <li>
-                    <Link href="/">Agency </Link>
+                    <Link href="/">Startup Agency </Link>
                     {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "home" ? "active" : ""
@@ -135,12 +137,12 @@ const Header3 = () => {
                       onClick={() => toggleMenu("home")}
                     >
                       <i className="bi bi-plus" />
-                    </span> */}
-                    {/* <ul
+                    </span>
+                    <ul
                       className={`submenu-list active ${
                         state.activeMenu === "home" ? "d-block" : "d-none"
                       }`}
-                    > 
+                    >
                       <li>
                         <a href="#">Light Version</a>
                         <span
@@ -309,11 +311,11 @@ const Header3 = () => {
                           </li>
                         </ul>
                       </li>
-                    </ul>*/}
+                    </ul> */}
                   </li>
                   <li>
-                    <Link href="/service">Services</Link>
-                    <span
+                    <Link href="/service3">Services</Link>
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "service" ? "active" : ""
                       }`}
@@ -391,11 +393,11 @@ const Header3 = () => {
                           </svg>
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
                     <Link href="/case-study">Case Study</Link>
-                    <span
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "case-study" ? "active" : ""
                       }`}
@@ -447,24 +449,24 @@ const Header3 = () => {
                           </svg>
                         </Link>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
                   <li>
-                    <Link href="/blog">Blog</Link>
-                    <span
+                    <Link href="/blogs">Blog</Link>
+                    {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "blog" ? "active" : ""
                       }`}
                       onClick={() => toggleMenu("blog")}
                     >
                       <i className="bi bi-plus" />
-                    </span>
+                    </span> */}
                     <ul
                       className={`submenu-list ${
                         state.activeMenu === "blog" ? "d-block" : "d-none"
                       }`}
                     >
-                      <li>
+                      {/* <li>
                         <Link href="/blog">
                           Blog Grid
                           <svg
@@ -502,9 +504,9 @@ const Header3 = () => {
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
-                        <Link href="/blog/blog-standard">
+                        {/* <Link href="/blog/blog-standard">
                           Blog Standard
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -514,9 +516,9 @@ const Header3 = () => {
                           >
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
-                        </Link>
+                        </Link> */}
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/blog/blog-details">
                           Blog Details Style 01
                           <svg
@@ -528,7 +530,7 @@ const Header3 = () => {
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/blog/blog-details2">
                           Blog Details Style 02
@@ -573,15 +575,17 @@ const Header3 = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">Portfolio </Link>
-                        <span
+                        <Link href="/portfolio/portfolio-masonary">
+                          Portfolio{" "}
+                        </Link>
+                        {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "portfolio" ? "active" : ""
                           }`}
                           onClick={() => toggleSubMenu("portfolio")}
                         >
                           <i className="bi bi-plus" />
-                        </span>
+                        </span> */}
                         <ul
                           className={`submenu-list ${
                             state.activeSubMenu === "portfolio"
@@ -589,7 +593,7 @@ const Header3 = () => {
                               : "d-none"
                           }`}
                         >
-                          <li>
+                          {/* <li>
                             <Link href="/portfolio">
                               Portfolio Grid
                               <svg
@@ -653,10 +657,10 @@ const Header3 = () => {
                                 <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                               </svg>
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/team">Our Team</Link>
                         <span
                           className={`dropdown-icon2 two ${
@@ -700,7 +704,7 @@ const Header3 = () => {
                             </Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/features">
                           Features
@@ -716,7 +720,7 @@ const Header3 = () => {
                       </li>
                       <li>
                         <Link href="/shop">Shop</Link>
-                        <span
+                        {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "shop" ? "active" : ""
                           }`}
@@ -783,9 +787,9 @@ const Header3 = () => {
                               </svg>
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/pricing-plan">
                           Pricing Plan
                           <svg
@@ -797,7 +801,7 @@ const Header3 = () => {
                             <path d="M8.33624 2.84003L1.17627 10L0 8.82373L7.15914 1.66376H0.849347V0H10V9.15065H8.33624V2.84003Z" />
                           </svg>
                         </Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/faq">
                           Faq
@@ -848,7 +852,7 @@ const Header3 = () => {
                       <div className="contact">
                         <span>Phone</span>
                         <h6>
-                          <a href="#">+991 - 763 684 4563</a>
+                          <a href="tel:+91 76608 90630">+91 76608 90630</a>
                         </h6>
                       </div>
                     </li>
@@ -866,7 +870,9 @@ const Header3 = () => {
                       <div className="contact">
                         <span>Email Now</span>
                         <h6>
-                          <a href="#">info@examplegmail.com</a>
+                          <a href="mailto:contact@sepnoty.com">
+                            contact@sepnoty.com
+                          </a>
                         </h6>
                       </div>
                     </li>
@@ -884,7 +890,10 @@ const Header3 = () => {
                       </div>
                       <div className="contact">
                         <h6>
-                          Canada City, Office-02, Road-11, House-3B/B, Section-H
+                          Near Meeseva,Machavaram,
+                          <br />
+                          Kandukuru Mandal, Prakasham district,
+                          <br /> Andhrapradesh-523105.
                         </h6>
                       </div>
                     </li>
@@ -904,25 +913,25 @@ const Header3 = () => {
                   </h6>
                   <ul className="social-area">
                     <li>
-                      <a href="#">
-                        <i className="bi bi-dribbble" /> Dribbble
+                      <a href="https://www.linkedin.com/company/sepnoty/">
+                        <i className="bi bi-linkedin" /> Linkedin
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="bi bi-behance" /> Behance
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="bi bi-pinterest" /> Pinterest
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/profile.php?id=61557763420094">
                         <i className="bi bi-facebook" /> Facebook
                       </a>
                     </li>
+                    <li>
+                      <a href="https://www.instagram.com/sepnoty/">
+                        <i className="bi bi-instagram" /> Instagram
+                      </a>
+                    </li>
+                    {/* <li>
+                      <a href="#">
+                        <i className="bi bi-facebook" /> Facebook
+                      </a>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -930,11 +939,12 @@ const Header3 = () => {
           </div>
         </div>
       </div>
+
       <header
         ref={headerRef}
-        className={`header-area style-3 ${state.scrollY > 10 ? "sticky" : ""}`}
+        className={`header-area style-1 ${state.scrollY > 10 ? "sticky" : ""}`}
       >
-        <div className="container-fluid   d-flex flex-nowrap align-items-center justify-content-between">
+        <div className="container d-flex flex-nowrap align-items-center justify-content-between">
           <div className="company-logo">
             <Link href="/" className="logo-dark">
               <img
@@ -1027,7 +1037,7 @@ const Header3 = () => {
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
-            <div className="sidebar-and-btn">
+            <div className="right-sidebar-and-hotline-area">
               <div className="hotline-area d-xl-flex d-none">
                 <div className="icon">
                   <svg
@@ -1044,7 +1054,7 @@ const Header3 = () => {
                 <div className="content">
                   <span>Any Question</span>
                   <h6>
-                    <a href="tel:+990737621432">+990-737 621 432</a>
+                    <Link href="tel:+91 76608 90630">+91 76608 90630</Link>
                   </h6>
                 </div>
               </div>
@@ -1061,6 +1071,9 @@ const Header3 = () => {
                   </g>
                 </svg>
               </div>
+              <div className="sidebar-button mobile-menu-btn d-none">
+                <span />
+              </div>
             </div>
           </div>
         </div>
@@ -1069,4 +1082,4 @@ const Header3 = () => {
   );
 };
 
-export default Header3;
+export default Header1;

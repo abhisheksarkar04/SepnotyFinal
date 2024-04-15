@@ -83,7 +83,7 @@ const Home1Banner = () => {
                 </p>
                 <div className="banner-content-bottom">
                   <Link
-                    href="/contact"
+                    href="https://wa.me/qr/LLMG656E5PVXI1"
                     className="primary-btn1"
                     data-text="Free Consultation"
                   >

@@ -96,7 +96,7 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo.svg"
+                  src="assets/img/SepnotyDark.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
@@ -452,7 +452,7 @@ const Header1 = () => {
                     </ul> */}
                   </li>
                   <li>
-                    <Link href="/blog/blog-standard">Blog</Link>
+                    <Link href="/blog/blogs">Blog</Link>
                     {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "blog" ? "active" : ""
@@ -575,7 +575,9 @@ const Header1 = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/portfolio/portfolio-masonary">Portfolio </Link>
+                        <Link href="/portfolio/portfolio-masonary">
+                          Portfolio{" "}
+                        </Link>
                         {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "portfolio" ? "active" : ""
@@ -850,7 +852,7 @@ const Header1 = () => {
                       <div className="contact">
                         <span>Phone</span>
                         <h6>
-                          <a href="#">+991 - 763 684 4563</a>
+                          <a href="tel:+91 76608 90630">+91 76608 90630</a>
                         </h6>
                       </div>
                     </li>
@@ -868,7 +870,9 @@ const Header1 = () => {
                       <div className="contact">
                         <span>Email Now</span>
                         <h6>
-                          <a href="#">info@examplegmail.com</a>
+                          <a href="mailto:contact@sepnoty.com">
+                            contact@sepnoty.com
+                          </a>
                         </h6>
                       </div>
                     </li>
@@ -886,7 +890,10 @@ const Header1 = () => {
                       </div>
                       <div className="contact">
                         <h6>
-                          Canada City, Office-02, Road-11, House-3B/B, Section-H
+                          Near Meeseva,Machavaram,
+                          <br />
+                          Kandukuru Mandal, Prakasham district,
+                          <br /> Andhrapradesh-523105.
                         </h6>
                       </div>
                     </li>
@@ -906,25 +913,25 @@ const Header1 = () => {
                   </h6>
                   <ul className="social-area">
                     <li>
-                      <a href="#">
-                        <i className="bi bi-dribbble" /> Dribbble
+                      <a href="https://www.linkedin.com/company/sepnoty/">
+                        <i className="bi bi-linkedin" /> Linkedin
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="bi bi-behance" /> Behance
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="bi bi-pinterest" /> Pinterest
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/profile.php?id=61557763420094">
                         <i className="bi bi-facebook" /> Facebook
                       </a>
                     </li>
+                    <li>
+                      <a href="https://www.instagram.com/sepnoty/">
+                        <i className="bi bi-instagram" /> Instagram
+                      </a>
+                    </li>
+                    {/* <li>
+                      <a href="#">
+                        <i className="bi bi-facebook" /> Facebook
+                      </a>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -1047,7 +1054,7 @@ const Header1 = () => {
                 <div className="content">
                   <span>Any Question</span>
                   <h6>
-                    <Link href="tel:+990737621432">+990-737 621 432</Link>
+                    <Link href="tel:+91 76608 90630">+91 76608 90630</Link>
                   </h6>
                 </div>
               </div>

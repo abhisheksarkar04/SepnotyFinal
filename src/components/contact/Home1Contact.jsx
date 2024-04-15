@@ -101,7 +101,7 @@ const Home1Contact = () => {
                     <div className="content">
                       <span>To More Inquiry</span>
                       <h6>
-                        <a href="tel:+990737621432">+990-737 621 432</a>
+                        <a href="tel:+91 76608 90630">+91 76608 90630</a>
                       </h6>
                     </div>
                   </div>
@@ -123,7 +123,9 @@ const Home1Contact = () => {
                     <div className="content">
                       <span>To Send Mail</span>
                       <h6>
-                        <a href="mailto:info@example.com">info@gmail.com</a>
+                        <a href="mailto:contact@sepnoty.com">
+                          contact@sepnoty.com
+                        </a>
                       </h6>
                     </div>
                   </div>
@@ -136,18 +138,18 @@ const Home1Contact = () => {
                   <h6>Social Just You Connected Us!</h6>
                   <ul className="social-list">
                     <li>
-                      <a href="https://www.linkedin.com/">
+                      <a href="https://www.linkedin.com/company/sepnoty/">
                         <i className="bi bi-linkedin" />
                         <span>LinkedIn</span>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/">
+                      <a href="https://www.facebook.com/profile.php?id=61557763420094">
                         <i className="bi bi-facebook" />
                         <span>Facebook</span>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="https://twitter.com/">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -161,9 +163,9 @@ const Home1Contact = () => {
                         </svg>
                         <span>Twitter</span>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://www.instagram.com/">
+                      <a href="https://www.instagram.com/sepnoty/">
                         <i className="bi bi-instagram" />
                         <span>Instagram</span>
                       </a>
