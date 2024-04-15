@@ -179,8 +179,7 @@ const BannerWithCaseStudySlider = () => {
                           share the success story of a startup agency navigating
                           the challenges of scaling and achieving success in a
                           competitive landscape.
-                          <br />
-                          <br />
+                          
                         </p>
                         <Link
                           href="/case-study/NavigatingGrowth"
@@ -258,8 +257,7 @@ const BannerWithCaseStudySlider = () => {
                           Explore the inspiring tale of an initial agency
                           overcoming the hurdles of expansion, demonstrating
                           resilience, and achieving success in new markets.
-                          <br />
-                          <br />
+                          
                         </p>
                         <Link
                           href="/case-study/OvercomingExpansion"
@@ -338,8 +336,7 @@ const BannerWithCaseStudySlider = () => {
                           businesses as they overcome challenges, navigate
                           obstacles, and emerge triumphant in today's dynamic
                           market landscape.
-                          <br />
-                          <br />
+                         
                         </p>
                         <Link
                           href="/case-study/SmallBusinessTriumph"
@@ -379,8 +376,7 @@ const BannerWithCaseStudySlider = () => {
                           impact as they scale operations across borders,
                           showcasing innovation, adaptability, and success on
                           the international stage
-                          <br />
-                          <br />
+                         
                         </p>
                         <Link
                           href="/case-study/GlobalImpact"
