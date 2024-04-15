@@ -276,7 +276,7 @@ const PortfolioDetailsPage = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="#">
+                    <a href="/portfolio/E-commerceSolutionsPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -306,17 +306,16 @@ const PortfolioDetailsPage = () => {
                   </div>
                   <div className="content">
                     <p>
-                      The complete gu unlocking your team’s power of our unique
-                      work.
+                    E-commerce Solutions Portfolio
                     </p>
                   </div>
                 </div>
                 <div className="single-navigation two text-end">
                   <div className="content">
-                    <p>Challenges creating structure multiple brand system.</p>
+                    <p>Digital Marketing Portfolio</p>
                   </div>
                   <div className="star-btn">
-                    <a href="#">
+                    <a href="/portfolio/DigitalMarketingPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

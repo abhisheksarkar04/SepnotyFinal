@@ -22,12 +22,11 @@ const PortfolioDetailsPage = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3> Market Analysis Tool
-
+                <h3>Network Security Enhancement
                 </h3>
                 <p>
-                We crafted a tailored market analysis tool for Client A, enabling comprehensive data collection and analysis. This custom solution empowers Client A to track market trends, understand consumer behavior, and gain valuable competitor insights. With intuitive functionality, the tool facilitates informed decision-making and strategic planning. Our market analysis tool equips Client A with the competitive edge needed to thrive in their industry.</p>               
-               <div className="row mb-60">
+                We fortified the client's network security by deploying cutting-edge firewall solutions and robust intrusion detection systems. These advanced measures shielded the network from a broad spectrum of cyber threats, ensuring comprehensive protection. Through continuous monitoring and real-time threat detection, we proactively safeguarded against potential breaches and unauthorized access attempts. Our proactive approach to network security bolstered the client's defense mechanisms, fostering a resilient infrastructure capable of withstanding evolving cyber risks.       </p>
+                <div className="row mb-60">
                   <div className="col-lg-12">
                     <img
                       src="/assets/img/innerpage/portfolio-details-img1.jpg"
@@ -37,8 +36,7 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                Our Market Analysis Tool offers robust data gathering and analysis capabilities, enabling thorough examination of market trends, consumer behavior, and competitor insights. With intuitive interface and advanced functionalities, users can easily navigate and interpret complex data sets. Customizable reporting options facilitate tailored insights, empowering informed decision-making and strategic planning. Gain a comprehensive understanding of your market landscape and unlock valuable opportunities with our powerful Market Analysis Tool.
-                </p>
+                Our Network Security Enhancement offers a comprehensive suite of advanced solutions to fortify your digital infrastructure. Through the implementation of cutting-edge firewall technologies and intrusion detection systems, we provide robust protection against cyber threats. Continuous monitoring and real-time threat detection ensure proactive defense measures, thwarting potential breaches and unauthorized access attempts. With a focus on comprehensive security protocols, our solution bolsters your network's resilience, safeguarding critical assets and preserving operational continuity.                </p>
                 <ul className="features">
                   <li>
                     <svg
@@ -53,23 +51,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Advanced Data Processing and Cleaning Techniques
-
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={15}
-                      height={15}
-                      viewBox="0 0 15 15"
-                    >
-                      <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
-                      <path
-                        d="M9.97229 4.96979C9.96517 4.9767 9.95849 4.98404 9.95229 4.99179L6.47929 9.41679L4.38629 7.32279C4.24412 7.19031 4.05607 7.11819 3.86177 7.12162C3.66747 7.12505 3.48208 7.20376 3.34467 7.34117C3.20726 7.47858 3.12855 7.66397 3.12512 7.85827C3.12169 8.05257 3.19381 8.24062 3.32629 8.38279L5.97229 11.0298C6.04357 11.1009 6.12846 11.157 6.22188 11.1946C6.3153 11.2323 6.41534 11.2507 6.51604 11.2488C6.61674 11.247 6.71603 11.2249 6.80799 11.1838C6.89995 11.1427 6.9827 11.0835 7.05129 11.0098L11.0433 6.01979C11.1792 5.87712 11.2535 5.68669 11.2502 5.48966C11.2468 5.29263 11.1661 5.10484 11.0253 4.96689C10.8846 4.82893 10.6953 4.7519 10.4982 4.75244C10.3012 4.75299 10.1122 4.83106 9.97229 4.96979Z"
-                        fill="white"
-                      />
-                    </svg>{" "}
-                    Customized Data Visualization and Reporting
+                    Firewall Configuration and Management
 
 
                   </li>
@@ -86,7 +68,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Real-Time Data Streaming and Analysis
+                    Endpoint Security Solutions
                   </li>
                   <li>
                     <svg
@@ -101,7 +83,22 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Scalable and Flexible Architecture
+                    Data Encryption Technologies
+                  </li>
+                  <li>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width={15}
+                      height={15}
+                      viewBox="0 0 15 15"
+                    >
+                      <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
+                      <path
+                        d="M9.97229 4.96979C9.96517 4.9767 9.95849 4.98404 9.95229 4.99179L6.47929 9.41679L4.38629 7.32279C4.24412 7.19031 4.05607 7.11819 3.86177 7.12162C3.66747 7.12505 3.48208 7.20376 3.34467 7.34117C3.20726 7.47858 3.12855 7.66397 3.12512 7.85827C3.12169 8.05257 3.19381 8.24062 3.32629 8.38279L5.97229 11.0298C6.04357 11.1009 6.12846 11.157 6.22188 11.1946C6.3153 11.2323 6.41534 11.2507 6.51604 11.2488C6.61674 11.247 6.71603 11.2249 6.80799 11.1838C6.89995 11.1427 6.9827 11.0835 7.05129 11.0098L11.0433 6.01979C11.1792 5.87712 11.2535 5.68669 11.2502 5.48966C11.2468 5.29263 11.1661 5.10484 11.0253 4.96689C10.8846 4.82893 10.6953 4.7519 10.4982 4.75244C10.3012 4.75299 10.1122 4.83106 9.97229 4.96979Z"
+                        fill="white"
+                      />
+                    </svg>{" "}
+                    Regulatory Compliance Assistance
 
 
                   </li>
@@ -118,9 +115,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Robust Security and Compliance Measures
-
-
+                    Security Awareness Training Programs
                   </li>
                   <li>
                     <svg
@@ -135,8 +130,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Automated Data Pipelines and Workflows
-
+                    Vulnerability Management and Patching
 
                   </li>
                 </ul>
@@ -149,7 +143,8 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Our strategic initiatives have yielded remarkable results, elevating decision-making accuracy by 40% and driving a 25% increase in sales revenue via targeted marketing campaigns. By optimizing processes, we've enhanced operational efficiency by 30% and slashed customer churn rates by 20% through proactive retention strategies. Furthermore, our keen market analysis identified new opportunities, fostering a 15% revenue growth, while streamlined data analysis processes saved 20% in resource costs, solidifying our commitment to sustainable growth and innovation.</p>
+                <p>
+                Through our robust cybersecurity measures, we achieved significant milestones in safeguarding your network integrity and data assets. By cutting network security breaches by 50% and mitigating malware infections by 60%, we ensure a fortified defense against cyber threats. Our comprehensive approach extends beyond technology, as we prioritize enhancing employee security awareness, resulting in a remarkable 70% improvement. Moreover, our efforts in data protection and privacy compliance have been strengthened, aligning seamlessly with regulatory standards. With a 40% decrease in incident response time and full regulatory compliance, your organization is empowered to navigate the digital landscape with confidence and resilience.</p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -285,7 +280,7 @@ const PortfolioDetailsPage = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="#">
+                    <a href="/portfolio/DigitalMarketingPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -315,17 +310,16 @@ const PortfolioDetailsPage = () => {
                   </div>
                   <div className="content">
                     <p>
-                      The complete gu unlocking your team’s power of our unique
-                      work.
+                    Digital Marketing Portfolio
                     </p>
                   </div>
                 </div>
                 <div className="single-navigation two text-end">
                   <div className="content">
-                    <p>Challenges creating structure multiple brand system.</p>
+                    <p>UI/UX Design Portfolio</p>
                   </div>
                   <div className="star-btn">
-                    <a href="#">
+                    <a href="/portfolio/UI-UXPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

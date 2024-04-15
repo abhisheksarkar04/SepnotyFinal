@@ -261,43 +261,43 @@
     {
         "id": "17",
         "name": "portfolio",
-        "slug": "/portfolio/portfolio-details",
+        "slug": "/portfolio/E-commerceSolutionsPortfolio",
         "pageTitle": "E-commerce Solutions Portfolio",
         "section_down_scroll": "#portfolio-grid"
     },
     {
         "id": "17",
         "name": "portfolio",
-        "slug": "/portfolio/portfolio-details1",
+        "slug": "/portfolio/Web&AppDevelopmentPortfolio",
         "pageTitle": "Web & App Development Portfolio",
         "section_down_scroll": "#portfolio-grid"
     },
     {
         "id": "17",
         "name": "portfolio",
-        "slug": "/portfolio/portfolio-details2",
+        "slug": "/portfolio/DigitalMarketingPortfolio",
         "pageTitle": "Digital Marketing Portfolio",
         "section_down_scroll": "#portfolio-grid"
     },
     {
         "id": "17",
         "name": "portfolio",
-        "slug": "/portfolio/portfolio-details3",
+        "slug": "/portfolio/CybersecuritySolutionsPortfolio",
         "pageTitle": "Cybersecurity Solutions Portfolio",
         "section_down_scroll": "#portfolio-grid"
     },
     {
         "id": "17",
         "name": "portfolio",
-        "slug": "/portfolio/portfolio-details4",
-        "pageTitle": "Cybersecurity Solutions Portfolio",
-        "section_down_scroll": "#portfolio-grid"
-    },
-    {
-        "id": "17",
-        "name": "portfolio",
-        "slug": "/portfolio/portfolio-details5",
+        "slug": "/portfolio/UI-UXPortfolio",
         "pageTitle": "UI/UX Design Portfolio",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "17",
+        "name": "portfolio",
+        "slug": "/portfolio/DataAnalyticsPortfolio",
+        "pageTitle": "Data Analytics Portfolio",
         "section_down_scroll": "#portfolio-grid"
     },
     
