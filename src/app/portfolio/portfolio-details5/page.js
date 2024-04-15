@@ -22,11 +22,12 @@ const PortfolioDetailsPage = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3>Fashion Boutique</h3>
+                <h3> Market Analysis Tool
+
+                </h3>
                 <p>
-                We developed a custom e-commerce platform tailored for a high-end fashion boutique looking to expand its online presence. Our solution showcased the boutique's luxury offerings with captivating visuals and personalized features, ensuring a seamless and immersive shopping experience. By leveraging our platform, the boutique successfully extended its reach, attracting a wider audience and reinforcing its position as a leader in the luxury fashion market.{" "}
-                </p>
-                <div className="row mb-60">
+                We crafted a tailored market analysis tool for Client A, enabling comprehensive data collection and analysis. This custom solution empowers Client A to track market trends, understand consumer behavior, and gain valuable competitor insights. With intuitive functionality, the tool facilitates informed decision-making and strategic planning. Our market analysis tool equips Client A with the competitive edge needed to thrive in their industry.</p>               
+               <div className="row mb-60">
                   <div className="col-lg-12">
                     <img
                       src="/assets/img/innerpage/portfolio-details-img1.jpg"
@@ -36,7 +37,7 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                The Fashion Boutique offers a curated selection of high-end fashion products, from clothing to accessories and footwear. With a focus on luxury, its visually stunning online platform provides personalized recommendations and seamless checkout. Known for exceptional customer service, the boutique epitomizes elegance and style in every aspect of the shopping experience.
+                Our Market Analysis Tool offers robust data gathering and analysis capabilities, enabling thorough examination of market trends, consumer behavior, and competitor insights. With intuitive interface and advanced functionalities, users can easily navigate and interpret complex data sets. Customizable reporting options facilitate tailored insights, empowering informed decision-making and strategic planning. Gain a comprehensive understanding of your market landscape and unlock valuable opportunities with our powerful Market Analysis Tool.
                 </p>
                 <ul className="features">
                   <li>
@@ -52,7 +53,8 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Virtual Try-On Technology.
+                    Advanced Data Processing and Cleaning Techniques
+
                   </li>
                   <li>
                     <svg
@@ -67,7 +69,9 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Personalized Recommendations.
+                    Customized Data Visualization and Reporting
+
+
                   </li>
                   <li>
                     <svg
@@ -82,7 +86,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Social Shopping Capabilities.
+                    Real-Time Data Streaming and Analysis
                   </li>
                   <li>
                     <svg
@@ -97,7 +101,9 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Advanced Search Functionality.
+                    Scalable and Flexible Architecture
+
+
                   </li>
                   <li>
                     <svg
@@ -112,7 +118,9 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Real-Time Inventory Updates.
+                    Robust Security and Compliance Measures
+
+
                   </li>
                   <li>
                     <svg
@@ -127,7 +135,9 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Subscription-Based Services.
+                    Automated Data Pipelines and Workflows
+
+
                   </li>
                 </ul>
                 <div className="row mt-50 mb-60">
@@ -139,7 +149,7 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Our efforts led to remarkable improvements for the Fashion Boutique's online platform, including a 40% increase in sales, a 50% reduction in website load times, and a 25% rise in conversion rates. Additionally, we achieved a 30% boost in average order value, a 35% increase in customer retention, and a 50% rise in order volume, showcasing the effectiveness of our strategies in driving growth and enhancing performance.</p>
+                <p>Our strategic initiatives have yielded remarkable results, elevating decision-making accuracy by 40% and driving a 25% increase in sales revenue via targeted marketing campaigns. By optimizing processes, we've enhanced operational efficiency by 30% and slashed customer churn rates by 20% through proactive retention strategies. Furthermore, our keen market analysis identified new opportunities, fostering a 15% revenue growth, while streamlined data analysis processes saved 20% in resource costs, solidifying our commitment to sustainable growth and innovation.</p>
               </div>
             </div>
             <div className="col-lg-4">

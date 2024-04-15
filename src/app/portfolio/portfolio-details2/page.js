@@ -22,9 +22,10 @@ const PortfolioDetailsPage = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3>Fashion Boutique</h3>
+                <h3>Social Media Marketing Campaign
+                </h3>
                 <p>
-                We developed a custom e-commerce platform tailored for a high-end fashion boutique looking to expand its online presence. Our solution showcased the boutique's luxury offerings with captivating visuals and personalized features, ensuring a seamless and immersive shopping experience. By leveraging our platform, the boutique successfully extended its reach, attracting a wider audience and reinforcing its position as a leader in the luxury fashion market.{" "}
+                I developed and implemented a dynamic social media marketing campaign tailored for a fashion brand, strategically aimed at boosting brand visibility and directing traffic to its website. Through engaging content and targeted advertising, the campaign effectively elevated brand awareness across various social media platforms. The result was a significant surge in online presence and heightened website traffic, ultimately contributing to the brand's overall growth and success.{" "}
                 </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
@@ -36,7 +37,7 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                The Fashion Boutique offers a curated selection of high-end fashion products, from clothing to accessories and footwear. With a focus on luxury, its visually stunning online platform provides personalized recommendations and seamless checkout. Known for exceptional customer service, the boutique epitomizes elegance and style in every aspect of the shopping experience.
+                Our Social Media Marketing Campaign offers targeted audience engagement, driving brand recognition and customer interaction. Utilizing data-driven strategies, we tailor content to resonate with your audience, maximizing reach and impact. With comprehensive analytics, you gain valuable insights into campaign performance, enabling agile adjustments for optimal results. Elevate your brand's online presence and foster meaningful connections with our dynamic Social Media Marketing Campaign.
                 </p>
                 <ul className="features">
                   <li>
@@ -52,7 +53,8 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Virtual Try-On Technology.
+                    Target Audience Analysis
+
                   </li>
                   <li>
                     <svg
@@ -67,7 +69,8 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Personalized Recommendations.
+                    Content Creation and Distribution
+
                   </li>
                   <li>
                     <svg
@@ -82,7 +85,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Social Shopping Capabilities.
+                    Social Media Management
                   </li>
                   <li>
                     <svg
@@ -97,7 +100,8 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Advanced Search Functionality.
+                    SEO Optimization
+
                   </li>
                   <li>
                     <svg
@@ -112,7 +116,9 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Real-Time Inventory Updates.
+                    Email Marketing Automation
+
+
                   </li>
                   <li>
                     <svg
@@ -127,7 +133,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Subscription-Based Services.
+                    PPC Campaign Management
                   </li>
                 </ul>
                 <div className="row mt-50 mb-60">
@@ -139,7 +145,7 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Our efforts led to remarkable improvements for the Fashion Boutique's online platform, including a 40% increase in sales, a 50% reduction in website load times, and a 25% rise in conversion rates. Additionally, we achieved a 30% boost in average order value, a 35% increase in customer retention, and a 50% rise in order volume, showcasing the effectiveness of our strategies in driving growth and enhancing performance.</p>
+                <p>Our comprehensive marketing strategy delivered exceptional results: a remarkable 60% surge in social media engagement, alongside a substantial 40% uptick in organic search traffic. Moreover, our efforts yielded a notable 25% enhancement in email open rates and a remarkable 50% increase in leads from our PPC campaigns. Accompanying these achievements, we saw a significant 30% improvement in website conversion rates, solidifying our brand's visibility and recognition within the industry.</p>
               </div>
             </div>
             <div className="col-lg-4">

@@ -22,10 +22,10 @@ const PortfolioDetailsPage = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3>Fashion Boutique</h3>
+                <h3>Network Security Enhancement
+                </h3>
                 <p>
-                We developed a custom e-commerce platform tailored for a high-end fashion boutique looking to expand its online presence. Our solution showcased the boutique's luxury offerings with captivating visuals and personalized features, ensuring a seamless and immersive shopping experience. By leveraging our platform, the boutique successfully extended its reach, attracting a wider audience and reinforcing its position as a leader in the luxury fashion market.{" "}
-                </p>
+                We fortified the client's network security by deploying cutting-edge firewall solutions and robust intrusion detection systems. These advanced measures shielded the network from a broad spectrum of cyber threats, ensuring comprehensive protection. Through continuous monitoring and real-time threat detection, we proactively safeguarded against potential breaches and unauthorized access attempts. Our proactive approach to network security bolstered the client's defense mechanisms, fostering a resilient infrastructure capable of withstanding evolving cyber risks.       </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
                     <img
@@ -36,8 +36,7 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                The Fashion Boutique offers a curated selection of high-end fashion products, from clothing to accessories and footwear. With a focus on luxury, its visually stunning online platform provides personalized recommendations and seamless checkout. Known for exceptional customer service, the boutique epitomizes elegance and style in every aspect of the shopping experience.
-                </p>
+                Our Network Security Enhancement offers a comprehensive suite of advanced solutions to fortify your digital infrastructure. Through the implementation of cutting-edge firewall technologies and intrusion detection systems, we provide robust protection against cyber threats. Continuous monitoring and real-time threat detection ensure proactive defense measures, thwarting potential breaches and unauthorized access attempts. With a focus on comprehensive security protocols, our solution bolsters your network's resilience, safeguarding critical assets and preserving operational continuity.                </p>
                 <ul className="features">
                   <li>
                     <svg
@@ -52,7 +51,9 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Virtual Try-On Technology.
+                    Firewall Configuration and Management
+
+
                   </li>
                   <li>
                     <svg
@@ -67,7 +68,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Personalized Recommendations.
+                    Endpoint Security Solutions
                   </li>
                   <li>
                     <svg
@@ -82,7 +83,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Social Shopping Capabilities.
+                    Data Encryption Technologies
                   </li>
                   <li>
                     <svg
@@ -97,7 +98,9 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Advanced Search Functionality.
+                    Regulatory Compliance Assistance
+
+
                   </li>
                   <li>
                     <svg
@@ -112,7 +115,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Real-Time Inventory Updates.
+                    Security Awareness Training Programs
                   </li>
                   <li>
                     <svg
@@ -127,7 +130,8 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Subscription-Based Services.
+                    Vulnerability Management and Patching
+
                   </li>
                 </ul>
                 <div className="row mt-50 mb-60">
@@ -139,7 +143,8 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Our efforts led to remarkable improvements for the Fashion Boutique's online platform, including a 40% increase in sales, a 50% reduction in website load times, and a 25% rise in conversion rates. Additionally, we achieved a 30% boost in average order value, a 35% increase in customer retention, and a 50% rise in order volume, showcasing the effectiveness of our strategies in driving growth and enhancing performance.</p>
+                <p>
+                Through our robust cybersecurity measures, we achieved significant milestones in safeguarding your network integrity and data assets. By cutting network security breaches by 50% and mitigating malware infections by 60%, we ensure a fortified defense against cyber threats. Our comprehensive approach extends beyond technology, as we prioritize enhancing employee security awareness, resulting in a remarkable 70% improvement. Moreover, our efforts in data protection and privacy compliance have been strengthened, aligning seamlessly with regulatory standards. With a 40% decrease in incident response time and full regulatory compliance, your organization is empowered to navigate the digital landscape with confidence and resilience.</p>
               </div>
             </div>
             <div className="col-lg-4">

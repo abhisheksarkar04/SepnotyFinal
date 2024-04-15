@@ -22,9 +22,9 @@ const PortfolioDetailsPage = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3>Fashion Boutique</h3>
+                <h3>Corporate Website Redesign</h3>
                 <p>
-                We developed a custom e-commerce platform tailored for a high-end fashion boutique looking to expand its online presence. Our solution showcased the boutique's luxury offerings with captivating visuals and personalized features, ensuring a seamless and immersive shopping experience. By leveraging our platform, the boutique successfully extended its reach, attracting a wider audience and reinforcing its position as a leader in the luxury fashion market.{" "}
+                Revamped the corporate website of a Fortune 500 firm to boost brand visibility and user engagement. Leveraged contemporary design strategies to enhance the platform's appeal and navigation. The result is a seamless digital experience that reflects the company's prestige and strengthens its online presence.{" "}
                 </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
@@ -36,7 +36,7 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                The Fashion Boutique offers a curated selection of high-end fashion products, from clothing to accessories and footwear. With a focus on luxury, its visually stunning online platform provides personalized recommendations and seamless checkout. Known for exceptional customer service, the boutique epitomizes elegance and style in every aspect of the shopping experience.
+                Corporate website redesign involves updating and refining the digital face of a company, aiming to align it with current market trends and user expectations. This process entails enhancing visual appeal, optimizing user experience, and incorporating modern design elements. Through strategic planning and implementation, a redesigned corporate website can effectively communicate the company's brand identity, improve engagement with visitors, and ultimately drive business growth.
                 </p>
                 <ul className="features">
                   <li>
@@ -52,7 +52,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Virtual Try-On Technology.
+                    Responsive Design
                   </li>
                   <li>
                     <svg
@@ -67,7 +67,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Personalized Recommendations.
+                    Scalability
                   </li>
                   <li>
                     <svg
@@ -82,7 +82,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Social Shopping Capabilities.
+                    Cross-Platform Compatibility
                   </li>
                   <li>
                     <svg
@@ -97,7 +97,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Advanced Search Functionality.
+                    User-Friendly Interface
                   </li>
                   <li>
                     <svg
@@ -112,7 +112,8 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Real-Time Inventory Updates.
+                    Customization Options
+
                   </li>
                   <li>
                     <svg
@@ -127,7 +128,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Subscription-Based Services.
+                    Integration with Third-Party APIs
                   </li>
                 </ul>
                 <div className="row mt-50 mb-60">
@@ -139,7 +140,7 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Our efforts led to remarkable improvements for the Fashion Boutique's online platform, including a 40% increase in sales, a 50% reduction in website load times, and a 25% rise in conversion rates. Additionally, we achieved a 30% boost in average order value, a 35% increase in customer retention, and a 50% rise in order volume, showcasing the effectiveness of our strategies in driving growth and enhancing performance.</p>
+                <p>Implemented diverse digital solutions across industries, resulting in significant performance improvements. Achievements include enhancing website traffic by 50%, app store ratings by 20%, and reducing bounce rates by 30%. Additionally, facilitated patient-doctor communication in healthcare, enhanced e-commerce platforms for retail clients, and developed custom web applications for logistics companies. Achieved notable increases in customer satisfaction scores, conversion rates, and app downloads, showcasing a versatile and impactful approach to digital transformation.</p>
               </div>
             </div>
             <div className="col-lg-4">
