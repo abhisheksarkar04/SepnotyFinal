@@ -71,11 +71,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/portfolio/portfolio-masonary/page.js"
     ],
-    "/portfolio/portfolio-details/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/portfolio/portfolio-details/page.js"
-    ],
     "/blog/blogs/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
