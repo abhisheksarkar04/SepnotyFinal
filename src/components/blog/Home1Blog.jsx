@@ -48,7 +48,7 @@ const Home1Blog = () => {
             >
               <div className="blog-card">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/ArtificialIntelligence" className="card-img">
                     <img src="assets/img/home1/blog-img1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -78,12 +78,12 @@ const Home1Blog = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog/ArtificialIntelligence">
                       The Impact of AI on Business: How Sepnoty Is Embracing
                       Artificial Intelligence"
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/ArtificialIntelligence" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const Home1Blog = () => {
             >
               <div className="blog-card">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/NavigatingtheDigital" className="card-img">
                     <img src="assets/img/home1/blog-img2.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -138,12 +138,12 @@ const Home1Blog = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog/NavigatingtheDigital">
                       "Navigating the Digital Landscape: Strategies for Startup
                       Success"
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/NavigatingtheDigital" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@ const Home1Blog = () => {
             >
               <div className="blog-card">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/blog-details" className="card-img">
+                  <Link href="/blog/DataAnalytics" className="card-img">
                     <img src="assets/img/home1/blog-img3.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
@@ -198,12 +198,12 @@ const Home1Blog = () => {
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
+                    <Link href="/blog/DataAnalytics">
                       "Unlocking the Power of Data Analytics: Insights from
                       Sepnoty's Experts"
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/DataAnalytics" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

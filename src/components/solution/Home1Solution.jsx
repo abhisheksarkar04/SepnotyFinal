@@ -58,7 +58,7 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">
+                    <Link href="/service/web-app">
                       Web &amp; App Development
                     </Link>
                   </h4>
@@ -84,7 +84,7 @@ const Home1Solution = () => {
                     success.
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/web-app" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -107,7 +107,7 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">
+                    <Link href="/service/consulting">
                       Consulting Services
                     </Link>
                   </h4>
@@ -138,7 +138,7 @@ const Home1Solution = () => {
                     opportunities, address challenges, and drive growth.
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/consulting" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -148,7 +148,8 @@ const Home1Solution = () => {
                     viewBox="0 0 17 9"
                   >
                     <path d="M12.1691 4.97333L0.234337 4.95394C0.172187 4.95394 0.112583 4.9041 0.0686358 4.81538C0.024689 4.72666 0 4.60634 0 4.48087C0 4.35541 0.024689 4.23509 0.0686358 4.14637C0.112583 4.05765 0.172187 4.00781 0.234337 4.00781L12.1694 4.02721C12.2315 4.02721 12.2911 4.07705 12.3351 4.16576C12.379 4.25448 12.4037 4.37481 12.4037 4.50027C12.4037 4.62573 12.379 4.74606 12.3351 4.83478C12.2911 4.92349 12.2313 4.97333 12.1691 4.97333Z" />
-                    <path d="M16.9998 4.50591C14.3171 5.49934 10.9879 7.19858 8.9248 9L10.5521 4.50024L8.93094 0C10.9922 1.80378 14.3185 3.50681 16.9998 4.50591Z" />
+                    <path d="M16.9998 4.50591C14.
+                     5.49934 10.9879 7.19858 8.9248 9L10.5521 4.50024L8.93094 0C10.9922 1.80378 14.3185 3.50681 16.9998 4.50591Z" />
                   </svg>
                 </Link>
               </div>
@@ -161,7 +162,7 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">Cyber Security</Link>
+                    <Link href="/service/cyber">Cyber Security</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +185,7 @@ const Home1Solution = () => {
                     <br />
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/cyber" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -207,7 +208,7 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">
+                    <Link href="/service/e-commerce">
                       E-commerce Solutions
                     </Link>
                   </h4>
@@ -231,7 +232,7 @@ const Home1Solution = () => {
                     <br />
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/e-commerce" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -254,7 +255,7 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">Data Analytics</Link>
+                    <Link href="/service/data">Data Analytics</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -284,7 +285,7 @@ const Home1Solution = () => {
                     informed decision-making and business growth.
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/data" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -307,7 +308,7 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/service/service-details">Cloud Services</Link>
+                    <Link href="/service/cloud">Cloud Services</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -344,7 +345,7 @@ const Home1Solution = () => {
                     efficiency
                   </p>
                 </div>
-                <Link href="/service/service-details" className="explore-btn">
+                <Link href="/service/cloud" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg

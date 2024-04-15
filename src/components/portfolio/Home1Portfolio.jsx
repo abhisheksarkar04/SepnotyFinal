@@ -124,7 +124,7 @@ const Home1Portfolio = () => {
                           <Link href="/portfolio">Marketing</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              Management Consulting
+                            E-commerce Solutions Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -147,10 +147,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Resources</Link>
+                          <Link href="/portfolio">Technology</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              Human Resources Consulting
+                            Web & App Development Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -173,10 +173,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Technology</Link>
+                          <Link href="/portfolio">Marketing</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              IT Consulting
+                            Digital Marketing Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -199,10 +199,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Finance</Link>
+                          <Link href="/portfolio">Technology </Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              Finance Consulting
+                            Cybersecurity Solutions Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -225,10 +225,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Consulting</Link>
+                          <Link href="/portfolio">Design</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              Human Resources
+                            UI/UX Design Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -251,10 +251,10 @@ const Home1Portfolio = () => {
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
-                          <Link href="/portfolio">Health Care</Link>
+                          <Link href="/portfolio">Business and Marketing</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                              Health Care Consult
+                            Data Analytics Portfolio
                             </Link>
                           </h5>
                         </div>
