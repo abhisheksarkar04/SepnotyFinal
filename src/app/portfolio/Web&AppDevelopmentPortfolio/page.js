@@ -22,14 +22,9 @@ const PortfolioDetailsPage = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3>Unveiling Creative Excellence</h3>
+                <h3>Corporate Website Redesign</h3>
                 <p>
-                  Step into the heart of my creative journey through this
-                  portfolio showcase. Each project tells a unique story, a
-                  testament to the passion and dedication poured into every
-                  pixel. Explore the fusion of design and innovation, where
-                  every detail is a brushstroke in the canvas of my professional
-                  odyssey.{" "}
+                Revamped the corporate website of a Fortune 500 firm to boost brand visibility and user engagement. Leveraged contemporary design strategies to enhance the platform's appeal and navigation. The result is a seamless digital experience that reflects the company's prestige and strengthens its online presence.{" "}
                 </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
@@ -39,13 +34,9 @@ const PortfolioDetailsPage = () => {
                     />
                   </div>
                 </div>
-                <h3>A Glimpse Into Artistic Majesty</h3>
+                <h3>Key Features</h3>
                 <p>
-                  Welcome to our portfolio details page, where each project
-                  tells a unique story of innovation and creativity. Here, we
-                  invite you to explore our diverse collection of work, each
-                  piece meticulously crafted to exceed expectations and inspire
-                  awe.
+                Corporate website redesign involves updating and refining the digital face of a company, aiming to align it with current market trends and user expectations. This process entails enhancing visual appeal, optimizing user experience, and incorporating modern design elements. Through strategic planning and implementation, a redesigned corporate website can effectively communicate the company's brand identity, improve engagement with visitors, and ultimately drive business growth.
                 </p>
                 <ul className="features">
                   <li>
@@ -61,7 +52,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Nulla vestibulum vestibulum varius told this.
+                    Responsive Design
                   </li>
                   <li>
                     <svg
@@ -76,7 +67,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Est vel feugiat dapibus. Quisque velit ullamcorp.
+                    Scalability
                   </li>
                   <li>
                     <svg
@@ -91,7 +82,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Consequat congue sem. In convallis purus ut.
+                    Cross-Platform Compatibility
                   </li>
                   <li>
                     <svg
@@ -106,7 +97,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Pharetra vitae, varius in dui. Cras et aliquam.
+                    User-Friendly Interface
                   </li>
                   <li>
                     <svg
@@ -121,7 +112,8 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Vitae efficitur risus molestie. Donec laoreet.
+                    Customization Options
+
                   </li>
                   <li>
                     <svg
@@ -136,7 +128,7 @@ const PortfolioDetailsPage = () => {
                         fill="white"
                       />
                     </svg>{" "}
-                    Tortor eget vestibulum vestibulum, leo cursus.
+                    Integration with Third-Party APIs
                   </li>
                 </ul>
                 <div className="row mt-50 mb-60">
@@ -148,15 +140,7 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>
-                  Discover the tangible outcomes of our creative endeavors in
-                  the project results section. Witness how our team's
-                  dedication, expertise, and passion have translated conceptual
-                  visions into impactful realities.Dive into the metrics,
-                  testimonials, and visual representations that showcase the
-                  concrete achievements and positive impact generated by our
-                  work.
-                </p>
+                <p>Implemented diverse digital solutions across industries, resulting in significant performance improvements. Achievements include enhancing website traffic by 50%, app store ratings by 20%, and reducing bounce rates by 30%. Additionally, facilitated patient-doctor communication in healthcare, enhanced e-commerce platforms for retail clients, and developed custom web applications for logistics companies. Achieved notable increases in customer satisfaction scores, conversion rates, and app downloads, showcasing a versatile and impactful approach to digital transformation.</p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -292,7 +276,7 @@ const PortfolioDetailsPage = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="#">
+                    <a href="/portfolio/E-commerceSolutionsPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -322,17 +306,16 @@ const PortfolioDetailsPage = () => {
                   </div>
                   <div className="content">
                     <p>
-                      The complete gu unlocking your team’s power of our unique
-                      work.
+                    E-commerce Solutions Portfolio
                     </p>
                   </div>
                 </div>
                 <div className="single-navigation two text-end">
                   <div className="content">
-                    <p>Challenges creating structure multiple brand system.</p>
+                    <p>Digital Marketing Portfolio</p>
                   </div>
                   <div className="star-btn">
-                    <a href="#">
+                    <a href="/portfolio/DigitalMarketingPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

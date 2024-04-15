@@ -261,10 +261,46 @@
     {
         "id": "17",
         "name": "portfolio",
-        "slug": "/portfolio/portfolio-details",
-        "pageTitle": "Showcase Our Portfolio.",
+        "slug": "/portfolio/E-commerceSolutionsPortfolio",
+        "pageTitle": "E-commerce Solutions Portfolio",
         "section_down_scroll": "#portfolio-grid"
     },
+    {
+        "id": "17",
+        "name": "portfolio",
+        "slug": "/portfolio/Web&AppDevelopmentPortfolio",
+        "pageTitle": "Web & App Development Portfolio",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "17",
+        "name": "portfolio",
+        "slug": "/portfolio/DigitalMarketingPortfolio",
+        "pageTitle": "Digital Marketing Portfolio",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "17",
+        "name": "portfolio",
+        "slug": "/portfolio/CybersecuritySolutionsPortfolio",
+        "pageTitle": "Cybersecurity Solutions Portfolio",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "17",
+        "name": "portfolio",
+        "slug": "/portfolio/UI-UXPortfolio",
+        "pageTitle": "UI/UX Design Portfolio",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "17",
+        "name": "portfolio",
+        "slug": "/portfolio/DataAnalyticsPortfolio",
+        "pageTitle": "Data Analytics Portfolio",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    
     {
         "id": "18",
         "name": "OUR TEAM",
