@@ -7,6 +7,13 @@
         "section_down_scroll": "#service-section"
     },
     {
+        "id": "2",
+        "slug": "/service",
+        "name": "SOLUTIONS",
+        "pageTitle": "Services & Solutions.",
+        "section_down_scroll": "#service-section"
+    },
+    {
         "id": "6",
         "name": "CASE STUDY",
         "slug": "/case-study",
