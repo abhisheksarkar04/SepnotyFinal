@@ -3,16 +3,16 @@ import Home5Workprocess from "@/components/workProcess/Home5Workprocess";
 import { Children } from "react";
 
 export const metadata = {
-  title: "Zenfy - Software, SaaS & Digital Agency Template",
+  title: "Sepnoty",
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/sepnoty.svg",
   },
 };
 
 const ServiceDetailsPage = () => {
   const children = "Unlocking Innovation with Talented Minds.";
   return (
-      <MainLayout children={Children}>
+    <MainLayout children={Children}>
       <div
         className="service-details-page pt-120 mb-120"
         id="service-details-section"
@@ -27,13 +27,15 @@ const ServiceDetailsPage = () => {
               >
                 <div className="service-details-top-content">
                   <h2>
-                  Cyber<span>Security</span>
+                    Cyber<span>Security</span>
                   </h2>
                   <p>
-                  At Sepnoty, we understand the critical importance of safeguarding your digital assets in
-today's interconnected world. Our Cyber Security services are designed to provide
-comprehensive protection against evolving threats, ensuring the integrity, confidentiality,
-and availability of your data and systems.
+                    At Sepnoty, we understand the critical importance of
+                    safeguarding your digital assets in today's interconnected
+                    world. Our Cyber Security services are designed to provide
+                    comprehensive protection against evolving threats, ensuring
+                    the integrity, confidentiality, and availability of your
+                    data and systems.
                   </p>
                   <ul className="key-features">
                     <li>
@@ -46,7 +48,6 @@ and availability of your data and systems.
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
                       Threat Detection
-
                     </li>
                     <li>
                       <svg
@@ -58,8 +59,6 @@ and availability of your data and systems.
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
                       Data Encryption
-
-
                     </li>
                     <li>
                       <svg
@@ -70,7 +69,7 @@ and availability of your data and systems.
                       >
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
-                      Access Control 
+                      Access Control
                     </li>
                     <li>
                       <svg
@@ -81,7 +80,7 @@ and availability of your data and systems.
                       >
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
-                      Regular Security 
+                      Regular Security
                     </li>
                     <li>
                       <svg
@@ -92,8 +91,7 @@ and availability of your data and systems.
                       >
                         <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                       </svg>
-                      Incident Response 
-
+                      Incident Response
                     </li>
                     <li>
                       <svg
@@ -150,7 +148,8 @@ and availability of your data and systems.
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                         01. What are common cyber threats that businesses face today?
+                          01. What are common cyber threats that businesses face
+                          today?
                         </button>
                       </h2>
                       <div
@@ -160,8 +159,8 @@ and availability of your data and systems.
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Common cyber threats include malware, phishing attacks, ransomware, and data breaches.
-
+                          Common cyber threats include malware, phishing
+                          attacks, ransomware, and data breaches.
                         </div>
                       </div>
                     </div>
@@ -175,8 +174,8 @@ and availability of your data and systems.
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. How does Sepnoty protect sensitive data from unauthorized access?
-
+                          02. How does Sepnoty protect sensitive data from
+                          unauthorized access?
                         </button>
                       </h2>
                       <div
@@ -186,8 +185,9 @@ and availability of your data and systems.
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Sepnoty implements robust encryption protocols and access control mechanisms to
-safeguard sensitive data from unauthorized access.
+                          Sepnoty implements robust encryption protocols and
+                          access control mechanisms to safeguard sensitive data
+                          from unauthorized access.
                         </div>
                       </div>
                     </div>
@@ -201,7 +201,8 @@ safeguard sensitive data from unauthorized access.
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. What steps does Sepnoty take to detect and respond to security incidents?
+                          03. What steps does Sepnoty take to detect and respond
+                          to security incidents?
                         </button>
                       </h2>
                       <div
@@ -211,10 +212,11 @@ safeguard sensitive data from unauthorized access.
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Sepnoty employs advanced threat detection tools and monitoring systems to identify
-potential security incidents promptly. Additionally, we have established incident response
-protocols to address and mitigate security breaches effectively.
-
+                          Sepnoty employs advanced threat detection tools and
+                          monitoring systems to identify potential security
+                          incidents promptly. Additionally, we have established
+                          incident response protocols to address and mitigate
+                          security breaches effectively.
                         </div>
                       </div>
                     </div>
@@ -228,7 +230,8 @@ protocols to address and mitigate security breaches effectively.
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. How often does Sepnoty conduct security audits and assessments?
+                          04. How often does Sepnoty conduct security audits and
+                          assessments?
                         </button>
                       </h2>
                       <div
@@ -238,9 +241,10 @@ protocols to address and mitigate security breaches effectively.
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Sepnoty conducts regular security audits and assessments to evaluate the effectiveness
-of existing security measures and identify vulnerabilities that may require remediation.
-
+                          Sepnoty conducts regular security audits and
+                          assessments to evaluate the effectiveness of existing
+                          security measures and identify vulnerabilities that
+                          may require remediation.
                         </div>
                       </div>
                     </div>
@@ -254,8 +258,8 @@ of existing security measures and identify vulnerabilities that may require reme
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. Does Sepnoty provide cybersecurity training for employees?
-
+                          05. Does Sepnoty provide cybersecurity training for
+                          employees?
                         </button>
                       </h2>
                       <div
@@ -265,10 +269,10 @@ of existing security measures and identify vulnerabilities that may require reme
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Yes, Sepnoty offers cybersecurity training programs to educate employees about best
-practices for online security, raise awareness about common threats, and promote a culture
-of security within the organization.
-
+                          Yes, Sepnoty offers cybersecurity training programs to
+                          educate employees about best practices for online
+                          security, raise awareness about common threats, and
+                          promote a culture of security within the organization.
                         </div>
                       </div>
                     </div>
@@ -311,10 +315,11 @@ of security within the organization.
                   </svg>
                 </span>
                 <h2>
-                Unleash Performance with <span> Cutting-Edge Solutions.</span>
+                  Unleash Performance with <span> Cutting-Edge Solutions.</span>
                 </h2>
                 <p>
-                Welcome to our world of cutting-edge solutions, where performance knows no bounds.
+                  Welcome to our world of cutting-edge solutions, where
+                  performance knows no bounds.
                 </p>
               </div>
             </div>
@@ -342,8 +347,9 @@ of security within the organization.
                   <div className="content">
                     <h5>Technical Implementation</h5>
                     <p>
-                    Seamless integration of advanced technical solutions tailored to your business needs,
-ensuring smooth operations and optimal performance.
+                      Seamless integration of advanced technical solutions
+                      tailored to your business needs, ensuring smooth
+                      operations and optimal performance.
                     </p>
                   </div>
                 </li>
@@ -367,8 +373,9 @@ ensuring smooth operations and optimal performance.
                   <div className="content">
                     <h5>IT Helpdesk Support</h5>
                     <p>
-                    24/7 expert assistance and troubleshooting to resolve IT issues swiftly, keeping your systems
-running smoothly and your team productive.
+                      24/7 expert assistance and troubleshooting to resolve IT
+                      issues swiftly, keeping your systems running smoothly and
+                      your team productive.
                     </p>
                   </div>
                 </li>
@@ -390,8 +397,9 @@ running smoothly and your team productive.
                   <div className="content">
                     <h5>Managed IT Services</h5>
                     <p>
-                    Comprehensive management and maintenance of your IT infrastructure, allowing you to
-focus on core business activities while we handle the rest.
+                      Comprehensive management and maintenance of your IT
+                      infrastructure, allowing you to focus on core business
+                      activities while we handle the rest.
                     </p>
                   </div>
                 </li>
@@ -423,8 +431,9 @@ focus on core business activities while we handle the rest.
                   <div className="content">
                     <h5>IT Consulting</h5>
                     <p>
-                    Strategic guidance and expert advice to align your IT investments with your business goals,
-maximizing efficiency and driving growth.
+                      Strategic guidance and expert advice to align your IT
+                      investments with your business goals, maximizing
+                      efficiency and driving growth.
                     </p>
                   </div>
                 </li>
@@ -450,8 +459,9 @@ maximizing efficiency and driving growth.
                   <div className="content">
                     <h5>Network Support</h5>
                     <p>
-                    Proactive monitoring and support to keep your network secure and efficient, minimizing
-downtime and ensuring seamless connectivity for your operations.
+                      Proactive monitoring and support to keep your network
+                      secure and efficient, minimizing downtime and ensuring
+                      seamless connectivity for your operations.
                     </p>
                   </div>
                 </li>

@@ -275,7 +275,7 @@ const Footer = () => {
           <div className="footer-bottom">
             <div className="copyright-area">
               <p>
-                © 2024 <a href="#"> Sepnoty Technologies Pvt Ltd.</a> All rights
+                © 2024 <a href=""> Sepnoty Technologies Pvt Ltd.</a> All rights
                 reserved.{" "}
                 {/* <a href="https://www.egenslab.com/">Egens Lab</a> */}
               </p>
@@ -283,13 +283,13 @@ const Footer = () => {
             <div className="footer-bottom-right">
               <ul>
                 <li>
-                  <a href="#">Support Policy</a>
+                  <a href="">Support Policy</a>
                 </li>
                 <li>
-                  <a href="#">Terms &amp; Conditions</a>
+                  <a href="">Terms &amp; Conditions</a>
                 </li>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <a href="">Privacy Policy</a>
                 </li>
               </ul>
             </div>
