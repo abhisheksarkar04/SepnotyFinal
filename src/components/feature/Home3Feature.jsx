@@ -39,7 +39,7 @@ const Home3Feature = () => {
                         <circle cx={5} cy={5} r={5} />
                       </g>
                     </svg>
-                    Why Choose This
+                    Why Sepnoty?
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={10}
@@ -53,10 +53,10 @@ const Home3Feature = () => {
                   </span>
                   <h2>Innovate with Confidence</h2>
                   <p>
-                    Welcome to Zenfy, where digital innovation meets strategic
-                    excellence. As a dynamic force in the realm of digital
-                    marketing, we are dedicated to propelling businesses into
-                    the spotlight of online success.
+                  With Sepnoty, innovation is synonymous with
+confidence. Explore how our platform empowers you to innovate boldly
+and drive success.
+
                   </p>
                 </div>
                 <div className="feature-list-wrap">
@@ -70,9 +70,9 @@ const Home3Feature = () => {
                         <div className="content">
                           <h6>List &amp; Board View</h6>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci onion of the most important to this work.
+                          Sepnoty offers the flexibility of both list and board
+views, ensuring you can organize tasks and projects your way. Discover the
+freedom to plan and execute with ease.
                           </p>
                         </div>
                       </div>
@@ -87,9 +87,9 @@ const Home3Feature = () => {
                         <div className="content">
                           <h6>Multiple Teams</h6>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci onion of the most important to this work.
+                          At Sepnoty, collaboration knows no bounds. Seamlessly
+manage multiple teams within our platform, fostering synergy and
+efficiency across your organization.
                           </p>
                         </div>
                       </div>
@@ -104,9 +104,9 @@ const Home3Feature = () => {
                         <div className="content">
                           <h6>No Page Load</h6>
                           <p>
-                            Sed accumsan sem cursus luctus porta. amem Phasellu
-                            du enim, efficitur quis velit ac, fringilla posuere
-                            leo fusci onion of the most important to this work.
+                          Experience uninterrupted productivity with Sepnoty's
+seamless interface. Say goodbye to delays and distractions—focus on what
+matters most, without missing a beat.
                           </p>
                         </div>
                       </div>

@@ -35,12 +35,12 @@ const Home3Tools = () => {
                     </g>
                   </svg>
                 </span>
-                <h2>Integrate your favorite tools</h2>
+                <h2>Seamless Tool Integration
+</h2>
                 <p>
-                  Welcome to Zenfy, where digital innovation meets strategic
-                  excellence. As a dynamic force in the realm of digital
-                  marketing, we are dedicated to propelling businesses into the
-                  spotlight of online success.
+                Discover how Sepnoty seamlessly integrates with your favorite tools, streamlining your
+workflow and maximizing productivity.
+
                 </p>
               </div>
             </div>
@@ -58,8 +58,8 @@ const Home3Tools = () => {
                 <div className="content">
                   <h6>Slack</h6>
                   <p>
-                    On the other hand denounce with right eou info and dislike
-                    beguled.
+                  Effortlessly communicate and collaborate with your team using Sepnoty's Slack
+integration.
                   </p>
                 </div>
               </div>
@@ -76,8 +76,7 @@ const Home3Tools = () => {
                 <div className="content">
                   <h6>Drive</h6>
                   <p>
-                    On the other hand denounce with right eou info and dislike
-                    beguled.
+                  Access and manage your files seamlessly by integrating Sepnoty with Google Drive.
                   </p>
                 </div>
               </div>
@@ -94,8 +93,8 @@ const Home3Tools = () => {
                 <div className="content">
                   <h6>Dropbox</h6>
                   <p>
-                    On the other hand denounce with right eou info and dislike
-                    beguled.
+                  Keep your documents organized and accessible with Sepnoty's Dropbox
+integration.
                   </p>
                 </div>
               </div>
@@ -112,8 +111,7 @@ const Home3Tools = () => {
                 <div className="content">
                   <h6>Notion</h6>
                   <p>
-                    On the other hand denounce with right eou info and dislike
-                    beguled.
+                  Enhance project planning and organization with Sepnoty's integration with Notion.
                   </p>
                 </div>
               </div>
@@ -130,8 +128,8 @@ const Home3Tools = () => {
                 <div className="content">
                   <h6>Mailchimp</h6>
                   <p>
-                    On the other hand denounce with right eou info and dislike
-                    beguled.
+                  Efficiently manage your email campaigns and subscriber lists by integrating
+Sepnoty with Mailchimp.
                   </p>
                 </div>
               </div>
@@ -148,8 +146,8 @@ const Home3Tools = () => {
                 <div className="content">
                   <h6>Discord</h6>
                   <p>
-                    On the other hand denounce with right eou info and dislike
-                    beguled.
+                  Stay connected with your community and streamline communication with
+Sepnoty's Discord integration.
                   </p>
                 </div>
               </div>
