@@ -20,7 +20,7 @@ const BlogDetails6 = () => {
                   <span>Creative</span>
                 </div>
                 <img
-                  src="/assets/img/innerpage/blog-details-thumb-img.jpg"
+                  src="\assets\img\home4\blog read more\Designing for Success The Role of UIUX in Enhancing User Experience.jpg"
                   alt=""
                 />
               </div>
@@ -34,7 +34,7 @@ const BlogDetails6 = () => {
                   </div>
                   <div className="author-content">
                     <h6>
-                      By, <Link href="/blog">Cooper Jogan</Link>
+                      By, <Link href="/blog">Mani Kumar</Link>
                     </h6>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ function.
                 <div className="row mb-50">
                   <div className="col-lg-12">
                     <img
-                      src="/assets/img/innerpage/blog-details-img1.jpg"
+                      src="\assets\img\home4\blog read more\image 80.jpg"
                       alt=""
                     />
                   </div>
@@ -151,13 +151,13 @@ meets user needs, is easy to use, and provides a positive user experience.
                   <div className="row g-4 mb-50">
                     <div className="col-md-6 ">
                       <img
-                        src="/assets/img/innerpage/blog-details-img2.jpg"
+                        src="\assets\img\home4\blog read more\The Importance of User-Centered Design.jpg"
                         alt=""
                       />
                     </div>
                     <div className="col-md-6">
                       <img
-                        src="/assets/img/innerpage/blog-details-img3.jpg"
+                        src="\assets\img\home4\blog read more\The Importance of User-Centered Design2.jpg"
                         alt=""
                       />
                     </div>
@@ -387,7 +387,7 @@ areas for improvement and refine the design iteratively.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-01.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>
@@ -420,7 +420,7 @@ areas for improvement and refine the design iteratively.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-02.jpg"
+                              src="\assets\img\home4\reviews\Jacoline juie.jpg"
                               alt=""
                             />
                           </div>
@@ -453,7 +453,7 @@ areas for improvement and refine the design iteratively.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-03.jpg"
+                              src="\assets\img\home4\reviews\Robert smith.jpg"
                               alt=""
                             />
                           </div>
@@ -488,7 +488,7 @@ areas for improvement and refine the design iteratively.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-04.jpg"
+                          src="\assets\img\home4\reviews\srileka panday.jpg"
                           alt=""
                         />
                       </div>
@@ -521,7 +521,7 @@ areas for improvement and refine the design iteratively.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-05.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>

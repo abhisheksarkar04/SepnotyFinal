@@ -20,7 +20,7 @@ const BlogDetails7 = () => {
                   <span>Creative</span>
                 </div>
                 <img
-                  src="/assets/img/innerpage/blog-details-thumb-img.jpg"
+                  src="\assets\img\home4\blog read more\Cloud Computing Revolutionizing Business Operations with Sepnoty's Cloud Services.jpg"
                   alt=""
                 />
               </div>
@@ -123,7 +123,7 @@ management e ort or service provider interaction.
                 <div className="row mb-50">
                   <div className="col-lg-12">
                     <img
-                      src="/assets/img/innerpage/blog-details-img1.jpg"
+                      src="\assets\img\home4\blog read more\Understanding Cloud Computing.jpg"
                       alt=""
                     />
                   </div>
@@ -160,13 +160,13 @@ to innovate and stay ahead of the competition.
                   <div className="row g-4 mb-50">
                     <div className="col-md-6 ">
                       <img
-                        src="/assets/img/innerpage/blog-details-img2.jpg"
+                        src="\assets\img\home4\blog read more\Benefits of Sepnoty's Cloud Services2.jpg"
                         alt=""
                       />
                     </div>
                     <div className="col-md-6">
                       <img
-                        src="/assets/img/innerpage/blog-details-img3.jpg"
+                        src="\assets\img\home4\blog read more\Benefits of Sepnoty's Cloud Services.jpg"
                         alt=""
                       />
                     </div>
@@ -401,7 +401,7 @@ cloud solutions that align with businesses' corporate social responsibility init
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-01.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>
@@ -434,7 +434,7 @@ cloud solutions that align with businesses' corporate social responsibility init
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-02.jpg"
+                              src="\assets\img\home4\reviews\Jacoline juie.jpg"
                               alt=""
                             />
                           </div>
@@ -467,7 +467,7 @@ cloud solutions that align with businesses' corporate social responsibility init
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-03.jpg"
+                              src="\assets\img\home4\reviews\Robert smith.jpg"
                               alt=""
                             />
                           </div>
@@ -502,7 +502,7 @@ cloud solutions that align with businesses' corporate social responsibility init
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-04.jpg"
+                          src="\assets\img\home4\reviews\srileka panday.jpg"
                           alt=""
                         />
                       </div>
@@ -535,7 +535,7 @@ cloud solutions that align with businesses' corporate social responsibility init
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-05.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>

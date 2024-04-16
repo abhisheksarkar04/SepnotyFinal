@@ -22,7 +22,7 @@ const BlogStandardPage = () => {
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/ArtificialIntelligence" className="card-img">
-                    <img src="/assets/img/home4/blog/artificial inteligence.png" alt="" />
+                    <img src="\assets\img\home4\blog cards\artificial inteligence.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -82,7 +82,7 @@ business operations and drive innovation in today's digital landscape.
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/NavigatingtheDigital" className="card-img">
-                    <img src="/assets/img/home4/blog/startup sratergies.png" alt="" />
+                    <img src="/assets/img/home4/blog cards/startup sratergies.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -141,7 +141,7 @@ entrepreneurs to navigate the complexities of the digital landscape and achieve 
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/DataAnalytics" className="card-img">
-                    <img src="/assets/img/home4/blog/data analytics.png" alt="" />
+                    <img src="/assets/img/home4/blog cards/data analytics.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -201,7 +201,7 @@ transformative potential of data analytics and its impact on business decision-m
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/Ecommerce" className="card-img">
-                    <img src="/assets/img/home4/blog/e commerce.png" alt="" />
+                    <img src="/assets/img/home4/blog cards/e commerce.png" alt="" />
                   </Link>
                  <Link href="/blog" className="date">
                     <span>
@@ -262,7 +262,7 @@ the digital marketplace.
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/Cybersecurity" className="card-img">
-                    <img src="/assets/img/home4/blog/cyber security.png" alt="" />
+                    <img src="/assets/img/home4/blog cards/cyber security.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -632,7 +632,7 @@ resonates with their target audience.
                           </svg>
                           Digital Marketing
                         </span>
-                        <span>(20)</span>
+                       {/*  <span>(20)</span> */}
                       </Link>
                     </li>
                     <li>
@@ -652,7 +652,7 @@ resonates with their target audience.
                           </svg>
                           Creative Agency
                         </span>
-                        <span>(15)</span>
+                       {/*  <span>(15)</span> */}
                       </Link>
                     </li>
                     <li>
@@ -672,7 +672,7 @@ resonates with their target audience.
                           </svg>
                           Web Design
                         </span>
-                        <span>(25)</span>
+                        {/* <span>(25)</span> */}
                       </Link>
                     </li>
                     <li>
@@ -692,7 +692,7 @@ resonates with their target audience.
                           </svg>
                           Web Development
                         </span>
-                        <span>(30)</span>
+                        {/* <span>(30)</span> */}
                       </Link>
                     </li>
                     <li>
@@ -712,7 +712,7 @@ resonates with their target audience.
                           </svg>
                           Content Marketing
                         </span>
-                        <span>(32)</span>
+                        {/* <span>(32)</span> */}
                       </Link>
                     </li>
                     <li>
@@ -732,7 +732,7 @@ resonates with their target audience.
                           </svg>
                           App Development
                         </span>
-                        <span>(35)</span>
+                        {/* <span>()</span> */}
                       </Link>
                     </li>
                     <li>
@@ -752,7 +752,7 @@ resonates with their target audience.
                           </svg>
                           UI/UX Design
                         </span>
-                        <span>(38)</span>
+                        {/* <span>()</span> */}
                       </Link>
                     </li>
                   </ul>
@@ -767,7 +767,7 @@ resonates with their target audience.
                     <div className="recent-post-img">
                       <Link href="/blog/ArtificialIntelligence">
                         <img
-                          src="/assets/img/innerpage/popular-post-img1.png"
+                          src="/assets/img/home4/blog/artificial inteligence.png"
                           alt=""
                         />
                       </Link>
@@ -785,7 +785,7 @@ resonates with their target audience.
                     <div className="recent-post-img">
                       <Link href="/blog/NavigatingtheDigital">
                         <img
-                          src="/assets/img/innerpage/popular-post-img2.png"
+                          src="/assets/img/home4/blog/startup sratergies.png"
                           alt=""
                         />
                       </Link>
@@ -803,7 +803,7 @@ resonates with their target audience.
                     <div className="recent-post-img">
                       <Link href="/blog/DataAnalytics">
                         <img
-                          src="/assets/img/innerpage/popular-post-img3.png"
+                          src="/assets/img/home4/blog/data analytics.png"
                           alt=""
                         />
                       </Link>
