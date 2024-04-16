@@ -17,50 +17,40 @@ const Footer = () => {
                     <ul className="widget-list">
                       <li>
                         <Link href="/service/web-app">
-                        Web &amp; App Development
+                          Web &amp; App Development
                         </Link>
                       </li>
                       <li>
                         <Link href="/service/consulting">
-                        Consulting Services
+                          Consulting Services
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/cyber">
-                          Cyber Security
-                        </Link>
+                        <Link href="/service/cyber">Cyber Security</Link>
                       </li>
                       <li>
                         <Link href="/service/e-commerce">
-                        E-commerce Solutions
+                          E-commerce Solutions
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/data">
-                        Data Analytics
-                        </Link>
+                        <Link href="/service/data">Data Analytics</Link>
                       </li>
                     </ul>
                     <ul className="widget-list">
                       <li>
-                        <Link href="/service/cloud">
-                          Cloud Services
-                        </Link>
+                        <Link href="/service/cloud">Cloud Services</Link>
                       </li>
                       <li>
                         <Link href="/service/software">
-                        Software Development
+                          Software Development
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/ui-ux">
-                        UI/UX Design
-                        </Link>
+                        <Link href="/service/ui-ux">UI/UX Design</Link>
                       </li>
                       <li>
-                        <Link href="/service/graphic">
-                        Graphic Design
-                        </Link>
+                        <Link href="/service/graphic">Graphic Design</Link>
                       </li>
                     </ul>
                   </div>
@@ -82,12 +72,12 @@ const Footer = () => {
                   </div>
                   <div className="logo">
                     <img
-                      src="/assets/img/footer-logo.svg"
+                      src="/assets/img/Sepnoty-Logo-footer-Black.png"
                       alt=""
                       className="light"
                     />
                     <img
-                      src="/assets/img/footer-logo-dark.svg"
+                      src="/assets/img/Sepnoty-Logo-footer-White.png"
                       alt=""
                       className="dark"
                     />
@@ -227,7 +217,7 @@ const Footer = () => {
               <div className="content">
                 <span>Call Any Time</span>
                 <h6>
-                  <a href="tel:2-965-871-8617">2-965-871-8617</a>
+                  <a href="tel:+91 76608 90630">+91 76608 90630</a>
                 </h6>
               </div>
             </div>
@@ -249,7 +239,10 @@ const Footer = () => {
                 <span>Address</span>
                 <h6>
                   <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">
-                    Dhaka, Bangladesh
+                    Near Meeseva,Machavaram,
+                    <br />
+                    Kandukuru Mandal, Prakasham district,
+                    <br /> Andhrapradesh-523105.
                   </a>
                 </h6>
               </div>
@@ -274,7 +267,7 @@ const Footer = () => {
               <div className="content">
                 <span>Say Hello</span>
                 <h6>
-                  <a href="mailto:info@example.com">info@example.com</a>
+                  <a href="mailto:contact@sepnoty.com">contact@sepnoty.com</a>
                 </h6>
               </div>
             </div>

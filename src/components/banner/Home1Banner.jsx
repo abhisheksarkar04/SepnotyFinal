@@ -83,7 +83,7 @@ const Home1Banner = () => {
                 </p>
                 <div className="banner-content-bottom">
                   <Link
-                    href="/contact"
+                    href="https://wa.me/qr/LLMG656E5PVXI1"
                     className="primary-btn1"
                     data-text="Free Consultation"
                   >
@@ -132,13 +132,22 @@ const Home1Banner = () => {
                 <Swiper {...settings} className="swiper banner-img-slider">
                   <div className="swiper-wrapper">
                     <SwiperSlide className="swiper-slide">
-                      <img src="assets/img/home1/banner-img1.jpg" alt="" />
+                      <img
+                        src="assets/img/home1/Turning Visions into Reality.jpg"
+                        alt=""
+                      />
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
-                      <img src="assets/img/home1/banner-img2.jpg" alt="" />
+                      <img
+                        src="assets/img/home1/Turning Visions into Reality-2.jpg"
+                        alt=""
+                      />
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
-                      <img src="assets/img/home1/banner-img3.jpg" alt="" />
+                      <img
+                        src="assets/img/home1/Turning Visions into Reality-3.jpg"
+                        alt=""
+                      />
                     </SwiperSlide>
                   </div>
                 </Swiper>

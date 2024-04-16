@@ -1,7 +1,0 @@
-{
-  "/blog/page": "app/blog/page.js",
-  "/portfolio/portfolio-masonary/page": "app/portfolio/portfolio-masonary/page.js",
-  "/portfolio/page": "app/portfolio/page.js",
-  "/service/page": "app/service/page.js",
-  "/page": "app/page.js"
-}

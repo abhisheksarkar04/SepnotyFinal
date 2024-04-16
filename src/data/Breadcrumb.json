@@ -1,37 +1,9 @@
 [
     {
         "id": "1",
-        "slug": "/service",
+        "slug": "/service3",
         "name": "SOLUTIONS",
         "pageTitle": "Services & Solutions.",
-        "section_down_scroll": "#service-section"
-    },
-    {
-        "id": "2",
-        "name": "SOLUTIONS",
-        "slug": "/service/service2",
-        "pageTitle": "Services & Solutions.",
-        "section_down_scroll": "#service-section"
-    },
-    {
-        "id": "3",
-        "name": "SOLUTIONS",
-        "slug": "/service/service3",
-        "pageTitle": "Services & Solutions.",
-        "section_down_scroll": "#service-section"
-    },
-    {
-        "id": "4",
-        "name": "SOLUTIONS",
-        "slug": "/service/service4",
-        "pageTitle": "Services & Solutions.",
-        "section_down_scroll": "#service-section"
-    },
-    {
-        "id": "5",
-        "name": "SERVICE DETAILS",
-        "slug": "/service/service-details",
-        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas.",
         "section_down_scroll": "#service-section"
     },
     {
@@ -114,45 +86,12 @@
     {
         "id": "9",
         "name": "BLOG",
-        "slug": "/blog",
+        "slug": "/blogs",
         "pageTitle": "Latest News Blog & Article.",
         "section_down_scroll": "#blog-grid"
     },
-    {
-        "id": "9",
-        "name": "BLOG",
-        "slug": "/blog/blog-grid-sidebar",
-        "pageTitle": "Latest News Blog & Article.",
-        "section_down_scroll": "#blog-grid"
-    },
-    {
-        "id": "10",
-        "name": "BLOG",
-        "slug": "/blog/blog-list",
-        "pageTitle": "Latest News Blog & Article.",
-        "section_down_scroll": "#blog-grid"
-    },
-    {
-        "id": "11",
-        "name": "BLOG",
-        "slug": "/blog/blog-standard",
-        "pageTitle": "Latest News Blog & Article.",
-        "section_down_scroll": "#blog-grid"
-    },
-    {
-        "id": "12",
-        "name": "BLOG DETAILS",
-        "slug": "/blog/blog-details",
-        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
-        "section_down_scroll": "#blog-details"
-    },
-    {
-        "id": "11",
-        "name": "BLOG DETAILS",
-        "slug": "/blog/blog-details2",
-        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
-        "section_down_scroll": "#blog-details"
-    },
+    
+    
     {
         "id": "11",
         "name": "BLOG DETAILS",
@@ -220,7 +159,7 @@
         "id": "12",
         "name": "ABOUT US",
         "slug": "/about",
-        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas.",
+        "pageTitle": "Empowering Your Vision, Unleashing Innovation",
         "section_down_scroll": "#about-section"
     },
     {
@@ -233,31 +172,11 @@
     {
         "id": "14",
         "name": "portfolio",
-        "slug": "/portfolio",
+        "slug": "/portfolios",
         "pageTitle": "Showcase Our Portfolio.",
         "section_down_scroll": "#portfolio-grid"
     },
-    {
-        "id": "15",
-        "name": "portfolio",
-        "slug": "/portfolio/portfolio-masonary",
-        "pageTitle": "Showcase Our Portfolio.",
-        "section_down_scroll": "#portfolio-grid"
-    },
-    {
-        "id": "16",
-        "name": "portfolio",
-        "slug": "/portfolio/portfolio-info-flow",
-        "pageTitle": "Showcase Our Portfolio.",
-        "section_down_scroll": "#portfolio-grid"
-    },
-    {
-        "id": "17",
-        "name": "portfolio",
-        "slug": "/portfolio/portfolio-list",
-        "pageTitle": "Showcase Our Portfolio.",
-        "section_down_scroll": "#portfolio-grid"
-    },
+    
     {
         "id": "17",
         "name": "portfolio",
@@ -368,7 +287,7 @@
         "id": "27",
         "name": "CONTACT US",
         "slug": "/contact",
-        "pageTitle": "Let’s Connecting With Zenfy.",
+        "pageTitle": "Let’s Connecting With Sepnoty.",
         "section_down_scroll": "#shop"
     },
     {

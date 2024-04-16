@@ -48,8 +48,14 @@ const Home1Blog = () => {
             >
               <div className="blog-card">
                 <div className="blog-card-img-wrap">
-                  <Link href="/blog/ArtificialIntelligence" className="card-img">
-                    <img src="assets/img/home1/blog-img1.jpg" alt="" />
+                  <Link
+                    href="/blog/ArtificialIntelligence"
+                    className="card-img"
+                  >
+                    <img
+                      src="assets/img/home1/Impact of AI on Business.jpg"
+                      alt=""
+                    />
                   </Link>
                   <Link href="/blog" className="date">
                     <svg
@@ -83,7 +89,10 @@ const Home1Blog = () => {
                       Artificial Intelligence"
                     </Link>
                   </h4>
-                  <Link href="/blog/ArtificialIntelligence" className="read-more-btn">
+                  <Link
+                    href="/blog/ArtificialIntelligence"
+                    className="read-more-btn"
+                  >
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +118,10 @@ const Home1Blog = () => {
               <div className="blog-card">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/NavigatingtheDigital" className="card-img">
-                    <img src="assets/img/home1/blog-img2.jpg" alt="" />
+                    <img
+                      src="assets/img/home1/Navigating the Digital Landscape Strategies for Startup success.jpg"
+                      alt=""
+                    />
                   </Link>
                   <Link href="/blog" className="date">
                     <svg
@@ -143,7 +155,10 @@ const Home1Blog = () => {
                       Success"
                     </Link>
                   </h4>
-                  <Link href="/blog/NavigatingtheDigital" className="read-more-btn">
+                  <Link
+                    href="/blog/NavigatingtheDigital"
+                    className="read-more-btn"
+                  >
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +184,10 @@ const Home1Blog = () => {
               <div className="blog-card">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/DataAnalytics" className="card-img">
-                    <img src="assets/img/home1/blog-img3.jpg" alt="" />
+                    <img
+                      src="assets/img/home1/Unlocking the power of Data Analytics.jpg"
+                      alt=""
+                    />
                   </Link>
                   <Link href="/blog" className="date">
                     <svg
@@ -224,9 +242,7 @@ const Home1Blog = () => {
                 className="col-lg-4 col-md-6 wow animate fadeInUp"
                 data-wow-delay="300ms"
                 data-wow-duration="1000ms"
-              >
-                
-              </div>
+              ></div>
             </div>
           </div>
         </div>
