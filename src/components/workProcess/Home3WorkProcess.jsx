@@ -21,8 +21,9 @@ const Home3WorkProcess = () => {
               </g>
             </svg>
           </span>
-          <h2>Propel Your Productivity</h2>
-          <p>Welcome to Zenfy, where digital innovation meets strategic excellence. As a dynamic force in the realm of digital marketing, we are dedicated to propelling businesses into the spotlight of online success.</p>
+          <h2>Elevate Your Efficiency</h2>
+          <p>Discover how Sepnoty can unlock the key to enhanced productivity with our transformative
+solutions.</p>
         </div>
       </div>
     </div>
@@ -48,7 +49,9 @@ const Home3WorkProcess = () => {
           </div>
           <div className="content">
             <h4>Progress Tracking</h4>
-            <p>Welcome to Zenfy, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
+            <p> Keep tabs on project milestones and developments effortlessly.
+</p>
+<br />
           </div>
         </div>
       </div>
@@ -80,7 +83,7 @@ const Home3WorkProcess = () => {
           </div>
           <div className="content">
             <h4>Recurring Tasks</h4>
-            <p>Welcome to Zenfy, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
+            <p>Streamline your workflow by automating repetitive tasks with ease.</p>
           </div>
         </div>
       </div>
@@ -100,7 +103,7 @@ const Home3WorkProcess = () => {
           </div>
           <div className="content">
             <h4>User Permissions</h4>
-            <p>Welcome to Zenfy, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
+            <p>Ensure data security and access control with customizable user permissions.</p>
           </div>
         </div>
       </div>
@@ -118,7 +121,7 @@ const Home3WorkProcess = () => {
           </div>
           <div className="content">
             <h4>Customization</h4>
-            <p>Welcome to Zenfy, where’r digital agi innovation meets strategic expensivt as a dynamic force in the.</p>
+            <p>Tailor your Sepnoty experience to suit your unique needs and preferences.</p>
           </div>
         </div>
       </div>

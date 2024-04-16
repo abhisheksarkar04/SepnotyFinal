@@ -22,7 +22,9 @@
     {
         "id": "4",
         "label": "Blog",
-        "link": "/blog/blog-standard",
+
+        "link": "/blogs",
+
         "icon": false
         
     },
