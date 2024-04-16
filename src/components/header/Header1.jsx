@@ -453,7 +453,7 @@ const Header1 = () => {
                     </ul> */}
                   </li>
                   <li>
-                    <Link href="/blog">Blog</Link>
+                    <Link href="/blog/blog-standard">Blog</Link>
                     {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "blog" ? "active" : ""
@@ -926,11 +926,11 @@ const Header1 = () => {
                         <i className="bi bi-instagram" /> Instagram
                       </a>
                     </li>
-                    {/* <li>
-                      <a href="#">
-                        <i className="bi bi-facebook" /> Facebook
+                    <li>
+                      <a href="https://wa.me/qr/LLMG656E5PVXI1">
+                        <i className="bi bi-Whatsapp" /> Whatsapp
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -949,7 +949,7 @@ const Header1 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo.svg"
+                src="assets/img/sepnoty-logo-light.png"
               />
             </Link>
             <Link href="/" className="logo-light">

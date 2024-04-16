@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "slug": "/service",
+        "slug": "/service3",
         "name": "SOLUTIONS",
         "pageTitle": "Services & Solutions.",
         "section_down_scroll": "#service-section"
@@ -172,7 +172,7 @@
     {
         "id": "14",
         "name": "portfolio",
-        "slug": "/portfolio",
+        "slug": "/portfolios",
         "pageTitle": "Showcase Our Portfolio.",
         "section_down_scroll": "#portfolio-grid"
     },

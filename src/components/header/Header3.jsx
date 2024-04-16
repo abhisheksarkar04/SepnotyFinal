@@ -927,11 +927,11 @@ const Header1 = () => {
                         <i className="bi bi-instagram" /> Instagram
                       </a>
                     </li>
-                    {/* <li>
-                      <a href="#">
-                        <i className="bi bi-facebook" /> Facebook
+                    <li>
+                      <a href="https://wa.me/qr/LLMG656E5PVXI1">
+                        <i className="bi bi-Whatsapp" /> Whatsapp
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
                 </div>
               </div>

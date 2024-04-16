@@ -8,7 +8,7 @@
     {
         "id": "2",
         "label": "Services",
-        "link": "/service",
+        "link": "/service3",
         "icon": false
         
     },
@@ -22,7 +22,9 @@
     {
         "id": "4",
         "label": "Blog",
+
         "link": "/blogs",
+
         "icon": false
         
     },
@@ -41,7 +43,7 @@
             {
                 "id": "3",
                 "label": "Portfolio",
-                "link": "/portfolio",
+                "link": "/portfolios",
                 "icon": false
                 
             },

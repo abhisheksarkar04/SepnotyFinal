@@ -109,7 +109,7 @@ const Home1Portfolio = () => {
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-01.jpg"
+                          src="assets/img/home1/E Commerce Solutions Portfolio.jpg"
                           alt=""
                         />
                       </div>
@@ -124,7 +124,7 @@ const Home1Portfolio = () => {
                           <Link href="/portfolio">Marketing</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                            E-commerce Solutions Portfolio
+                              E-commerce Solutions Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -135,7 +135,7 @@ const Home1Portfolio = () => {
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-02.jpg"
+                          src="assets/img/home1/Web and App Development Portfolio.jpg"
                           alt=""
                         />
                       </div>
@@ -150,7 +150,7 @@ const Home1Portfolio = () => {
                           <Link href="/portfolio">Technology</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                            Web & App Development Portfolio
+                              Web & App Development Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -161,7 +161,7 @@ const Home1Portfolio = () => {
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-03.jpg"
+                          src="assets/img/home1/Digital Marketing Portfolio.jpg"
                           alt=""
                         />
                       </div>
@@ -176,7 +176,7 @@ const Home1Portfolio = () => {
                           <Link href="/portfolio">Marketing</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                            Digital Marketing Portfolio
+                              Digital Marketing Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -187,7 +187,7 @@ const Home1Portfolio = () => {
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-04.jpg"
+                          src="assets/img/home1/Cyber Security Solutions Portfolio.jpg"
                           alt=""
                         />
                       </div>
@@ -202,7 +202,7 @@ const Home1Portfolio = () => {
                           <Link href="/portfolio">Technology </Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                            Cybersecurity Solutions Portfolio
+                              Cybersecurity Solutions Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -212,10 +212,7 @@ const Home1Portfolio = () => {
                   <SwiperSlide className="swiper-slide">
                     <div className="eg-card">
                       <div className="card-img">
-                        <img
-                          src="assets/img/home1/portfolio-img-05.jpg"
-                          alt=""
-                        />
+                        <img src="assets/img/home1/UIUX Portfolio.jpg" alt="" />
                       </div>
                       <div className="card-content">
                         <Link
@@ -228,7 +225,7 @@ const Home1Portfolio = () => {
                           <Link href="/portfolio">Design</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                            UI/UX Design Portfolio
+                              UI/UX Design Portfolio
                             </Link>
                           </h5>
                         </div>
@@ -239,7 +236,7 @@ const Home1Portfolio = () => {
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-06.jpg"
+                          src="assets/img/home1/Data Analytics Portfolio.jpg"
                           alt=""
                         />
                       </div>
@@ -254,7 +251,7 @@ const Home1Portfolio = () => {
                           <Link href="/portfolio">Business and Marketing</Link>
                           <h5>
                             <Link href="/portfolio/portfolio-details">
-                            Data Analytics Portfolio
+                              Data Analytics Portfolio
                             </Link>
                           </h5>
                         </div>

@@ -163,7 +163,7 @@ const BannerWithCaseStudySlider = () => {
                     <div className="case-study-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/case-study-img1.jpg"
+                          src="assets/img/home1/Navigating Growth- A Startup Agency Success Story.jpg"
                           alt=""
                         />
                       </div>
@@ -179,7 +179,6 @@ const BannerWithCaseStudySlider = () => {
                           share the success story of a startup agency navigating
                           the challenges of scaling and achieving success in a
                           competitive landscape.
-                          
                         </p>
                         <Link
                           href="/case-study/NavigatingGrowth"
@@ -203,7 +202,7 @@ const BannerWithCaseStudySlider = () => {
                     <div className="case-study-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/case-study-img2.jpg"
+                          src="assets/img/home1/Digital Transformation- Long Journey to Industry.jpg"
                           alt=""
                         />
                       </div>
@@ -242,7 +241,7 @@ const BannerWithCaseStudySlider = () => {
                     <div className="case-study-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/case-study-img3.jpg"
+                          src="assets/img/home1/Overcoming Expansion- An Initial Agency's Triumph.jpg"
                           alt=""
                         />
                       </div>
@@ -257,7 +256,6 @@ const BannerWithCaseStudySlider = () => {
                           Explore the inspiring tale of an initial agency
                           overcoming the hurdles of expansion, demonstrating
                           resilience, and achieving success in new markets.
-                          
                         </p>
                         <Link
                           href="/case-study/OvercomingExpansion"
@@ -281,7 +279,7 @@ const BannerWithCaseStudySlider = () => {
                     <div className="case-study-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/case-study-img4.jpg"
+                          src="assets/img/home1/Business Consulting to increase market analytics.jpg"
                           alt=""
                         />
                       </div>
@@ -320,7 +318,7 @@ const BannerWithCaseStudySlider = () => {
                     <div className="case-study-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/case-study-img5.jpg"
+                          src="assets/img/home1/Small Business Triumph - Overcoming Challenges.jpg"
                           alt=""
                         />
                       </div>
@@ -336,7 +334,6 @@ const BannerWithCaseStudySlider = () => {
                           businesses as they overcome challenges, navigate
                           obstacles, and emerge triumphant in today's dynamic
                           market landscape.
-                         
                         </p>
                         <Link
                           href="/case-study/SmallBusinessTriumph"
@@ -376,7 +373,6 @@ const BannerWithCaseStudySlider = () => {
                           impact as they scale operations across borders,
                           showcasing innovation, adaptability, and success on
                           the international stage
-                         
                         </p>
                         <Link
                           href="/case-study/GlobalImpact"

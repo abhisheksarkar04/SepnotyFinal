@@ -50,7 +50,10 @@ const Home1Approach = () => {
               >
                 <div className="single-approach">
                   <div className="img-area">
-                    <img src="assets/img/home1/approach-img1.png" alt="" />
+                    <img
+                      src="assets/img/home1/Discovery & Consultation.jpg"
+                      alt=""
+                    />
                   </div>
                   <div className="dot">
                     <span />
@@ -95,7 +98,10 @@ const Home1Approach = () => {
               >
                 <div className="single-approach">
                   <div className="img-area">
-                    <img src="assets/img/home1/approach-img2.png" alt="" />
+                    <img
+                      src="assets/img/home1/Planning & Strategy.jpg"
+                      alt=""
+                    />
                   </div>
                   <div className="dot">
                     <span />
@@ -141,7 +147,10 @@ const Home1Approach = () => {
               >
                 <div className="single-approach">
                   <div className="img-area">
-                    <img src="assets/img/home1/approach-img3.png" alt="" />
+                    <img
+                      src="assets/img/home1/Design & Development.jpg"
+                      alt=""
+                    />
                   </div>
                   <div className="dot">
                     <span />
@@ -187,7 +196,7 @@ const Home1Approach = () => {
               >
                 <div className="single-approach">
                   <div className="img-area">
-                    <img src="assets/img/home1/approach-img4.png" alt="" />
+                    <img src="assets/img/home1/Quality Assurance.jpg" alt="" />
                   </div>
                   <div className="dot">
                     <span />
