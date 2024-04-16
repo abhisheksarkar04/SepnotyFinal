@@ -956,7 +956,7 @@ const Header1 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo-light.svg"
+                src="assets/img/sepnoty-logo-light.png"
               />
             </Link>
           </div>
