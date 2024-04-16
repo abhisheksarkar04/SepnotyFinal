@@ -8,7 +8,7 @@
     {
         "id": "2",
         "label": "Services",
-        "link": "/service/service3",
+        "link": "/service",
         "icon": false
         
     },
@@ -22,7 +22,7 @@
     {
         "id": "4",
         "label": "Blog",
-        "link": "/blog/blogs",
+        "link": "/blog",
         "icon": false
         
     },
@@ -41,7 +41,7 @@
             {
                 "id": "3",
                 "label": "Portfolio",
-                "link": "/portfolio/portfolio-masonary",
+                "link": "/portfolio",
                 "icon": false
                 
             },

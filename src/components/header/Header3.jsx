@@ -96,7 +96,7 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/SepnotyDark.png"
+                  src="assets/img/logo.svg"
                 />
               </Link>
               <Link href="/" className="logo-light">
@@ -314,7 +314,7 @@ const Header1 = () => {
                     </ul> */}
                   </li>
                   <li>
-                    <Link href="/service3">Services</Link>
+                    <Link href="/service/service3">Services</Link>
                     {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "service" ? "active" : ""

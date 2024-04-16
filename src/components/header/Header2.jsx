@@ -96,7 +96,7 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/SepnotyDark.png"
+                  src="assets/img/logo.svg"
                 />
               </Link>
               <Link href="/" className="logo-light">
@@ -314,7 +314,7 @@ const Header1 = () => {
                     </ul> */}
                   </li>
                   <li>
-                    <Link href="/service3">Services</Link>
+                    <Link href="/service">Services</Link>
                     {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "service" ? "active" : ""
@@ -452,7 +452,7 @@ const Header1 = () => {
                     </ul> */}
                   </li>
                   <li>
-                    <Link href="/blogs">Blog</Link>
+                    <Link href="/blog">Blog</Link>
                     {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "blog" ? "active" : ""
@@ -575,9 +575,7 @@ const Header1 = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/portfolio/portfolio-masonary">
-                          Portfolio{" "}
-                        </Link>
+                        <Link href="/portfolio">Portfolio </Link>
                         {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "portfolio" ? "active" : ""

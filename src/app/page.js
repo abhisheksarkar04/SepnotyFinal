@@ -16,6 +16,7 @@ import Home1WorkProcess from "@/components/workProcess/Home1WorkProcess";
 export const metadata = {
   icons: {
     icon: "/assets/img/sepnoty.svg",
+    favicon: "/assets/img/sepnoty.svg",
   },
 };
 export default function Home() {

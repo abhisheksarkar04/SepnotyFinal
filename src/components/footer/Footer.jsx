@@ -72,12 +72,12 @@ const Footer = () => {
                   </div>
                   <div className="logo">
                     <img
-                      src="/assets/img/footer-logo.svg"
+                      src="/assets/img/Sepnoty-Logo-footer-Black.png"
                       alt=""
                       className="light"
                     />
                     <img
-                      src="/assets/img/footer-logo-dark.svg"
+                      src="/assets/img/Sepnoty-Logo-footer-White.png"
                       alt=""
                       className="dark"
                     />
@@ -267,7 +267,7 @@ const Footer = () => {
               <div className="content">
                 <span>Say Hello</span>
                 <h6>
-                  <a href="mailto:info@example.com">info@example.com</a>
+                  <a href="mailto:contact@sepnoty.com">contact@sepnoty.com</a>
                 </h6>
               </div>
             </div>
