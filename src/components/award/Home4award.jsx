@@ -134,7 +134,7 @@ const Home4award = () => {
                 >
                   <div className="content">
                     <span>2024</span>
-                    <h5>"Innovation Excellence Award</h5>
+                    <h5>Innovation Excellence Award</h5>
                     <p>January 2024</p>
                   </div>
                   <Link className="explore-btn" href="/about">
