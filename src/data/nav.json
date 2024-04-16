@@ -14,9 +14,9 @@
     },
     {
         "id": "3",
-        "label": "Case Study",
-        "link": "/case-study",
-        "icon": false
+                "label": "About",
+                "link": "/about"
+        
         
     },
     {
@@ -35,9 +35,10 @@
         "icon": true,
         "subMenu": [
             {
-                "id": "1",
-                "label": "About",
-                "link": "/about"
+                "id": "3",
+        "label": "Case Study",
+        "link": "/case-study"
+     
             },
             
             {
