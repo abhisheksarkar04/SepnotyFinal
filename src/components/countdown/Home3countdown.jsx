@@ -34,12 +34,11 @@ const Home3countdown = () => {
                 </g>
               </svg>
             </span>
-            <h2>Elevate our Experience</h2>
+            <h2>Enhance Our Expertise</h2>
             <p>
-              Welcome to Zenfy, where digital innovation meets strategic
-              excellence as a dynamic force in the realm of digital marketing,
-              we are dedicated tourat propelling businesses into the spotlight
-              of online success.
+            Sepnoty takes pride in continuously enhancing our expertise to better serve you. Explore how
+we're raising the bar for excellence in our industry.
+
             </p>
           </div>
           <div className="row g-lg-4 gy-5">
@@ -69,8 +68,8 @@ const Home3countdown = () => {
                     <span>M+</span>
                   </div>
                   <p>
-                    Users used our saas solution with any question we update
-                    evryday.
+                  Your go-to SaaS solution—always updated, no questions asked!
+
                   </p>
                 </div>
               </div>
@@ -103,8 +102,7 @@ const Home3countdown = () => {
                     <span>M+</span>
                   </div>
                   <p>
-                    Positive reviews we are always provid great solutions and
-                    application.
+                  Great solutions, great reviews—always striving for excellence!
                   </p>
                 </div>
               </div>
@@ -137,8 +135,7 @@ const Home3countdown = () => {
                     <span>%</span>
                   </div>
                   <p>
-                    Powerful customization, Of our saas based software we work
-                    this.
+                  Customize your experience with our powerful SaaS software!
                   </p>
                 </div>
               </div>
@@ -171,7 +168,7 @@ const Home3countdown = () => {
                     <span>M+</span>
                   </div>
                   <p>
-                    Registered attendees our software is a complete solutions.
+                  Complete solutions for registered attendees — join us!
                   </p>
                 </div>
               </div>
