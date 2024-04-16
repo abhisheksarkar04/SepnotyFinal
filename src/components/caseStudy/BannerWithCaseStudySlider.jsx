@@ -61,7 +61,7 @@ const BannerWithCaseStudySlider = () => {
         <div className="row g-0">
           <div className="col-xl-4 col-lg-5">
             <div className="banner-area">
-              <img src="assets/img/home1/case-study-banner-img.jpg" alt="" />
+              <img src="assets/img/home1/Field of Achievements.jpg" alt="" />
               <div className="banner-content">
                 <div
                   className="section-title white wow animate fadeInLeft"

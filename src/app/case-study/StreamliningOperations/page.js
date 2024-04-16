@@ -513,7 +513,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img1.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Navigating Growth A stratup agency sucess story.png"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Startup Company</p>
@@ -548,7 +551,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img2.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Digital Transformation Long Journey to Industry.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p> Digital Transformation</p>
@@ -584,7 +590,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img3.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/A case Study In E commerce optimization.jpgcd "
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Enhancing Customer Engagement</p>

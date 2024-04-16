@@ -508,7 +508,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img1.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Digital Transformation Long Journey to Industry.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p> Digital Transformation</p>
@@ -544,7 +547,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img2.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Overcoming Expansion An Initial Agency's Triumph.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Overcoming Expansion</p>
@@ -579,7 +585,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img3.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Business Consulting to Increse Market Analytics.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Business</p>
@@ -593,10 +602,7 @@ const CaseStudyDetails = () => {
                     enhance their marketing analytics, empowering them to make
                     data-driven decisions and achieve greater marketing success.
                   </p>
-                  <Link
-                    href="/case-study/Business"
-                    className="learn-more-btn"
-                  >
+                  <Link href="/case-study/Business" className="learn-more-btn">
                     Learn MORE
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
