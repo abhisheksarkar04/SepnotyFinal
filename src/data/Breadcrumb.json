@@ -86,7 +86,7 @@
     {
         "id": "9",
         "name": "BLOG",
-        "slug": "/blog",
+        "slug": "/blogs",
         "pageTitle": "Latest News Blog & Article.",
         "section_down_scroll": "#blog-grid"
     },

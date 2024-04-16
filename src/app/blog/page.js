@@ -22,7 +22,7 @@ const Blogpage = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/ArtificialIntelligence" className="card-img">
-                    <img src="assets/img/home3/blog-img1.jpg" alt="" />
+                    <img src="/assets/img/home4/blog/artificial inteligence.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -72,7 +72,7 @@ const Blogpage = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/NavigatingtheDigital" className="card-img">
-                    <img src="assets/img/home3/blog-img2.jpg" alt="" />
+                    <img src="/assets/img/home4/blog/startup sratergies.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -122,7 +122,7 @@ const Blogpage = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/DataAnalytics" className="card-img">
-                    <img src="assets/img/home3/blog-img3.jpg" alt="" />
+                    <img src="/assets/img/home4/blog/data analytics.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -172,7 +172,7 @@ const Blogpage = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/Ecommerce" className="card-img">
-                    <img src="assets/img/home1/blog-img1.jpg" alt="" />
+                    <img src="/assets/img/home4/blog/e commerce.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -222,7 +222,7 @@ const Blogpage = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/Cybersecurity" className="card-img">
-                    <img src="assets/img/home1/blog-img2.jpg" alt="" />
+                    <img src="/assets/img/home4/blog/cyber security.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -272,7 +272,7 @@ const Blogpage = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/UIUX" className="card-img">
-                    <img src="assets/img/home1/blog-img3.jpg" alt="" />
+                    <img src="/assets/img/home4/blog/uiux.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -322,7 +322,7 @@ const Blogpage = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/CloudComputing" className="card-img">
-                    <img src="assets/img/innerpage/blog-img1.jpg" alt="" />
+                    <img src="/assets/img/home4/blog/cloud computing.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -372,7 +372,7 @@ const Blogpage = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/InnovativeStrategies" className="card-img">
-                    <img src="assets/img/innerpage/blog-img2.jpg" alt="" />
+                    <img src="/assets/img/home4/blog/inovative stratergies for smal busines growth.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -422,7 +422,7 @@ const Blogpage = () => {
               <div className="blog-card style-2">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/SepnotyExpertise" className="card-img">
-                    <img src="assets/img/innerpage/blog-img3.jpg" alt="" />
+                    <img src="/assets/img/home4/blog/brand identity.png" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
