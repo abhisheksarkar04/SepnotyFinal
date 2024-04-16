@@ -509,7 +509,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img1.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Navigating Growth A stratup agency sucess story.png"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Startup Company</p>
@@ -546,7 +549,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img2.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Global Impact Scaling Across Borders.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p> Global Impact</p>
@@ -582,7 +588,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img3.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Overcoming Expansion An Initial Agency's Triumph.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p> Overcoming Expansion</p>

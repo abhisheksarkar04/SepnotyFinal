@@ -512,7 +512,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img1.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Overcoming Expansion An Initial Agency's Triumph.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p> Overcoming Expansion</p>
@@ -547,7 +550,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img2.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Small Business Triumph Overcoming Challenges.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Small Business Triumph</p>

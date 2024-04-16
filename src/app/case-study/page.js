@@ -21,7 +21,10 @@ const CaseStudyPage = () => {
             >
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img1.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Navigating Growth A stratup agency sucess story.png"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Startup Company</p>
@@ -60,7 +63,10 @@ const CaseStudyPage = () => {
             >
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img2.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Digital Transformation Long Journey to Industry.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Digital Transformation</p>
@@ -100,7 +106,10 @@ const CaseStudyPage = () => {
             >
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img3.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Overcoming Expansion An Initial Agency's Triumph.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Overcoming Expansion</p>
@@ -139,7 +148,7 @@ const CaseStudyPage = () => {
             >
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/home1/case-study-img1.jpg" alt="" />
+                  <img src="/assets/img/home1/BusinessConsulting.jpg" alt="" />
                 </div>
                 <div className="card-content">
                   <p>Business</p>
@@ -175,7 +184,10 @@ const CaseStudyPage = () => {
             >
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/home1/case-study-img2.jpg" alt="" />
+                  <img
+                    src="/assets/img/home1/SmallBusinessTriumph .jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p> Small Business Triumph</p>
@@ -214,7 +226,10 @@ const CaseStudyPage = () => {
             >
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/home1/case-study-img3.jpg" alt="" />
+                  <img
+                    src="/assets/img/home1/Global Impact Scaling Across Borders.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Global Impact</p>
@@ -254,7 +269,10 @@ const CaseStudyPage = () => {
             >
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/home1/case-study-img4.jpg" alt="" />
+                  <img
+                    src="/assets/img/home1/Ecommerceoptimization.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Enhancing Customer Engagement</p>
@@ -294,7 +312,10 @@ const CaseStudyPage = () => {
             >
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img4.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/A case study in work for automation.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p> Streamlining Operations</p>
@@ -334,7 +355,10 @@ const CaseStudyPage = () => {
             >
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img5.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/A case study in Cyber Security Enhancement.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Securing Digital Assets</p>
