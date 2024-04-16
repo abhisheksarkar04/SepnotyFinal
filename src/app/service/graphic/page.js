@@ -115,7 +115,7 @@ lasting impression.
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
+                    src="/assets/img/innerpage/GRAPHIC DESIGN 1.png"
                     alt=""
                   />
                 </div>
@@ -131,7 +131,7 @@ lasting impression.
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/innerpage/GRAPHIC DESIGN 2.png"
                     alt=""
                   />
                 </div>

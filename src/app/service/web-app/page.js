@@ -116,7 +116,7 @@ of the way.
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
+                    src="/assets/img/innerpage/WEB DEV 1.PNG"
                     alt=""
                   />
                 </div>
@@ -132,7 +132,7 @@ of the way.
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/innerpage/WEB DEV 2.PNG"
                     alt=""
                   />
                 </div>

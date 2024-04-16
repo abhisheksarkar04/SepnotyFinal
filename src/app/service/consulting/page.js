@@ -117,7 +117,7 @@ and achieve your strategic objectives.
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
+                    src="/assets/img/innerpage/CONSULTING SERVICE 1.png"
                     alt=""
                   />
                 </div>
@@ -133,7 +133,7 @@ and achieve your strategic objectives.
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/innerpage/CONSULTING SERVICE 2.png"
                     alt=""
                   />
                 </div>

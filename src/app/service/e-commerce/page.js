@@ -116,7 +116,7 @@ marketplace.
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
+                    src="/assets/img/innerpage/E-COMERCE 1.png"
                     alt=""
                   />
                 </div>
@@ -132,7 +132,7 @@ marketplace.
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/innerpage/E-COMERCE 2.png"
                     alt=""
                   />
                 </div>
