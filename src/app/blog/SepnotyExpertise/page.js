@@ -20,7 +20,7 @@ const BlogDetails9 = () => {
                   <span>Creative</span>
                 </div>
                 <img
-                  src="/assets/img/innerpage/blog-details-thumb-img.jpg"
+                  src="\assets\img\home4\blog read more\The Importance of Brand Identity Building a Strong Brand with Sepnoty's Expertise.jpg"
                   alt=""
                 />
               </div>
@@ -34,7 +34,7 @@ const BlogDetails9 = () => {
                   </div>
                   <div className="author-content">
                     <h6>
-                      By, <Link href="/blog">Cooper Jogan</Link>
+                      By, <Link href="/blog">Kavya Mahindran</Link>
                     </h6>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ what you stand for, and why customers should choose you over the competition.
                 <div className="row mb-50">
                   <div className="col-lg-12">
                     <img
-                      src="/assets/img/innerpage/blog-details-img1.jpg"
+                      src="\assets\img\home4\blog read more\Understanding Brand Identity.jpg"
                       alt=""
                     />
                   </div>
@@ -169,13 +169,13 @@ delivering greater value to stakeholders.
                   <div className="row g-4 mb-50">
                     <div className="col-md-6 ">
                       <img
-                        src="/assets/img/innerpage/blog-details-img2.jpg"
+                        src="\assets\img\home4\blog read more\The Role of Brand Identity in Business Success1.jpg"
                         alt=""
                       />
                     </div>
                     <div className="col-md-6">
                       <img
-                        src="/assets/img/innerpage/blog-details-img3.jpg"
+                        src="\assets\img\home4\blog read more\The Role of Brand Identity in Business Success2.jpg"
                         alt=""
                       />
                     </div>
@@ -414,7 +414,7 @@ and drive continuous improvement.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-01.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>
@@ -447,7 +447,7 @@ and drive continuous improvement.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-02.jpg"
+                              src="\assets\img\home4\reviews\Jacoline juie.jpg"
                               alt=""
                             />
                           </div>
@@ -480,7 +480,7 @@ and drive continuous improvement.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-03.jpg"
+                              src="\assets\img\home4\reviews\Robert smith.jpg"
                               alt=""
                             />
                           </div>
@@ -515,7 +515,7 @@ and drive continuous improvement.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-04.jpg"
+                          src="\assets\img\home4\reviews\srileka panday.jpg"
                           alt=""
                         />
                       </div>
@@ -548,7 +548,7 @@ and drive continuous improvement.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-05.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>

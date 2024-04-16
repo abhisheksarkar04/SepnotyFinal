@@ -20,7 +20,7 @@ const BlogDetails3 = () => {
                   <span>Creative</span>
                 </div>
                 <img
-                  src="/assets/img/innerpage/blog-details-thumb-img.jpg"
+                  src="/assets\img\home4\blog read more\Unlocking the Power of Data Analytics Insights from Sepnoty's Experts.jpg"
                   alt=""
                 />
               </div>
@@ -28,13 +28,13 @@ const BlogDetails3 = () => {
                 <div className="author-area">
                   <div className="author-img">
                     <img
-                      src="/assets/img/innerpage/comment-author-02.jpg"
+                      src="/assets/img/home4/reviews/Mr.bowmik Haldar.jpg"
                       alt=""
                     />
                   </div>
                   <div className="author-content">
                     <h6>
-                      By, <Link href="/blog">Cooper Jogan</Link>
+                      By, <Link href="/blog">Jagan Reddy</Link>
                     </h6>
                   </div>
                 </div>
@@ -126,7 +126,7 @@ drive business success.
                 <div className="row mb-50">
                   <div className="col-lg-12">
                     <img
-                      src="/assets/img/innerpage/blog-details-img1.jpg"
+                      src="\assets\img\home4\blog read more\Understanding the Significance of Data Analytics.jpg"
                       alt=""
                     />
                   </div>
@@ -146,13 +146,13 @@ operations, identify new revenue streams, and enhance overall performance.
                   <div className="row g-4 mb-50">
                     <div className="col-md-6 ">
                       <img
-                        src="/assets/img/innerpage/blog-details-img2.jpg"
+                        src="\assets\img\home4\blog read more\Harnessing Data Analytics for Business Growth 2.jpg"
                         alt=""
                       />
                     </div>
                     <div className="col-md-6">
                       <img
-                        src="/assets/img/innerpage/blog-details-img3.jpg"
+                        src="\assets\img\home4\blog read more\Harnessing Data Analytics for Business Growth1.jpg"
                         alt=""
                       />
                     </div>
@@ -383,7 +383,7 @@ through data analytics.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-01.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>
@@ -416,7 +416,7 @@ through data analytics.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-02.jpg"
+                              src="\assets\img\home4\reviews\Jacoline juie.jpg"
                               alt=""
                             />
                           </div>
@@ -449,7 +449,7 @@ through data analytics.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-03.jpg"
+                              src="\assets\img\home4\reviews\Robert smith.jpg"
                               alt=""
                             />
                           </div>
@@ -484,7 +484,7 @@ through data analytics.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-04.jpg"
+                          src="\assets\img\home4\reviews\srileka panday.jpg"
                           alt=""
                         />
                       </div>
@@ -517,7 +517,7 @@ through data analytics.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-05.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>

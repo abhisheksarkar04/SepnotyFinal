@@ -90,6 +90,13 @@
         "pageTitle": "Latest News Blog & Article.",
         "section_down_scroll": "#blog-grid"
     },
+    {
+        "id": "11",
+        "name": "BLOG DETAILS",
+        "slug": "/blog",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
     
     
     {

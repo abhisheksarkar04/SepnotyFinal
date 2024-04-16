@@ -20,7 +20,7 @@ const BlogDetails4 = () => {
                   <span>Creative</span>
                 </div>
                 <img
-                  src="/assets/img/innerpage/blog-details-thumb-img.jpg"
+                  src="\assets\img\home4\blog read more\The Future of E-commerce Trends and Innovations Shaping the Industry.jpg"
                   alt=""
                 />
               </div>
@@ -28,13 +28,13 @@ const BlogDetails4 = () => {
                 <div className="author-area">
                   <div className="author-img">
                     <img
-                      src="/assets/img/innerpage/comment-author-02.jpg"
+                      src="/assets/img/home4/reviews/Robert smith.jpg"
                       alt=""
                     />
                   </div>
                   <div className="author-content">
                     <h6>
-                      By, <Link href="/blog">Cooper Jogan</Link>
+                      By, <Link href="/blog">virender</Link>
                     </h6>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ experience across devices.
                 <div className="row mb-50">
                   <div className="col-lg-12">
                     <img
-                      src="/assets/img/innerpage/blog-details-img1.jpg"
+                      src="\assets\img\home4\blog read more\Rise of Mobile Commerce and Omnichannel Experiences.jpg"
                       alt=""
                     />
                   </div>
@@ -137,13 +137,13 @@ enhances the shopping experience but also increases customer satisfaction and lo
                   <div className="row g-4 mb-50">
                     <div className="col-md-6 ">
                       <img
-                        src="/assets/img/innerpage/blog-details-img2.jpg"
+                        src="\assets\img\home4\blog read more\Personalization and AI-Powered Recommendations.jpg"
                         alt=""
                       />
                     </div>
                     <div className="col-md-6">
                       <img
-                        src="/assets/img/innerpage/blog-details-img3.jpg"
+                        src="\assets\img\home4\blog read more\Personalization and AI-Powered Recommendations2.jpg"
                         alt=""
                       />
                     </div>
