@@ -333,12 +333,12 @@ const Aboutpage = () => {
                 <div className="partner-logos">
                   <img
                     className="white"
-                    src="assets/img/home5/logo-11.png"
+                    src="assets/img/about/Volo Digital Agency- Technology.png"
                     alt=""
                   />
                   <img
                     className="black"
-                    src="assets/img/home5/logo-01.png"
+                    src="assets/img/about/Volo Digital Agency- Technology.png"
                     alt=""
                   />
                 </div>
@@ -364,12 +364,12 @@ const Aboutpage = () => {
                 <div className="partner-logos">
                   <img
                     className="white"
-                    src="assets/img/home5/logo-22.png"
+                    src="assets/img/about/ZurMarke Studio- Design.png"
                     alt=""
                   />
                   <img
                     className="black"
-                    src="assets/img/home5/logo-02.png"
+                    src="assets/img/about/ZurMarke Studio- Design.png"
                     alt=""
                   />
                 </div>
@@ -395,12 +395,12 @@ const Aboutpage = () => {
                 <div className="partner-logos">
                   <img
                     className="white"
-                    src="assets/img/home5/logo-33.png"
+                    src="assets/img/about/Pathpoint Consulting.png"
                     alt=""
                   />
                   <img
                     className="black"
-                    src="assets/img/home5/logo-03.png"
+                    src="assets/img/about/Pathpoint Consulting.png"
                     alt=""
                   />
                 </div>
@@ -426,12 +426,12 @@ const Aboutpage = () => {
                 <div className="partner-logos">
                   <img
                     className="white"
-                    src="assets/img/home5/logo-44.png"
+                    src="assets/img/about/DIgiart Agency- Technolgy.png"
                     alt=""
                   />
                   <img
                     className="black"
-                    src="assets/img/home5/logo-04.png"
+                    src="assets/img/about/DIgiart Agency- Technolgy.png"
                     alt=""
                   />
                 </div>
@@ -457,16 +457,16 @@ const Aboutpage = () => {
                 <div className="partner-logos">
                   <img
                     className="white"
-                    src="assets/img/home5/logo-55.png"
+                    src="assets/img/about/Cepsa- Design.png"
                     alt=""
                   />
                   <img
                     className="black"
-                    src="assets/img/home5/logo-05.png"
+                    src="assets/img/about/Cepsa- Design.png"
                     alt=""
                   />
                 </div>
-                <p>ZurMarke Studio</p>
+                <p>Cepsa Design</p>
               </div>
             </div>
             <div
@@ -488,16 +488,16 @@ const Aboutpage = () => {
                 <div className="partner-logos">
                   <img
                     className="white"
-                    src="assets/img/home5/logo-66.png"
+                    src="assets/img/about/Maestro- Consulting.png"
                     alt=""
                   />
                   <img
                     className="black"
-                    src="assets/img/home5/logo-06.png"
+                    src="assets/img/about/Maestro- Consulting.png"
                     alt=""
                   />
                 </div>
-                <p>Pathpoint Consulting</p>
+                <p>Maestro Consulting</p>
               </div>
             </div>
             <div
@@ -519,16 +519,16 @@ const Aboutpage = () => {
                 <div className="partner-logos">
                   <img
                     className="white"
-                    src="assets/img/home5/logo-77.png"
+                    src="assets/img/about/Genesis- Technology.png"
                     alt=""
                   />
                   <img
                     className="black"
-                    src="assets/img/home5/logo-07.png"
+                    src="assets/img/about/Genesis- Technology.png"
                     alt=""
                   />
                 </div>
-                <p>Digiart Agency</p>
+                <p>Genesis Technology</p>
               </div>
             </div>
             <div
@@ -550,16 +550,16 @@ const Aboutpage = () => {
                 <div className="partner-logos">
                   <img
                     className="white"
-                    src="assets/img/home5/logo-88.png"
+                    src="assets/img/about/Heraflax- Consulting.png"
                     alt=""
                   />
                   <img
                     className="black"
-                    src="assets/img/home5/logo-08.png"
+                    src="assets/img/about/Heraflax- Consulting.png"
                     alt=""
                   />
                 </div>
-                <p>ZurMarke Studio</p>
+                <p>Heraflax Consulting</p>
               </div>
             </div>
           </div>

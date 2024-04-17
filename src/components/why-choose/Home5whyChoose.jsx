@@ -53,7 +53,7 @@ cybersecurity, we're here to exceed your expectations and drive your success.
               data-wow-duration="1500ms"
             >
               <div className="why-choose-img">
-                <img src="assets/img/home5/why-choose.jpg" alt="" />
+                <img src="assets/img/about/We're an IT service company collaborating with top talents.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-7">

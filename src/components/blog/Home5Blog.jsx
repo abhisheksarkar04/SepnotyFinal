@@ -74,7 +74,7 @@ curve.
               <div className="blog-card style-2 two">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/blog-details" className="card-img">
-                    <img src="assets/img/home5/blog-img-01.jpg" alt="" />
+                    <img src="assets/img/about/Decoding the cloud A deep dive into Saas Trends.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -124,7 +124,7 @@ curve.
               <div className="blog-card style-2 two w-85">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/blog-details" className="card-img">
-                    <img src="assets/img/home5/blog-img-02.jpg" alt="" />
+                    <img src="assets/img/about/Mastering Eficy Tips and Tricks with our Zenfy.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -145,7 +145,7 @@ curve.
                   </div>
                   <h4>
                     <Link href="/blog/blog-details">
-                      Mastering Efiecy Tips and Tricks with our Zenfy.
+                      Mastering Efiecy Tips and Tricks with our Sepnoty.
                     </Link>
                   </h4>
                   <Link href="/blog/blog-details" className="read-more-btn">
@@ -174,7 +174,7 @@ curve.
               <div className="blog-card style-2 two">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/blog-details" className="card-img">
-                    <img src="assets/img/home5/blog-img-03.jpg" alt="" />
+                    <img src="assets/img/about/From ideas How to Xtore transfer workflows.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>

@@ -227,7 +227,7 @@ of online success
                     <div className="col-lg-6">
                       <div className="project-management-tab-img-wrap">
                         <img
-                          src="assets/img/home3/project-management-tab-img1.jpg"
+                          src="assets/img/Feature/MARKETING.png"
                           alt=""
                           className="wow animate zoomIn"
                           data-wow-delay="400ms"
@@ -335,7 +335,7 @@ of online success
                     <div className="col-lg-6">
                       <div className="project-management-tab-img-wrap">
                         <img
-                          src="assets/img/home3/project-management-tab-img3.jpg"
+                          src="assets/img/Feature/it team.png"
                           alt=""
                         />
                       </div>
@@ -441,7 +441,7 @@ of online success
                     <div className="col-lg-6">
                       <div className="project-management-tab-img-wrap">
                         <img
-                          src="assets/img/home3/project-management-tab-img2.jpg"
+                          src="assets/img/Feature/operation team.png"
                           alt=""
                         />
                       </div>
@@ -548,7 +548,7 @@ of online success
                     <div className="col-lg-6">
                       <div className="project-management-tab-img-wrap">
                         <img
-                          src="assets/img/home3/project-management-tab-img4.jpg"
+                          src="assets/img/Feature/project mnagement.png"
                           alt=""
                         />
                       </div>
@@ -650,7 +650,7 @@ of online success
                     <div className="col-lg-6">
                       <div className="project-management-tab-img-wrap">
                         <img
-                          src="assets/img/home3/project-management-tab-img5.jpg"
+                          src="assets/img/Feature/stratergic planing.png"
                           alt=""
                         />
                       </div>
