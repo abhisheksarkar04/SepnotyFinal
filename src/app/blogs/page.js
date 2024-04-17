@@ -22,7 +22,7 @@ const BlogStandardPage = () => {
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/ArtificialIntelligence" className="card-img">
-                    <img src="\assets\img\home4\blog cards\artificial inteligence.png" alt="" />
+                    <img src="\assets\img\home4\blog size\artificial inteligence 1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -82,7 +82,7 @@ business operations and drive innovation in today's digital landscape.
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/NavigatingtheDigital" className="card-img">
-                    <img src="/assets/img/home4/blog cards/startup sratergies.png" alt="" />
+                    <img src="\assets\img\home4\blog size\startup sratergies 1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -141,7 +141,7 @@ entrepreneurs to navigate the complexities of the digital landscape and achieve 
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/DataAnalytics" className="card-img">
-                    <img src="/assets/img/home4/blog cards/data analytics.png" alt="" />
+                    <img src="\assets\img\home4\blog size\data analytics 1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -201,7 +201,7 @@ transformative potential of data analytics and its impact on business decision-m
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/Ecommerce" className="card-img">
-                    <img src="/assets/img/home4/blog cards/e commerce.png" alt="" />
+                    <img src="\assets\img\home4\blog size\e commerce 1.jpg" alt="" />
                   </Link>
                  <Link href="/blog" className="date">
                     <span>
@@ -262,7 +262,7 @@ the digital marketplace.
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/Cybersecurity" className="card-img">
-                    <img src="/assets/img/home4/blog cards/cyber security.png" alt="" />
+                    <img src="\assets\img\home4\blog size\cyber security 1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -323,7 +323,7 @@ continuity.
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/UIUX" className="card-img">
-                    <img src="/assets/img/home4/blog/uiux.png" alt="" />
+                    <img src="\assets\img\home4\blog size\uiux (2) 1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -384,7 +384,7 @@ digital experiences.
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/CloudComputing" className="card-img">
-                    <img src="/assets/img/home4/blog/cloud computing.png" alt="" />
+                    <img src="\assets\img\home4\blog size\cloud computing 1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -445,7 +445,7 @@ scalability, and drive innovation.
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/InnovativeStrategies" className="card-img">
-                    <img src="/assets/img/home4/blog/inovative stratergies for smal busines growth.png" alt="" />
+                    <img src="\assets\img\home4\blog size\inovative stratergies for smal busines growth 1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -506,7 +506,7 @@ challenges and opportunities they face.
               >
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/SepnotyExpertise" className="card-img">
-                    <img src="/assets/img/home4/blog-img4.jpg" alt="" />
+                    <img src="\assets\img\home4\blog size\brand identity 1.jpg" alt="" />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
