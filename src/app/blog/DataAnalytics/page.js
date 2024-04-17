@@ -28,7 +28,7 @@ const BlogDetails3 = () => {
                 <div className="author-area">
                   <div className="author-img">
                     <img
-                      src="/assets/img/home4/reviews/Mr.bowmik Haldar.jpg"
+                      src="\assets\img\home4\reviews\people 2.png"
                       alt=""
                     />
                   </div>
