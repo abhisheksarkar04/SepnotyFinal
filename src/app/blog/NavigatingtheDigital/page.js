@@ -20,7 +20,7 @@ const BlogDetails2 = () => {
                   <span>Creative</span>
                 </div>
                 <img
-                  src="/assets/img/innerpage/blog-details-thumb-img.jpg"
+                  src="\assets\img\home4\blog read more\Navigating the Digital Landscape Strategies for Startup Success.jpg"
                   alt=""
                 />
               </div>
@@ -28,13 +28,13 @@ const BlogDetails2 = () => {
                 <div className="author-area">
                   <div className="author-img">
                     <img
-                      src="/assets/img/innerpage/comment-author-02.jpg"
+                      src="\assets\img\home4\reviews\people 1.png"
                       alt=""
                     />
                   </div>
                   <div className="author-content">
                     <h6>
-                      By, <Link href="/blog">Cooper Jogan</Link>
+                      By, <Link href="/blog">Abishek Sarkar</Link>
                     </h6>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ with their target audience.
                   
                   <div className="col-lg-12">
                     <img
-                      src="/assets/img/innerpage/blog-details-img1.jpg"
+                      src="\assets\img\home4\blog read more\Understanding the Digital Landscape.jpg"
                       alt=""
                     />
                   </div>
@@ -139,13 +139,13 @@ ecosystem.
                   <div className="row g-4 mb-50">
                     <div className="col-md-6 ">
                       <img
-                        src="/assets/img/innerpage/blog-details-img2.jpg"
+                        src="\assets\img\home4\blog read more\Key Strategies for Startup Success 1.jpg"
                         alt=""
                       />
                     </div>
                     <div className="col-md-6">
                       <img
-                        src="/assets/img/innerpage/blog-details-img3.jpg"
+                        src="\assets\img\home4\blog read more\Key Strategies for Startup Success 2.jpg"
                         alt=""
                       />
                     </div>
@@ -371,7 +371,7 @@ best practices to remain competitive in the digital landscape.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-01.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>
@@ -404,7 +404,7 @@ best practices to remain competitive in the digital landscape.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-02.jpg"
+                              src="\assets\img\home4\reviews\Jacoline juie.jpg"
                               alt=""
                             />
                           </div>
@@ -437,7 +437,7 @@ best practices to remain competitive in the digital landscape.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-03.jpg"
+                              src="\assets\img\home4\reviews\Robert smith.jpg"
                               alt=""
                             />
                           </div>
@@ -472,7 +472,7 @@ best practices to remain competitive in the digital landscape.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-04.jpg"
+                          src="\assets\img\home4\reviews\srileka panday.jpg"
                           alt=""
                         />
                       </div>
@@ -505,7 +505,7 @@ best practices to remain competitive in the digital landscape.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-05.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>

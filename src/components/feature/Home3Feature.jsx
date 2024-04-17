@@ -125,12 +125,12 @@ matters most, without missing a beat.
                 <div className="slider-item">
                   <div className="feature-img">
                     <img
-                      src="assets/img/home3/home3-feature-slider-img1.png"
+                      src="assets/img/Feature/innovation  it team 1.png"
                       alt=""
                     />
                   </div>
                 </div>
-                <div className="slider-item">
+                {/* <div className="slider-item">
                   <div className="feature-img">
                     <img
                       src="assets/img/home3/home3-feature-slider-img2.png"
@@ -145,7 +145,7 @@ matters most, without missing a beat.
                       alt=""
                     />
                   </div>
-                </div>
+                </div> */}
               </Slider>
             </div>
           </div>

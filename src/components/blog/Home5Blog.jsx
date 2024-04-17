@@ -74,10 +74,12 @@ const Home5Blog = () => {
               <div className="blog-card style-2 two">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/blog-details" className="card-img">
+
                     <img
                       src="assets/img/home1/Impact of AI on Business.jpg"
                       alt=""
                     />
+
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -128,10 +130,12 @@ const Home5Blog = () => {
               <div className="blog-card style-2 two w-85">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/blog-details" className="card-img">
+
                     <img
                       src="assets/img/home1/Navigating the Digital Landscape Strategies for Startup success.jpg"
                       alt=""
                     />
+
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -151,6 +155,7 @@ const Home5Blog = () => {
                     </div>
                   </div>
                   <h4>
+
                     <Link href="/blog/NavigatingtheDigital">
                       Navigating the Digital Landscape: Strategies for Startup
                       Success

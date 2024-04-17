@@ -111,7 +111,7 @@ const ServiceDetailsPage = () => {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
+                    src="/assets/img/innerpage/SOFTWARE DEVELOPMENT 1.PNG"
                     alt=""
                   />
                 </div>
@@ -127,7 +127,7 @@ const ServiceDetailsPage = () => {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/innerpage/SOFTWARE DEVELOPMENT 2.png"
                     alt=""
                   />
                 </div>
@@ -563,6 +563,7 @@ const ServiceDetailsPage = () => {
             >
               <div className="tools-card">
                 <div className="tools-icon">
+
                   <img src="/assets/img/innerpage/icon/php-icon.svg" alt="" />
                 </div>
                 <div className="tools-name">

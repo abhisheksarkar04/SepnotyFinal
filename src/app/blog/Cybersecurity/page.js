@@ -20,7 +20,7 @@ const BlogDetails5 = () => {
                   <span>Creative</span>
                 </div>
                 <img
-                  src="/assets/img/innerpage/blog-details-thumb-img.jpg"
+                  src="\assets\img\home4\blog read more\Cybersecurity in the Digital Age Protecting Your Business with Sepnoty's Solutions.jpg"
                   alt=""
                 />
               </div>
@@ -28,13 +28,13 @@ const BlogDetails5 = () => {
                 <div className="author-area">
                   <div className="author-img">
                     <img
-                      src="/assets/img/innerpage/comment-author-02.jpg"
+                      src="\assets\img\home4\reviews\people 5.png"
                       alt=""
                     />
                   </div>
                   <div className="author-content">
                     <h6>
-                      By, <Link href="/blog">Cooper Jogan</Link>
+                      By, <Link href="/blog">Charan Reddy</Link>
                     </h6>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ e ective cybersecurity measures to protect your business.
                 <div className="row mb-50">
                   <div className="col-lg-12">
                     <img
-                      src="/assets/img/innerpage/blog-details-img1.jpg"
+                      src="\assets\img\home4\blog read more\Understanding the Threat Landscape.jpg"
                       alt=""
                     />
                   </div>
@@ -134,13 +134,13 @@ needs of your business.
                   <div className="row g-4 mb-50">
                     <div className="col-md-6 ">
                       <img
-                        src="/assets/img/innerpage/blog-details-img2.jpg"
+                        src="\assets\img\home4\blog read more\Securing Your Digital Assets.jpg"
                         alt=""
                       />
                     </div>
                     <div className="col-md-6">
                       <img
-                        src="/assets/img/innerpage/blog-details-img3.jpg"
+                        src="\assets\img\home4\blog read more\Securing Your Digital Assets2.jpg"
                         alt=""
                       />
                     </div>
@@ -376,7 +376,7 @@ obligations.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-01.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>
@@ -409,7 +409,7 @@ obligations.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-02.jpg"
+                              src="\assets\img\home4\reviews\Jacoline juie.jpg"
                               alt=""
                             />
                           </div>
@@ -442,7 +442,7 @@ obligations.
                         <div className="single-comment-area">
                           <div className="author-img">
                             <img
-                              src="/assets/img/innerpage/comment-author-03.jpg"
+                              src="\assets\img\home4\reviews\Robert smith.jpg"
                               alt=""
                             />
                           </div>
@@ -477,7 +477,7 @@ obligations.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-04.jpg"
+                          src="\assets\img\home4\reviews\srileka panday.jpg"
                           alt=""
                         />
                       </div>
@@ -510,7 +510,7 @@ obligations.
                     <div className="single-comment-area">
                       <div className="author-img">
                         <img
-                          src="/assets/img/innerpage/comment-author-05.jpg"
+                          src="\assets\img\home4\reviews\Mr.bowmik Haldar.jpg"
                           alt=""
                         />
                       </div>
