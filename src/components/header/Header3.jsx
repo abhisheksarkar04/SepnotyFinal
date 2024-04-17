@@ -96,7 +96,7 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo.svg"
+                  src="assets/img/sepnoty.svg"
                 />
               </Link>
               <Link href="/" className="logo-light">
@@ -950,7 +950,7 @@ const Header1 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo.svg"
+                src="assets/img/sepnoty.svg"
               />
             </Link>
             <Link href="/" className="logo-light">

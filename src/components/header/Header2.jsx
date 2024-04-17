@@ -948,14 +948,14 @@ const Header1 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo.svg"
+                src="assets/img/sepnoty.svg"
               />
             </Link>
             <Link href="/" className="logo-light">
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo-light.svg"
+                src="assets/img/sepnoty.svg"
               />
             </Link>
           </div>

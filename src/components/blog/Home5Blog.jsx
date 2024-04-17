@@ -33,17 +33,17 @@ const Home5Blog = () => {
                   </svg>
                 </span>
                 <h2>
-                Unveiling Trends<span>and Tips.</span>
+                  Unveiling Trends<span>and Tips.</span>
                 </h2>
                 <p>
-                Stay updated with our latest tech tips and trends articles, curated to keep you ahead of the
-curve.
+                  Stay updated with our latest tech tips and trends articles,
+                  curated to keep you ahead of the curve.
                 </p>
               </div>
             </div>
             <div className="col-xl-3 col-md-4 d-flex justify-content-md-end align-items-end">
               <div className="star-btn btn_wrapper">
-                <Link href="/blog/blog-details">
+                <Link href="/blogs">
                   <div className="bg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,10 @@ curve.
               <div className="blog-card style-2 two">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/blog-details" className="card-img">
-                    <img src="assets/img/home5/blog-img-01.jpg" alt="" />
+                    <img
+                      src="assets/img/home1/Impact of AI on Business.jpg"
+                      alt=""
+                    />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -94,8 +97,9 @@ curve.
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      Decoding the Cloud A Deep Dive into SaaS Trends.
+                    <Link href="/blog/ArtificialIntelligence">
+                      The Impact of AI on Business: How Sepnoty Is Embracing
+                      Artificial Intelligence"
                     </Link>
                   </h4>
                   <Link href="/blog/blog-details" className="read-more-btn">
@@ -124,7 +128,10 @@ curve.
               <div className="blog-card style-2 two w-85">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/blog-details" className="card-img">
-                    <img src="assets/img/home5/blog-img-02.jpg" alt="" />
+                    <img
+                      src="assets/img/home1/Navigating the Digital Landscape Strategies for Startup success.jpg"
+                      alt=""
+                    />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -144,11 +151,12 @@ curve.
                     </div>
                   </div>
                   <h4>
-                    <Link href="/blog/blog-details">
-                      Mastering Efiecy Tips and Tricks with our Zenfy.
+                    <Link href="/blog/NavigatingtheDigital">
+                      Navigating the Digital Landscape: Strategies for Startup
+                      Success
                     </Link>
                   </h4>
-                  <Link href="/blog/blog-details" className="read-more-btn">
+                  <Link href="/blog/DataAnalytics" className="read-more-btn">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -174,7 +182,10 @@ curve.
               <div className="blog-card style-2 two">
                 <div className="blog-card-img-wrap">
                   <Link href="/blog/blog-details" className="card-img">
-                    <img src="assets/img/home5/blog-img-03.jpg" alt="" />
+                    <img
+                      src="assets/img/home1/Unlocking the power of Data Analytics.jpg"
+                      alt=""
+                    />
                   </Link>
                   <Link href="/blog" className="date">
                     <span>
@@ -195,7 +206,8 @@ curve.
                   </div>
                   <h4>
                     <Link href="/blog/blog-details">
-                      From Ideas How Xtore Transforms Workflows.
+                      "Unlocking the Power of Data Analytics: Insights from
+                      Sepnoty's Experts"
                     </Link>
                   </h4>
                   <Link href="/blog/blog-details" className="read-more-btn">
