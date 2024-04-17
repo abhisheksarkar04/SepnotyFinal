@@ -33,15 +33,15 @@ const Home5whyChoose = () => {
                   </svg>
                 </span>
                 <h2>
-                We're an IT service company collaborating with top talents{" "}
-                  <span>to
-deliver innovative solutions.</span>
+                  We're an IT service company collaborating with top talents{" "}
+                  <span>to deliver innovative solutions.</span>
                 </h2>
                 <p>
-                At Sepnoty, we're a team of tech enthusiasts committed to delivering innovative solutions
-tailored to your needs. With expertise in various domains, from software development to
-cybersecurity, we're here to exceed your expectations and drive your success.
-
+                  At Sepnoty, we're a team of tech enthusiasts committed to
+                  delivering innovative solutions tailored to your needs. With
+                  expertise in various domains, from software development to
+                  cybersecurity, we're here to exceed your expectations and
+                  drive your success.
                 </p>
               </div>
             </div>
@@ -54,15 +54,17 @@ cybersecurity, we're here to exceed your expectations and drive your success.
             >
               <div className="why-choose-img">
                 <img src="assets/img/about/We're an IT service company collaborating with top talents.jpg" alt="" />
+
               </div>
             </div>
             <div className="col-lg-7">
               <div className="why-choose-content">
                 <p>
-                Our collaborative approach ensures unique and impactful
-outcomes for every project. Whether you're a startup or an established enterprise, we're your
-trusted partner for navigating the tech landscape. Let us help you achieve your business
-goals.
+                  Our collaborative approach ensures unique and impactful
+                  outcomes for every project. Whether you're a startup or an
+                  established enterprise, we're your trusted partner for
+                  navigating the tech landscape. Let us help you achieve your
+                  business goals.
                 </p>
                 <div className="about-coundown-area">
                   <div className="row g-0">

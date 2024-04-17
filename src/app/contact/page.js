@@ -58,7 +58,7 @@ const ContactPage = () => {
                   <span>Andhrapradesh</span>
                   <p>
                     {" "}
-                    Near Meeseva,Machavaram,
+                    3-25, Main Road,Machavaram,
                     <br />
                     Kandukuru Mandal, Prakasham district,
                     <br /> Andhrapradesh-523105.
@@ -94,11 +94,11 @@ const ContactPage = () => {
             >
               <div className="company-map">
                 <iframe
-                  title="sepnoty"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3855.438013800391!2d79.98526797473207!3d14.9126707856115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b7bf369e53fd7%3A0xe0d967314b1ab7f1!2sSepnoty!5e0!3m2!1sen!2sin!4v1709201233005!5m2!1sen!2sin"
-                  width="100%"
-                  height="600"
-                  style={{ border: "0" }}
+                  title="Sepnoty"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d550.3432794082827!2d79.8983316867521!3d15.126070719648721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTXCsDA3JzMzLjkiTiA3OcKwNTMnNTQuMyJF!5e1!3m2!1sen!2sin!4v1713348366484!5m2!1sen!2sin"
+                  width="600"
+                  height="450"
+                  style={{ border: 0 }}
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
