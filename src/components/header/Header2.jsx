@@ -88,20 +88,20 @@ const Header1 = () => {
   return (
     <>
       <ScrollProgress />
-      <div className={`sidebar-menu ${state.isRightSidebar ? "active" : ""}`}>
+      <div className={`sidebar-menu ${state.isRightSidebar ? "" : ""}`}>
         <div className="sidebar-menu-top-area">
           <div className="container d-flex align-items-center justify-content-between">
             <div className="sidebar-menu-logo">
               <Link href="/" className="logo-dark">
                 <img
-                  alt="image"
+                  alt="image-one"
                   className="img-fluid"
                   src="assets/img/dark-logo.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
                 <img
-                  alt="image"
+                  alt="image-two"
                   className="img-fluid"
                   src="assets/img/white-logo.png"
                 />
@@ -946,7 +946,7 @@ const Header1 = () => {
           <div className="company-logo">
             <Link href="/" className="logo-dark">
               <img
-                alt="image"
+                alt="image-page"
                 className="img-fluid"
                 src="assets/img/dark-logo.png"
 
@@ -954,7 +954,7 @@ const Header1 = () => {
             </Link>
             <Link href="/" className="logo-light">
               <img
-                alt="image"
+                alt="image-page-white"
                 className="img-fluid"
                 src="assets/img/white-logo.png"
 
