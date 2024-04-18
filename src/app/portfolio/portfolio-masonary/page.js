@@ -4,6 +4,8 @@ import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
+
+
 const PortfolioMasonaryPage = () => {
   useWow()
   return (
@@ -37,7 +39,7 @@ const PortfolioMasonaryPage = () => {
                     </li>
                   </ul>
                   <div className="portfolio-img">
-                    <img src="/assets/img/home5/portfolio-01.jpg" alt="" />
+                    <img src="/assets/img/home5/portfolio-01.jpg" alt="not found" />
                   </div>
                 </div>
                 <div className="portfolio-content">
@@ -85,7 +87,7 @@ const PortfolioMasonaryPage = () => {
                     </li>
                   </ul>
                   <div className="portfolio-img">
-                    <img src="/assets/img/home5/portfolio-02.jpg" alt="" />
+                    <img src="/assets/img/home5/portfolio-02.jpg" alt="not found" />
                   </div>
                 </div>
                 <div className="portfolio-content">

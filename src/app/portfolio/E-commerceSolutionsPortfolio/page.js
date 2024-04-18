@@ -256,7 +256,7 @@ const PortfolioDetailsPage = () => {
               </div>
               <div className="portfolio-details-banner">
                 <img
-                  src="/assets/img/innerpage/portfolio-banner-img.jpg"
+                  src="/assets/img/innerpage/image 129.jpg"
                   alt=""
                 />
                 <div className="portfolio-details-banner-content">
