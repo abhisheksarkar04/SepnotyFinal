@@ -28,13 +28,13 @@ const BlogDetails7 = () => {
                 <div className="author-area">
                   <div className="author-img">
                     <img
-                      src="/assets/img/innerpage/comment-author-02.jpg"
+                      src="\assets\img\home4\reviews\people 6.png"
                       alt=""
                     />
                   </div>
                   <div className="author-content">
                     <h6>
-                      By, <Link href="/blog">Cooper Jogan</Link>
+                      By, <Link href="/blog">jyoshna</Link>
                     </h6>
                   </div>
                 </div>

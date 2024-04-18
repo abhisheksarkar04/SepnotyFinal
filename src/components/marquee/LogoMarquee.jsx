@@ -16,26 +16,26 @@ const LogoMarquee = () => {
             <div className="marquee_text2">
               <Marquee>
                 <a href="#">
-                  <img src="assets/img/home1/deloite 1.png" alt="" />
+                  <img src="assets/img/Feature/Deloite.png" alt="" />
                 </a>
                 <a href="#">
-                  <img src="assets/img/home1/bosch 1.png" alt="" />
+                  <img src="assets/img/Feature/bosch 1 1.png" alt="" />
                 </a>
                 <a href="#">
-                  <img src="assets/img/home1/apple 1 (1).png" alt="" />
+                  <img src="assets/img/Feature/apple 1 (1).png" alt="" />
                 </a>
                 <a href="#">
-                  <img src="assets/img/home1/acecenture 1.png" alt="" />
+                  <img src="assets/img/Feature/_Accenture.png" alt="" />
                 </a>
                 <a href="#">
-                  <img src="assets/img/home1/gogle 1.png" alt="" />
+                  <img src="assets/img/Feature/google.png" alt="" />
                 </a>
                 <a href="#">
-                  <img src="assets/img/home1/sony 1.png" alt="" />
+                  <img src="assets/img/Feature/sony 1.png" alt="" />
                 </a>
                 <a href="#">
                   <img
-                    src="assets/img/home1/Atlassian-grey-logo 1 (1).png"
+                    src="assets/img/Feature/Atlassian-grey-logo 1.png"
                     alt=""
                   />
                 </a>

@@ -16,7 +16,10 @@ const CaseStudyDetails = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="case-thumb">
-                <img src="/assets/img/innerpage/case-thumb.jpg" alt="" />
+                <img
+                  src="/assets/img/innerpage/A case study in Cyber Security Enhancement2.jpg"
+                  alt=""
+                />
               </div>
               <div className="case-details-content">
                 <h3>Revealing Innovative Solutions</h3>
@@ -124,18 +127,12 @@ const CaseStudyDetails = () => {
                   <div className="row g-4">
                     <div className="col-md-6">
                       <div className="case-img">
-                        <img
-                          src="/assets/img/innerpage/case-img-01.jpg"
-                          alt=""
-                        />
+                        <img src="/assets/img/innerpage/cyber1.jpg" alt="" />
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="case-img">
-                        <img
-                          src="/assets/img/innerpage/case-img-02.jpg"
-                          alt=""
-                        />
+                        <img src="/assets/img/innerpage/cyber2.jpg" alt="" />
                       </div>
                     </div>
                   </div>
@@ -588,19 +585,23 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img3.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Global Impact Scaling Across Borders.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Overcoming Expansion</p>
                   <h4>
-                    <Link href="/case-study/OvercomingExpansion">
-                      Overcoming Expansion: An Initial Agency's Triumph
+                    <Link href="/case-study/GlobalImpact">
+                      Global Impact: Scaling Across Borders
                     </Link>
                   </h4>
                   <p>
-                    Explore the inspiring tale of an initial agency overcoming
-                    the hurdles of expansion, demonstrating resilience, and
-                    achieving success in new markets
+                    Dive into the story of organizations making a global impact
+                    as they scale operations across borders, showcasing
+                    innovation, adaptability, and success on the international
+                    stage
                   </p>
                   <Link
                     href="/case-study/OvercomingExpansion"
