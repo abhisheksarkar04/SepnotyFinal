@@ -22,12 +22,9 @@ const MainLayout = ({ children }) => {
 
   return (
     <>
-    <head>
-    </head>
       <Header2 />
       <Breadcrumb />
       {children}
-
       {shouldRenderBreadcrumb && <Home1Contact />}
       <Footer />
     </>

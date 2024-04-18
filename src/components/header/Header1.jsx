@@ -92,16 +92,16 @@ const Header1 = () => {
         <div className="sidebar-menu-top-area">
           <div className="container d-flex align-items-center justify-content-between">
             <div className="sidebar-menu-logo">
-              <Link href="/" className="logo-dark">
+              <a href="/" className="logo-dark">
                 <img
-                  alt="image"
+                  alt="image-22"
                   className="img-fluid"
                   src="assets/img/dark-logo.png"
                 />
-              </Link>
+              </a>
               <Link href="/" className="logo-light">
                 <img
-                  alt="image"
+                  alt="image-22"
                   className="img-fluid"
                   src="assets/img/white-logo.png"
                 />
@@ -947,14 +947,14 @@ const Header1 = () => {
           <div className="company-logo">
             <Link href="/" className="logo-dark">
               <img
-                alt="image"
+                alt="image-main"
                 className="img-fluid"
                 src="assets/img/dark-logo.png"
               />
             </Link>
             <Link href="/" className="logo-light">
               <img
-                alt="image"
+                alt="image-main"
                 className="img-fluid"
                 src="assets/img/white-logo.png"
               />

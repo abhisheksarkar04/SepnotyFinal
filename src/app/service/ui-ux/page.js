@@ -1,6 +1,5 @@
 import MainLayout from "@/components/layout/MainLayout";
 import Home5Workprocess from "@/components/workProcess/Home5Workprocess";
-import { Children } from "react";
 
 export const metadata = {
   title: "Sepnoty",
@@ -10,9 +9,8 @@ export const metadata = {
 };
 
 const ServiceDetailsPage = () => {
-  const children = "Unlocking Innovation with Talented Minds.";
   return (
-    <MainLayout children={Children}>
+    <MainLayout >
       <div
         className="service-details-page pt-120 mb-120"
         id="service-details-section"
