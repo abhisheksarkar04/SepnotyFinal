@@ -520,7 +520,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img1.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Overcoming Expansion An Initial Agency's Triumph.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Overcoming Expansion</p>
@@ -557,7 +560,10 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img2.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/Digital Transformation Long Journey to Industry.jpg"
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Digital Transformation</p>
@@ -595,7 +601,11 @@ const CaseStudyDetails = () => {
             <div className="col-xl-4 col-md-6">
               <div className="case-study-card style-2">
                 <div className="card-img">
-                  <img src="/assets/img/innerpage/case-study-img3.jpg" alt="" />
+                  <img
+                    src="/assets/img/innerpage/A case study in work for automation.jpg
+                    "
+                    alt=""
+                  />
                 </div>
                 <div className="card-content">
                   <p>Streamlining Operations</p>
