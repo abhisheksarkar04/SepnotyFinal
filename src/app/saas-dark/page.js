@@ -4,6 +4,7 @@ import Home3countdown from "@/components/countdown/Home3countdown";
 import Home3Faq from "@/components/faq/Home3Faq";
 import Home3Feature from "@/components/feature/Home3Feature";
 import Footer3 from "@/components/footer/Footer3";
+import Header1 from "@/components/header/Header1";
 import Header2 from "@/components/header/Header2";
 import LogoMarquee from "@/components/marquee/LogoMarquee";
 import Home3Newslatter from "@/components/newslatter/Home3Newslatter";
