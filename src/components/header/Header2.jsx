@@ -96,14 +96,14 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo.svg"
+                  src="assets/img/dark-logo.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo-light.svg"
+                  src="assets/img/white-logo.png"
                 />
               </Link>
             </div>
@@ -948,14 +948,16 @@ const Header1 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/sepnoty.svg"
+                src="assets/img/dark-logo.png"
+
               />
             </Link>
             <Link href="/" className="logo-light">
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/sepnoty.svg"
+                src="assets/img/white-logo.png"
+
               />
             </Link>
           </div>
