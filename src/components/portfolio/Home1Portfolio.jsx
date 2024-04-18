@@ -116,14 +116,14 @@ const Home1Portfolio = () => {
                       <div className="card-content">
                         <Link
                           className="view-btn"
-                          href="/portfolio/portfolio-details"
+                          href="/portfolio/E-commerceSolutionsPortfolio"
                         >
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
                           <Link href="/portfolio">Marketing</Link>
                           <h5>
-                            <Link href="/portfolio/portfolio-details">
+                            <Link href="/portfolio/E-commerceSolutionsPortfolio">
                               E-commerce Solutions Portfolio
                             </Link>
                           </h5>
@@ -149,7 +149,7 @@ const Home1Portfolio = () => {
                         <div className="catgory-and-title">
                           <Link href="/portfolio">Technology</Link>
                           <h5>
-                            <Link href="/portfolio/portfolio-details">
+                            <Link href="/portfolio/Web&AppDevelopmentPortfolio">
                               Web & App Development Portfolio
                             </Link>
                           </h5>
@@ -168,14 +168,14 @@ const Home1Portfolio = () => {
                       <div className="card-content">
                         <Link
                           className="view-btn"
-                          href="/portfolio/portfolio-details"
+                          href="/portfolio/DigitalMarketingPortfolio"
                         >
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
                           <Link href="/portfolio">Marketing</Link>
                           <h5>
-                            <Link href="/portfolio/portfolio-details">
+                            <Link href="/portfolio/DigitalMarketingPortfolio">
                               Digital Marketing Portfolio
                             </Link>
                           </h5>
@@ -194,14 +194,14 @@ const Home1Portfolio = () => {
                       <div className="card-content">
                         <Link
                           className="view-btn"
-                          href="/portfolio/portfolio-details"
+                          href="/portfolio/CybersecuritySolutionsPortfolio"
                         >
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
                           <Link href="/portfolio">Technology </Link>
                           <h5>
-                            <Link href="/portfolio/portfolio-details">
+                            <Link href="/portfolio/CybersecuritySolutionsPortfolio">
                               Cybersecurity Solutions Portfolio
                             </Link>
                           </h5>
@@ -217,14 +217,14 @@ const Home1Portfolio = () => {
                       <div className="card-content">
                         <Link
                           className="view-btn"
-                          href="/portfolio/portfolio-details"
+                          href="/portfolio/UI-UXPortfolio"
                         >
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
                           <Link href="/portfolio">Design</Link>
                           <h5>
-                            <Link href="/portfolio/portfolio-details">
+                            <Link href="/portfolio/UI-UXPortfolio">
                               UI/UX Design Portfolio
                             </Link>
                           </h5>
@@ -243,14 +243,14 @@ const Home1Portfolio = () => {
                       <div className="card-content">
                         <Link
                           className="view-btn"
-                          href="/portfolio/portfolio-details"
+                          href="/portfolio/DataAnalyticsPortfolio"
                         >
                           <img src="assets/img/home1/right-arrow.png" alt="" />
                         </Link>
                         <div className="catgory-and-title">
                           <Link href="/portfolio">Business and Marketing</Link>
                           <h5>
-                            <Link href="/portfolio/portfolio-details">
+                            <Link href="/portfolio/DataAnalyticsPortfolio">
                               Data Analytics Portfolio
                             </Link>
                           </h5>
