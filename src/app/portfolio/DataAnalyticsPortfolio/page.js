@@ -15,7 +15,7 @@ const PortfolioDetailsPage = () => {
         <div className="container">
           <div className="portfolio-details-thumb mb-80">
             <img
-              src="/assets/img/innerpage/portfolio-details-thumb.jpg"
+              src="/assets/img/innerpage/data analytics.jpg"
               alt=""
             />
           </div>
@@ -30,7 +30,7 @@ const PortfolioDetailsPage = () => {
                <div className="row mb-60">
                   <div className="col-lg-12">
                     <img
-                      src="/assets/img/innerpage/portfolio-details-img1.jpg"
+                      src="/assets/img/innerpage/Social Media Marketing Campaign.jpg"
                       alt=""
                     />
                   </div>
@@ -143,7 +143,7 @@ const PortfolioDetailsPage = () => {
                 <div className="row mt-50 mb-60">
                   <div className="col-lg-12">
                     <img
-                      src="/assets/img/innerpage/portfolio-details-img2.jpg"
+                      src="/assets/img/innerpage/key features of data analaysis.jpg"
                       alt=""
                     />
                   </div>
@@ -266,7 +266,7 @@ const PortfolioDetailsPage = () => {
               </div>
               <div className="portfolio-details-banner">
                 <img
-                  src="/assets/img/innerpage/portfolio-banner-img.jpg"
+                  src="/assets/img/innerpage/image 125.jpg"
                   alt=""
                 />
                 <div className="portfolio-details-banner-content">
