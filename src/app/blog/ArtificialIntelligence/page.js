@@ -28,7 +28,7 @@ const BlogPage = () => {
               <div className="author-area">
                 <div className="author-img">
                   <img
-                    src="/assets/img/home4/reviews/Cooper jogan.jpg"
+                    src="\assets\img\home4\reviews\people 9.png"
                     alt=""
                   />
                 </div>

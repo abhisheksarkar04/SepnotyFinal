@@ -282,9 +282,11 @@ const Home5Team = () => {
                         </li>
                       </ul>
                     </div>
-                    <div className="team-content text-center"></div>
-                    <h4>Abhishek Sarkar</h4>
-                    <span>MERN Stack Developer</span>
+                    <div className="team-content text-center">
+                      {" "}
+                      <h4>Abhishek Sarkar</h4>
+                      <span>MERN Stack Developer</span>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -28,7 +28,7 @@ const BlogDetails2 = () => {
                 <div className="author-area">
                   <div className="author-img">
                     <img
-                      src="/assets/img/home4/reviews/Jacoline juie.jpg"
+                      src="\assets\img\home4\reviews\people 1.png"
                       alt=""
                     />
                   </div>

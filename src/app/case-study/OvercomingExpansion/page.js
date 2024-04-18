@@ -16,7 +16,10 @@ const CaseStudyDetails = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="case-thumb">
-                <img src="/assets/img/innerpage/case-thumb.jpg" alt="" />
+                <img
+                  src="/assets/img/innerpage/Overcoming Expansion An Initial Agency's Triumph2.jpg"
+                  alt=""
+                />
               </div>
               <div className="case-details-content">
                 <h3>Revealing Innovative Solutions</h3>
@@ -132,7 +135,7 @@ const CaseStudyDetails = () => {
                     <div className="col-md-6">
                       <div className="case-img">
                         <img
-                          src="/assets/img/innerpage/case-img-01.jpg"
+                          src="/assets/img/innerpage/overcoming1.jpg"
                           alt=""
                         />
                       </div>
@@ -140,7 +143,7 @@ const CaseStudyDetails = () => {
                     <div className="col-md-6">
                       <div className="case-img">
                         <img
-                          src="/assets/img/innerpage/case-img-02.jpg"
+                          src="/assets/img/innerpage/overcoming2.jpg"
                           alt=""
                         />
                       </div>

@@ -357,7 +357,7 @@ const BannerWithCaseStudySlider = () => {
                     <div className="case-study-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/case-study-img5.jpg"
+                          src="assets/img/home1/Digital Transformation- Long Journey to Industry.jpg"
                           alt=""
                         />
                       </div>

@@ -949,6 +949,7 @@ const Header1 = () => {
                 alt="image"
                 className="img-fluid"
                 src="assets/img/dark-logo.png"
+
               />
             </Link>
             <Link href="/" className="logo-light">
@@ -956,6 +957,7 @@ const Header1 = () => {
                 alt="image"
                 className="img-fluid"
                 src="assets/img/white-logo.png"
+
               />
             </Link>
           </div>
