@@ -3,6 +3,12 @@
 import React, { useState } from "react";
 
 const Home1Contact = () => {
+  const [nameError, setNameError] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [phonenumberError, setPhonenumberError] = useState("");
+  const [companyError, setCompanyError] = useState("");
+  const [messageError, setMessageError] = useState("");
+  const [subjectError, setSubjectError] = useState("");
   const [userDetails, setUserDetails] = useState({
     username: "",
     company: "",
@@ -19,7 +25,35 @@ const Home1Contact = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    let errors = {};
 
+    if (!userDetails.email.trim()) {
+      errors.email = "*Please enter your email";
+    } else if (!/^\S+@\S+\.\S+$/.test(userDetails.email)) {
+      errors.email = "*Please enter a valid email address";
+    }
+    if (!userDetails.company.trim()) {
+      errors.company = "*Please enter your company name";
+    }
+    if (!userDetails.phone.trim()) {
+      errors.phone = "*Please enter your phone number";
+    }
+    if (!userDetails.subject.trim()) {
+      errors.subject = "*Please enter your subject";
+    }
+    if (!userDetails.message.trim()) {
+      errors.message = "*Please enter your message";
+    }
+    if (Object.keys(errors).length > 0) {
+      // Display all error messages
+      setNameError(errors.username || "");
+      setEmailError(errors.email || "");
+      setCompanyError(errors.company || "");
+      setPhonenumberError(errors.phone || "");
+      setMessageError(errors.message || "");
+      setSubjectError(errors.subject || "");
+      return;
+    }
     const res = await fetch(`http://localhost:8800/contactUsForm/contactForm`, {
       method: "POST",
       body: JSON.stringify(userDetails),
@@ -204,6 +238,7 @@ const Home1Contact = () => {
                             placeholder="Enter Your Company / Organization"
                             required
                           />
+                          <p>{companyError}</p>
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
@@ -218,6 +253,7 @@ const Home1Contact = () => {
                             placeholder="Contact Number"
                             required
                           />
+                          <p>{phonenumberError}</p>
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
@@ -232,6 +268,7 @@ const Home1Contact = () => {
                             placeholder="Enter e-mail"
                             required
                           />
+                          <p>{emailError}</p>
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
@@ -246,6 +283,7 @@ const Home1Contact = () => {
                             placeholder="Enter subject"
                             required
                           />
+                          <p>{subjectError}</p>
                         </div>
                       </div>
                       <div className="col-lg-12 mb-30">
@@ -260,6 +298,7 @@ const Home1Contact = () => {
                             placeholder=" How may we assist you today?"
                             required
                           />
+                          <p>{messageError}</p>
                         </div>
                       </div>
                       <div className="col-lg-12">
