@@ -98,6 +98,30 @@
         "section_down_scroll": "#blog-grid"
     },
     {
+        "id": "99",
+        "name": "POLICY",
+        "slug": "/ReturnPolicy",
+        "pageTitle": "Return Policy",
+        "section_down_scroll": "#blog-grid"
+
+    },
+    {
+        "id": "99",
+        "name": "POLICY",
+        "slug": "/PrivacyPolicy",
+        "pageTitle": "Privacy Policy",
+        "section_down_scroll": "#blog-grid"
+
+    },
+    {
+        "id": "109",
+        "name": "POLICY",
+        "slug": "/Terms&Conditions",
+        "pageTitle": "Terms & Conditions",
+        "section_down_scroll": "#blog-grid"
+
+    },
+    {
         "id": "11",
         "name": "BLOG DETAILS",
         "slug": "/blog",
