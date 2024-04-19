@@ -576,7 +576,7 @@ const Header1 = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">Portfolio </Link>
+                        <Link href="/portfolios">Portfolio </Link>
                         {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "portfolio" ? "active" : ""
