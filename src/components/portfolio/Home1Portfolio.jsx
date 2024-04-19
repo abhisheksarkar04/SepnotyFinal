@@ -91,7 +91,7 @@ const Home1Portfolio = () => {
                 <h2>Our Portfolio of Creativity</h2>
               </div>
               <Link
-                href="/portfolio"
+                href="/portfolios"
                 className="primary-btn2 wow animate fadeInRight"
                 data-wow-delay="200ms"
                 data-wow-duration="1500ms"
