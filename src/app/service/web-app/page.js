@@ -112,7 +112,7 @@ const WebDetailsPage = () => {
                   >
                     <div className="service-details-img">
                       <img
-                        src="/assets/img/innerpage/WEB DEV 1.PNG"
+                        src="/assets/img/innerpage/WEB DEV 2.PNG"
                         alt=""
                       />
                     </div>
@@ -128,7 +128,7 @@ const WebDetailsPage = () => {
                   <div className="col-lg-6">
                     <div className="service-details-faq-img">
                       <img
-                        src="/assets/img/innerpage/WEB DEV 2.PNG"
+                        src="/assets/img/innerpage/WEB DEV 1.PNG"
                         alt=""
                       />
                     </div>
