@@ -9,6 +9,8 @@ const Home1Contact = () => {
   const [companyError, setCompanyError] = useState("");
   const [messageError, setMessageError] = useState("");
   const [subjectError, setSubjectError] = useState("");
+  const [ShowPopup, setShowPopup] = useState(false);
+  const [popupMessage, setPopupMessage] = useState("");
   const [userDetails, setUserDetails] = useState({
     username: "",
     company: "",
@@ -23,6 +25,32 @@ const Home1Contact = () => {
     setUserDetails({ ...userDetails, [name]: value });
   };
 
+  const handlePhoneInputChange = () => {
+    const { name, value } = event.target;
+
+    if (name === "phone" && value.trim().length > 10) {
+      setPhonenumberError("*Phone number should not exceed 10 digits");
+    } else {
+      setUserDetails({ ...userDetails, [name]: value });
+      // Clear the phone number error if the input is valid
+      if (name === "phone" && value.trim().length <= 10) {
+        setPhonenumberError("");
+      }
+    }
+  };
+
+  const handleEmailInputChange = () => {
+    setEmailError("");
+  };
+  const handleSubjectInputChange = () => {
+    setSubjectError("");
+  };
+  const handleMessageInputChange = () => {
+    setMessageError("");
+  };
+  const handleCompanyInputChange = () => {
+    setCompanyError("");
+  };
   const handleSubmit = async (event) => {
     event.preventDefault();
     let errors = {};
@@ -54,24 +82,43 @@ const Home1Contact = () => {
       setSubjectError(errors.subject || "");
       return;
     }
-    const res = await fetch(`http://localhost:8800/contactUsForm/contactForm`, {
-      method: "POST",
-      body: JSON.stringify(userDetails),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((res) => {
-        setUserDetails({
-          username: "",
-          company: "",
-          email: "",
-          subject: "",
-          phone: "",
-          message: "",
-        });
-      })
-      .catch((err) => console.log(err));
+    try {
+      const res = await fetch(
+        `http://localhost:8800/contactUsForm/contactForm`,
+        {
+          method: "POST",
+          body: JSON.stringify(userDetails),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (res.status === 200) {
+        setPopupMessage("Form submitted successfully!");
+      } else {
+        setPopupMessage("Submission failed. Please try again.");
+      }
+      setShowPopup(true);
+
+      // Reset form after submission
+      setUserDetails({
+        username: "",
+        company: "",
+        email: "",
+        subject: "",
+        phone: "",
+        message: "",
+      });
+    } catch (error) {
+      console.log(error);
+      setPopupMessage("Submission failed. Please try again.");
+      setShowPopup(true);
+    }
+  };
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
   };
   return (
     <>
@@ -235,25 +282,26 @@ const Home1Contact = () => {
                             name="company"
                             value={userDetails.company}
                             onChange={handleInputChange}
+                            onInput={handleCompanyInputChange}
                             placeholder="Enter Your Company / Organization"
                             required
                           />
-                          <p>{companyError}</p>
+                          <p className="error-msg">{companyError}</p>
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Phone *</label>
                           <input
-                            type="number"
                             id="phoneInput"
                             name="phone"
                             value={userDetails.phone}
                             onChange={handleInputChange}
+                            onInput={handlePhoneInputChange}
                             placeholder="Contact Number"
                             required
                           />
-                          <p>{phonenumberError}</p>
+                          <p className="error-msg">{phonenumberError}</p>
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
@@ -265,10 +313,11 @@ const Home1Contact = () => {
                             name="email"
                             value={userDetails.email}
                             onChange={handleInputChange}
+                            onInput={handleEmailInputChange}
                             placeholder="Enter e-mail"
                             required
                           />
-                          <p>{emailError}</p>
+                          <p className="error-msg">{emailError}</p>
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
@@ -280,10 +329,11 @@ const Home1Contact = () => {
                             name="subject"
                             value={userDetails.subject}
                             onChange={handleInputChange}
+                            onInput={handleSubjectInputChange}
                             placeholder="Enter subject"
                             required
                           />
-                          <p>{subjectError}</p>
+                          <p className="error-msg">{subjectError}</p>
                         </div>
                       </div>
                       <div className="col-lg-12 mb-30">
@@ -295,10 +345,11 @@ const Home1Contact = () => {
                             name="message"
                             value={userDetails.message}
                             onChange={handleInputChange}
+                            onInput={handleMessageInputChange}
                             placeholder=" How may we assist you today?"
                             required
                           />
-                          <p>{messageError}</p>
+                          <p className="error-msg">{messageError}</p>
                         </div>
                       </div>
                       <div className="col-lg-12">
@@ -315,6 +366,14 @@ const Home1Contact = () => {
                       </div>
                     </div>
                   </form>
+                  {ShowPopup && (
+                    <div className="popup">
+                      <div className="popup-content">
+                        <p>{popupMessage}</p>
+                        <button onClick={handleClosePopup}>Close</button>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
