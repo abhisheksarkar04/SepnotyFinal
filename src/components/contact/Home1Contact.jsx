@@ -370,7 +370,13 @@ const Home1Contact = () => {
                     <div className="popup">
                       <div className="popup-content">
                         <p>{popupMessage}</p>
-                        <button onClick={handleClosePopup}>Close</button>
+                        <button
+                          onClick={handleClosePopup}
+                          type="button"
+                          className="btn btn-primary"
+                        >
+                          Close
+                        </button>
                       </div>
                     </div>
                   )}

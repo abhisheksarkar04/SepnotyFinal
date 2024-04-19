@@ -246,7 +246,7 @@ const Home5Team = () => {
                       </ul>
                     </div>
                     <div className="team-content text-center">
-                      <h4>Biswabijayeeni Nayak</h4>
+                      <h4>Biswabijayeeni N</h4>
                       <span>Flutter Developer</span>
                     </div>
                   </div>
@@ -286,6 +286,7 @@ const Home5Team = () => {
                       {" "}
                       <h4>Abhishek Sarkar</h4>
                       <span>MERN Stack Developer</span>
+                      <br />
                     </div>
                   </div>
                 </div>

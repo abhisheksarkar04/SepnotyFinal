@@ -57,7 +57,7 @@ const Home1Blog = () => {
                       alt=""
                     />
                   </Link>
-                  <Link href="/blog" className="date">
+                  {/*  <Link href="/blog" className="date">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={15}
@@ -70,7 +70,7 @@ const Home1Blog = () => {
                       </g>
                     </svg>
                     03 January, 2024
-                  </Link>
+                  </Link> */}
                 </div>
                 <div className="card-content">
                   <div className="blog-meta">
@@ -123,7 +123,7 @@ const Home1Blog = () => {
                       alt=""
                     />
                   </Link>
-                  <Link href="/blog" className="date">
+                  {/* <Link href="/blog" className="date">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={15}
@@ -136,7 +136,7 @@ const Home1Blog = () => {
                       </g>
                     </svg>
                     05 January, 2024
-                  </Link>
+                  </Link> */}
                 </div>
                 <div className="card-content">
                   <div className="blog-meta">
@@ -189,7 +189,7 @@ const Home1Blog = () => {
                       alt=""
                     />
                   </Link>
-                  <Link href="/blog" className="date">
+                  {/* <Link href="/blog">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={15}
@@ -202,7 +202,7 @@ const Home1Blog = () => {
                       </g>
                     </svg>
                     12 January, 2024
-                  </Link>
+                  </Link> */}
                 </div>
                 <div className="card-content">
                   <div className="blog-meta">

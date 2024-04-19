@@ -731,6 +731,7 @@ ul {
 .error-msg {
   color: red;
   font-size: 10px;
+  font-family: var(--font-inter);
 }
 
 .popup {
@@ -769,6 +770,9 @@ ul {
 @media (max-width: 576px) {
   .primary-btn2 {
     font-size: 15px;
+  }
+  .popup{
+    height: 20%;
   }
 }
 .primary-btn2 > span {
@@ -6499,7 +6503,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   z-index: 1;
 }
 .blog-card .blog-card-img-wrap .date {
-  color: var(--white-color);
+  color: var(--black-color);
   font-family: var(--font-inter);
   font-size: 14px;
   font-weight: 500;
@@ -6515,7 +6519,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   z-index: 1;
 }
 .blog-card .blog-card-img-wrap .date svg {
-  fill: var(--white-color);
+  fill: var(--balck-color);
 }
 .blog-card .card-content {
   padding-top: 25px;
