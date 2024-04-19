@@ -196,7 +196,7 @@ const Home1Banner = () => {
             onClick={() => setOpen(true)}
             isOpen={isOpen}
             animationSpeed="350"
-            videoId="r4KpWiK08vM"
+            videoId="_0LizkruGKk"
             ratio="16:9"
             onClose={() => setOpen(false)}
           />
