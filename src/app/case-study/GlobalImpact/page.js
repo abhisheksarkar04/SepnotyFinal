@@ -368,28 +368,28 @@ const CaseStudyDetails = () => {
                   <h4>Social Share</h4>
                   <ul>
                     <li>
-                      <a href="#">
+                      <Link href="https://www.linkedin.com/">
                         <i className="bi bi-linkedin" />
                         <span>LinkedIn</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link href="https://www.facebook.com/">
                         <i className="bi bi-facebook" />
                         <span>Facebook</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="bi bi-twitter-x" />
-                        <span>Twitter</span>
-                      </a>
+                      <Link href="https://www.whatsapp.com/">
+                        <i className="bi bi-whatsapp" />
+                        <span>TWhatsApp</span>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link href="https://www.instagram.com/">
                         <i className="bi bi-instagram" />
                         <span>Instagram</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -401,7 +401,7 @@ const CaseStudyDetails = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="/case-study/SmallBusinessTriumph">
+                    <Link href="/case-study/SmallBusinessTriumph">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -427,7 +427,7 @@ const CaseStudyDetails = () => {
                         </svg>
                         <span>PRV PROJECT</span>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
                     <p>Small Business Triumph: Overcoming Challenges</p>
@@ -441,7 +441,7 @@ const CaseStudyDetails = () => {
                     </p>
                   </div>
                   <div className="star-btn">
-                    <a href="/case-study/EnhancingCustomerEngagement">
+                    <Link href="/case-study/EnhancingCustomerEngagement">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -467,7 +467,7 @@ const CaseStudyDetails = () => {
                           />
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

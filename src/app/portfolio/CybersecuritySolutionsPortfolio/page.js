@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const PortfolioDetailsPage = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -22,10 +22,19 @@ const PortfolioDetailsPage = () => {
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3>Network Security Enhancement
-                </h3>
+                <h3>Network Security Enhancement</h3>
                 <p>
-                We fortified the client's network security by deploying cutting-edge firewall solutions and robust intrusion detection systems. These advanced measures shielded the network from a broad spectrum of cyber threats, ensuring comprehensive protection. Through continuous monitoring and real-time threat detection, we proactively safeguarded against potential breaches and unauthorized access attempts. Our proactive approach to network security bolstered the client's defense mechanisms, fostering a resilient infrastructure capable of withstanding evolving cyber risks.       </p>
+                  We fortified the client's network security by deploying
+                  cutting-edge firewall solutions and robust intrusion detection
+                  systems. These advanced measures shielded the network from a
+                  broad spectrum of cyber threats, ensuring comprehensive
+                  protection. Through continuous monitoring and real-time threat
+                  detection, we proactively safeguarded against potential
+                  breaches and unauthorized access attempts. Our proactive
+                  approach to network security bolstered the client's defense
+                  mechanisms, fostering a resilient infrastructure capable of
+                  withstanding evolving cyber risks.{" "}
+                </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
                     <img
@@ -36,7 +45,17 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                Our Network Security Enhancement offers a comprehensive suite of advanced solutions to fortify your digital infrastructure. Through the implementation of cutting-edge firewall technologies and intrusion detection systems, we provide robust protection against cyber threats. Continuous monitoring and real-time threat detection ensure proactive defense measures, thwarting potential breaches and unauthorized access attempts. With a focus on comprehensive security protocols, our solution bolsters your network's resilience, safeguarding critical assets and preserving operational continuity.                </p>
+                  Our Network Security Enhancement offers a comprehensive suite
+                  of advanced solutions to fortify your digital infrastructure.
+                  Through the implementation of cutting-edge firewall
+                  technologies and intrusion detection systems, we provide
+                  robust protection against cyber threats. Continuous monitoring
+                  and real-time threat detection ensure proactive defense
+                  measures, thwarting potential breaches and unauthorized access
+                  attempts. With a focus on comprehensive security protocols,
+                  our solution bolsters your network's resilience, safeguarding
+                  critical assets and preserving operational continuity.{" "}
+                </p>
                 <ul className="features">
                   <li>
                     <svg
@@ -52,8 +71,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Firewall Configuration and Management
-
-
                   </li>
                   <li>
                     <svg
@@ -99,8 +116,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Regulatory Compliance Assistance
-
-
                   </li>
                   <li>
                     <svg
@@ -131,7 +146,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Vulnerability Management and Patching
-
                   </li>
                 </ul>
                 <div className="row mt-50 mb-60">
@@ -144,7 +158,20 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Project Results</h3>
                 <p>
-                Through our robust cybersecurity measures, we achieved significant milestones in safeguarding your network integrity and data assets. By cutting network security breaches by 50% and mitigating malware infections by 60%, we ensure a fortified defense against cyber threats. Our comprehensive approach extends beyond technology, as we prioritize enhancing employee security awareness, resulting in a remarkable 70% improvement. Moreover, our efforts in data protection and privacy compliance have been strengthened, aligning seamlessly with regulatory standards. With a 40% decrease in incident response time and full regulatory compliance, your organization is empowered to navigate the digital landscape with confidence and resilience.</p>
+                  Through our robust cybersecurity measures, we achieved
+                  significant milestones in safeguarding your network integrity
+                  and data assets. By cutting network security breaches by 50%
+                  and mitigating malware infections by 60%, we ensure a
+                  fortified defense against cyber threats. Our comprehensive
+                  approach extends beyond technology, as we prioritize enhancing
+                  employee security awareness, resulting in a remarkable 70%
+                  improvement. Moreover, our efforts in data protection and
+                  privacy compliance have been strengthened, aligning seamlessly
+                  with regulatory standards. With a 40% decrease in incident
+                  response time and full regulatory compliance, your
+                  organization is empowered to navigate the digital landscape
+                  with confidence and resilience.
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -260,10 +287,7 @@ const PortfolioDetailsPage = () => {
                 </div>
               </div>
               <div className="portfolio-details-banner">
-                <img
-                  src="/assets/img/innerpage/image 127.jpg"
-                  alt=""
-                />
+                <img src="/assets/img/innerpage/image 127.jpg" alt="" />
                 <div className="portfolio-details-banner-content">
                   <h2>
                     Ready to <span>work with us?</span>
@@ -280,7 +304,7 @@ const PortfolioDetailsPage = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="/portfolio/DigitalMarketingPortfolio">
+                    <Link href="/portfolio/DigitalMarketingPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -306,12 +330,10 @@ const PortfolioDetailsPage = () => {
                         </svg>
                         <span>PRV PROJECT</span>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
-                    <p>
-                    Digital Marketing Portfolio
-                    </p>
+                    <p>Digital Marketing Portfolio</p>
                   </div>
                 </div>
                 <div className="single-navigation two text-end">
@@ -319,7 +341,7 @@ const PortfolioDetailsPage = () => {
                     <p>UI/UX Design Portfolio</p>
                   </div>
                   <div className="star-btn">
-                    <a href="/portfolio/UI-UXPortfolio">
+                    <Link href="/portfolio/UI-UXPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -345,7 +367,7 @@ const PortfolioDetailsPage = () => {
                           />
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

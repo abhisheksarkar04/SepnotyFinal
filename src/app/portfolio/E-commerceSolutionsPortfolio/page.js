@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const PortfolioDetailsPage = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -24,7 +24,14 @@ const PortfolioDetailsPage = () => {
               <div className="portfolio-details-content">
                 <h3>Fashion Boutique</h3>
                 <p>
-                We developed a custom e-commerce platform tailored for a high-end fashion boutique looking to expand its online presence. Our solution showcased the boutique's luxury offerings with captivating visuals and personalized features, ensuring a seamless and immersive shopping experience. By leveraging our platform, the boutique successfully extended its reach, attracting a wider audience and reinforcing its position as a leader in the luxury fashion market.{" "}
+                  We developed a custom e-commerce platform tailored for a
+                  high-end fashion boutique looking to expand its online
+                  presence. Our solution showcased the boutique's luxury
+                  offerings with captivating visuals and personalized features,
+                  ensuring a seamless and immersive shopping experience. By
+                  leveraging our platform, the boutique successfully extended
+                  its reach, attracting a wider audience and reinforcing its
+                  position as a leader in the luxury fashion market.{" "}
                 </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
@@ -36,7 +43,13 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                The Fashion Boutique offers a curated selection of high-end fashion products, from clothing to accessories and footwear. With a focus on luxury, its visually stunning online platform provides personalized recommendations and seamless checkout. Known for exceptional customer service, the boutique epitomizes elegance and style in every aspect of the shopping experience.
+                  The Fashion Boutique offers a curated selection of high-end
+                  fashion products, from clothing to accessories and footwear.
+                  With a focus on luxury, its visually stunning online platform
+                  provides personalized recommendations and seamless checkout.
+                  Known for exceptional customer service, the boutique
+                  epitomizes elegance and style in every aspect of the shopping
+                  experience.
                 </p>
                 <ul className="features">
                   <li>
@@ -139,7 +152,15 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Our efforts led to remarkable improvements for the Fashion Boutique's online platform, including a 40% increase in sales, a 50% reduction in website load times, and a 25% rise in conversion rates. Additionally, we achieved a 30% boost in average order value, a 35% increase in customer retention, and a 50% rise in order volume, showcasing the effectiveness of our strategies in driving growth and enhancing performance.</p>
+                <p>
+                  Our efforts led to remarkable improvements for the Fashion
+                  Boutique's online platform, including a 40% increase in sales,
+                  a 50% reduction in website load times, and a 25% rise in
+                  conversion rates. Additionally, we achieved a 30% boost in
+                  average order value, a 35% increase in customer retention, and
+                  a 50% rise in order volume, showcasing the effectiveness of
+                  our strategies in driving growth and enhancing performance.
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -255,10 +276,7 @@ const PortfolioDetailsPage = () => {
                 </div>
               </div>
               <div className="portfolio-details-banner">
-                <img
-                  src="/assets/img/innerpage/image 129.jpg"
-                  alt=""
-                />
+                <img src="/assets/img/innerpage/image 129.jpg" alt="" />
                 <div className="portfolio-details-banner-content">
                   <h2>
                     Ready to <span>work with us?</span>
@@ -273,7 +291,7 @@ const PortfolioDetailsPage = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="details-navigation">
-                 <div className="single-navigation">
+                <div className="single-navigation">
                   {/*<div className="star-btn ">
                     <a href="#">
                       <div className="bg">
@@ -309,13 +327,13 @@ const PortfolioDetailsPage = () => {
                       work.
                     </p>
                   </div>*/}
-  </div> 
+                </div>
                 <div className="single-navigation two text-end">
                   <div className="content">
                     <p>Web & App Development Portfolio</p>
                   </div>
                   <div className="star-btn">
-                    <a href="/portfolio/Web&AppDevelopmentPortfolio">
+                    <Link href="/portfolio/Web&AppDevelopmentPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -341,7 +359,7 @@ const PortfolioDetailsPage = () => {
                           />
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const PortfolioDetailsPage = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -24,7 +24,12 @@ const PortfolioDetailsPage = () => {
               <div className="portfolio-details-content">
                 <h3>Corporate Website Redesign</h3>
                 <p>
-                Revamped the corporate website of a Fortune 500 firm to boost brand visibility and user engagement. Leveraged contemporary design strategies to enhance the platform's appeal and navigation. The result is a seamless digital experience that reflects the company's prestige and strengthens its online presence.{" "}
+                  Revamped the corporate website of a Fortune 500 firm to boost
+                  brand visibility and user engagement. Leveraged contemporary
+                  design strategies to enhance the platform's appeal and
+                  navigation. The result is a seamless digital experience that
+                  reflects the company's prestige and strengthens its online
+                  presence.{" "}
                 </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
@@ -36,7 +41,15 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                Corporate website redesign involves updating and refining the digital face of a company, aiming to align it with current market trends and user expectations. This process entails enhancing visual appeal, optimizing user experience, and incorporating modern design elements. Through strategic planning and implementation, a redesigned corporate website can effectively communicate the company's brand identity, improve engagement with visitors, and ultimately drive business growth.
+                  Corporate website redesign involves updating and refining the
+                  digital face of a company, aiming to align it with current
+                  market trends and user expectations. This process entails
+                  enhancing visual appeal, optimizing user experience, and
+                  incorporating modern design elements. Through strategic
+                  planning and implementation, a redesigned corporate website
+                  can effectively communicate the company's brand identity,
+                  improve engagement with visitors, and ultimately drive
+                  business growth.
                 </p>
                 <ul className="features">
                   <li>
@@ -113,7 +126,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Customization Options
-
                   </li>
                   <li>
                     <svg
@@ -140,7 +152,18 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Implemented diverse digital solutions across industries, resulting in significant performance improvements. Achievements include enhancing website traffic by 50%, app store ratings by 20%, and reducing bounce rates by 30%. Additionally, facilitated patient-doctor communication in healthcare, enhanced e-commerce platforms for retail clients, and developed custom web applications for logistics companies. Achieved notable increases in customer satisfaction scores, conversion rates, and app downloads, showcasing a versatile and impactful approach to digital transformation.</p>
+                <p>
+                  Implemented diverse digital solutions across industries,
+                  resulting in significant performance improvements.
+                  Achievements include enhancing website traffic by 50%, app
+                  store ratings by 20%, and reducing bounce rates by 30%.
+                  Additionally, facilitated patient-doctor communication in
+                  healthcare, enhanced e-commerce platforms for retail clients,
+                  and developed custom web applications for logistics companies.
+                  Achieved notable increases in customer satisfaction scores,
+                  conversion rates, and app downloads, showcasing a versatile
+                  and impactful approach to digital transformation.
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -256,10 +279,7 @@ const PortfolioDetailsPage = () => {
                 </div>
               </div>
               <div className="portfolio-details-banner">
-                <img
-                  src="/assets/img/innerpage/image 130.jpg"
-                  alt=""
-                />
+                <img src="/assets/img/innerpage/image 130.jpg" alt="" />
                 <div className="portfolio-details-banner-content">
                   <h2>
                     Ready to <span>work with us?</span>
@@ -276,7 +296,7 @@ const PortfolioDetailsPage = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="/portfolio/E-commerceSolutionsPortfolio">
+                    <Link href="/portfolio/E-commerceSolutionsPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -302,12 +322,10 @@ const PortfolioDetailsPage = () => {
                         </svg>
                         <span>PRV PROJECT</span>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
-                    <p>
-                    E-commerce Solutions Portfolio
-                    </p>
+                    <p>E-commerce Solutions Portfolio</p>
                   </div>
                 </div>
                 <div className="single-navigation two text-end">
@@ -315,7 +333,7 @@ const PortfolioDetailsPage = () => {
                     <p>Digital Marketing Portfolio</p>
                   </div>
                   <div className="star-btn">
-                    <a href="/portfolio/DigitalMarketingPortfolio">
+                    <Link href="/portfolio/DigitalMarketingPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -341,7 +359,7 @@ const PortfolioDetailsPage = () => {
                           />
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

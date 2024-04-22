@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const PortfolioDetailsPage = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -14,30 +14,39 @@ const PortfolioDetailsPage = () => {
       >
         <div className="container">
           <div className="portfolio-details-thumb mb-80">
-            <img
-              src="/assets/img/innerpage/digital marketing.jpg"
-              alt=""
-            />
+            <img src="/assets/img/innerpage/digital marketing.jpg" alt="" />
           </div>
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3>Social Media Marketing Campaign
-                </h3>
+                <h3>Social Media Marketing Campaign</h3>
                 <p>
-                I developed and implemented a dynamic social media marketing campaign tailored for a fashion brand, strategically aimed at boosting brand visibility and directing traffic to its website. Through engaging content and targeted advertising, the campaign effectively elevated brand awareness across various social media platforms. The result was a significant surge in online presence and heightened website traffic, ultimately contributing to the brand's overall growth and success.{" "}
+                  I developed and implemented a dynamic social media marketing
+                  campaign tailored for a fashion brand, strategically aimed at
+                  boosting brand visibility and directing traffic to its
+                  website. Through engaging content and targeted advertising,
+                  the campaign effectively elevated brand awareness across
+                  various social media platforms. The result was a significant
+                  surge in online presence and heightened website traffic,
+                  ultimately contributing to the brand's overall growth and
+                  success.{" "}
                 </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
-                    <img
-                      src="/assets/img/innerpage/Market tool.jpg"
-                      alt=""
-                    />
+                    <img src="/assets/img/innerpage/Market tool.jpg" alt="" />
                   </div>
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                Our Social Media Marketing Campaign offers targeted audience engagement, driving brand recognition and customer interaction. Utilizing data-driven strategies, we tailor content to resonate with your audience, maximizing reach and impact. With comprehensive analytics, you gain valuable insights into campaign performance, enabling agile adjustments for optimal results. Elevate your brand's online presence and foster meaningful connections with our dynamic Social Media Marketing Campaign.
+                  Our Social Media Marketing Campaign offers targeted audience
+                  engagement, driving brand recognition and customer
+                  interaction. Utilizing data-driven strategies, we tailor
+                  content to resonate with your audience, maximizing reach and
+                  impact. With comprehensive analytics, you gain valuable
+                  insights into campaign performance, enabling agile adjustments
+                  for optimal results. Elevate your brand's online presence and
+                  foster meaningful connections with our dynamic Social Media
+                  Marketing Campaign.
                 </p>
                 <ul className="features">
                   <li>
@@ -54,7 +63,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Target Audience Analysis
-
                   </li>
                   <li>
                     <svg
@@ -70,7 +78,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Content Creation and Distribution
-
                   </li>
                   <li>
                     <svg
@@ -101,7 +108,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     SEO Optimization
-
                   </li>
                   <li>
                     <svg
@@ -117,8 +123,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Email Marketing Automation
-
-
                   </li>
                   <li>
                     <svg
@@ -145,7 +149,17 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Our comprehensive marketing strategy delivered exceptional results: a remarkable 60% surge in social media engagement, alongside a substantial 40% uptick in organic search traffic. Moreover, our efforts yielded a notable 25% enhancement in email open rates and a remarkable 50% increase in leads from our PPC campaigns. Accompanying these achievements, we saw a significant 30% improvement in website conversion rates, solidifying our brand's visibility and recognition within the industry.</p>
+                <p>
+                  Our comprehensive marketing strategy delivered exceptional
+                  results: a remarkable 60% surge in social media engagement,
+                  alongside a substantial 40% uptick in organic search traffic.
+                  Moreover, our efforts yielded a notable 25% enhancement in
+                  email open rates and a remarkable 50% increase in leads from
+                  our PPC campaigns. Accompanying these achievements, we saw a
+                  significant 30% improvement in website conversion rates,
+                  solidifying our brand's visibility and recognition within the
+                  industry.
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -261,10 +275,7 @@ const PortfolioDetailsPage = () => {
                 </div>
               </div>
               <div className="portfolio-details-banner">
-                <img
-                  src="/assets/img/innerpage/image 126.jpg"
-                  alt=""
-                />
+                <img src="/assets/img/innerpage/image 126.jpg" alt="" />
                 <div className="portfolio-details-banner-content">
                   <h2>
                     Ready to <span>work with us?</span>
@@ -281,7 +292,7 @@ const PortfolioDetailsPage = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="/portfolio/Web&AppDevelopmentPortfolio">
+                    <Link href="/portfolio/Web&AppDevelopmentPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -307,12 +318,10 @@ const PortfolioDetailsPage = () => {
                         </svg>
                         <span>PRV PROJECT</span>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
-                    <p>
-                    Web & App Development Portfolio
-                    </p>
+                    <p>Web & App Development Portfolio</p>
                   </div>
                 </div>
                 <div className="single-navigation two text-end">
@@ -320,7 +329,7 @@ const PortfolioDetailsPage = () => {
                     <p>Cybersecurity Solutions Portfolio</p>
                   </div>
                   <div className="star-btn">
-                    <a href="/portfolio/CybersecuritySolutionsPortfolio">
+                    <Link href="/portfolio/CybersecuritySolutionsPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -346,7 +355,7 @@ const PortfolioDetailsPage = () => {
                           />
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

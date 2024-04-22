@@ -277,9 +277,9 @@ const BlogPage = () => {
                 </Link>
               </li>
               <li>
-                <Link href="https://twitter.com/">
-                  <i className="bi bi-twitter-x" />
-                  <span>Twitter</span>
+                <Link href="https://Whatsapp.com/">
+                  <i className="bi bi-Whatsapp" />
+                  <span>WhatsApp</span>
                 </Link>
               </li>
               <li>

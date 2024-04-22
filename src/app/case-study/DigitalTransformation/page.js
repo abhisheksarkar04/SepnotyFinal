@@ -379,28 +379,28 @@ const CaseStudyDetails = () => {
                   <h4>Social Share</h4>
                   <ul>
                     <li>
-                      <a href="#">
+                      <Link href="https://www.linkedin.com/">
                         <i className="bi bi-linkedin" />
                         <span>LinkedIn</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link href="https://www.facebook.com/">
                         <i className="bi bi-facebook" />
                         <span>Facebook</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <a href="https://www.whatsapp.com/">
+                        <i className="bi bi-whatsapp" />
+                        <span>WhatsApp</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="bi bi-twitter-x" />
-                        <span>Twitter</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
+                      <Link href="https://www.instagram.com/">
                         <i className="bi bi-instagram" />
                         <span>Instagram</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -449,7 +449,7 @@ const CaseStudyDetails = () => {
                     <p>Overcoming Expansion: An Initial Agency's Triumph.</p>
                   </div>
                   <div className="star-btn">
-                    <a href="/case-study/OvercomingExpansion">
+                    <Link href="/case-study/OvercomingExpansion">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -475,7 +475,7 @@ const CaseStudyDetails = () => {
                           />
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

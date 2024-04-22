@@ -283,7 +283,7 @@ const Footer = () => {
             <div className="footer-bottom-right">
               <ul>
                 <li>
-                  <Link href="/about">about</Link>
+                  <Link href="/about">About</Link>
                 </li>
                 <li>
                   <Link href="/Terms&Conditions">Terms &amp; Conditions</Link>
