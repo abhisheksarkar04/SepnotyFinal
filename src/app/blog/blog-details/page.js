@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const BlogDetails = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -52,7 +52,7 @@ const BlogDetails = () => {
                     3.9K View
                   </li>
                   <li>
-                    <a href="#comment-area">
+                    <Link href="#comment-area">
                       <svg
                         viewBox="0 0 16 16"
                         xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ const BlogDetails = () => {
                         <path d="M6.0757 0.216195C4.48484 0.198449 2.95187 0.812289 1.81293 1.92312C0.673981 3.03395 0.0220199 4.5511 1.29169e-06 6.1419C-0.000538167 6.94954 0.167902 7.74837 0.494497 8.48703C0.821091 9.22569 1.29861 9.88786 1.89638 10.431L1.65183 11.7365C1.63148 11.8461 1.63545 11.9588 1.66346 12.0668C1.69147 12.1747 1.74285 12.2751 1.81395 12.361C1.88505 12.4469 1.97414 12.5161 2.07493 12.5638C2.17572 12.6114 2.28575 12.6364 2.39724 12.6368C2.52333 12.6366 2.64739 12.6052 2.75837 12.5453L4.19679 11.7726C4.8041 11.9674 5.43791 12.067 6.0757 12.068C7.66662 12.0857 9.19965 11.4718 10.3386 10.3609C11.4776 9.25002 12.1295 7.73277 12.1514 6.1419C12.1294 4.5511 11.4774 3.03395 10.3385 1.92312C9.19953 0.812289 7.66656 0.198449 6.0757 0.216195ZM3.79731 7.05136C3.64711 7.05136 3.50027 7.00681 3.37538 6.92336C3.25049 6.83991 3.15314 6.7213 3.09566 6.58253C3.03818 6.44375 3.02314 6.29105 3.05244 6.14373C3.08175 5.99641 3.15408 5.86109 3.26029 5.75487C3.36651 5.64866 3.50183 5.57633 3.64915 5.54702C3.79647 5.51772 3.94917 5.53276 4.08795 5.59024C4.22672 5.64772 4.34533 5.74507 4.42878 5.86996C4.51223 5.99485 4.55678 6.14169 4.55678 6.29189C4.55678 6.49332 4.47676 6.68649 4.33433 6.82891C4.19191 6.97134 3.99874 7.05136 3.79731 7.05136ZM6.0757 7.05136C5.92549 7.05136 5.77866 7.00681 5.65377 6.92336C5.52887 6.83991 5.43153 6.7213 5.37405 6.58253C5.31657 6.44375 5.30153 6.29105 5.33083 6.14373C5.36013 5.99641 5.43247 5.86109 5.53868 5.75487C5.64489 5.64866 5.78022 5.57633 5.92754 5.54702C6.07486 5.51772 6.22756 5.53276 6.36633 5.59024C6.50511 5.64772 6.62372 5.74507 6.70717 5.86996C6.79062 5.99485 6.83516 6.14169 6.83516 6.29189C6.83516 6.49332 6.75515 6.68649 6.61272 6.82891C6.47029 6.97134 6.27712 7.05136 6.0757 7.05136ZM8.35409 7.05136C8.20388 7.05136 8.05704 7.00681 7.93215 6.92336C7.80726 6.83991 7.70992 6.7213 7.65244 6.58253C7.59495 6.44375 7.57991 6.29105 7.60922 6.14373C7.63852 5.99641 7.71085 5.86109 7.81707 5.75487C7.92328 5.64866 8.0586 5.57633 8.20592 5.54702C8.35324 5.51772 8.50595 5.53276 8.64472 5.59024C8.78349 5.64772 8.90211 5.74507 8.98556 5.86996C9.06901 5.99485 9.11355 6.14169 9.11355 6.29189C9.11355 6.49332 9.03354 6.68649 8.89111 6.82891C8.74868 6.97134 8.55551 7.05136 8.35409 7.05136Z"></path>
                       </svg>
                       840 Comment
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -236,28 +236,28 @@ const BlogDetails = () => {
             </div>
             <ul className="social-list">
               <li>
-                <a href="https://www.linkedin.com/">
+                <Link href="https://www.linkedin.com/">
                   <i className="bi bi-linkedin" />
                   <span>LinkedIn</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.facebook.com/">
+                <Link href="https://www.facebook.com/">
                   <i className="bi bi-facebook" />
                   <span>Facebook</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://twitter.com/">
+                <Link href="https://twitter.com/">
                   <i className="bi bi-twitter-x" />
                   <span>Twitter</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.instagram.com/">
+                <Link href="https://www.instagram.com/">
                   <i className="bi bi-instagram" />
                   <span>Instagram</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -266,7 +266,7 @@ const BlogDetails = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="#">
+                    <Link href="">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -292,7 +292,7 @@ const BlogDetails = () => {
                         </svg>
                         <span>PRV PROJECT</span>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
                     <p>
@@ -306,7 +306,7 @@ const BlogDetails = () => {
                     <p>Challenges creating structure multiple brand system.</p>
                   </div>
                   <div className="star-btn">
-                    <a href="#">
+                    <Link href="">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -332,7 +332,7 @@ const BlogDetails = () => {
                           />
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
