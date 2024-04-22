@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const BlogDetails9 = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -27,10 +27,7 @@ const BlogDetails9 = () => {
               <div className="blog-details-author-meta">
                 <div className="author-area">
                   <div className="author-img">
-                    <img
-                      src="\assets\img\home4\reviews\people 4.png"
-                      alt=""
-                    />
+                    <img src="\assets\img\home4\reviews\people 4.png" alt="" />
                   </div>
                   <div className="author-content">
                     <h6>
@@ -52,7 +49,7 @@ const BlogDetails9 = () => {
                     3.9K View
                   </li>
                   <li>
-                    <a href="#comment-area">
+                    <Link href="#comment-area">
                       <svg
                         viewBox="0 0 16 16"
                         xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +58,7 @@ const BlogDetails9 = () => {
                         <path d="M6.0757 0.216195C4.48484 0.198449 2.95187 0.812289 1.81293 1.92312C0.673981 3.03395 0.0220199 4.5511 1.29169e-06 6.1419C-0.000538167 6.94954 0.167902 7.74837 0.494497 8.48703C0.821091 9.22569 1.29861 9.88786 1.89638 10.431L1.65183 11.7365C1.63148 11.8461 1.63545 11.9588 1.66346 12.0668C1.69147 12.1747 1.74285 12.2751 1.81395 12.361C1.88505 12.4469 1.97414 12.5161 2.07493 12.5638C2.17572 12.6114 2.28575 12.6364 2.39724 12.6368C2.52333 12.6366 2.64739 12.6052 2.75837 12.5453L4.19679 11.7726C4.8041 11.9674 5.43791 12.067 6.0757 12.068C7.66662 12.0857 9.19965 11.4718 10.3386 10.3609C11.4776 9.25002 12.1295 7.73277 12.1514 6.1419C12.1294 4.5511 11.4774 3.03395 10.3385 1.92312C9.19953 0.812289 7.66656 0.198449 6.0757 0.216195ZM3.79731 7.05136C3.64711 7.05136 3.50027 7.00681 3.37538 6.92336C3.25049 6.83991 3.15314 6.7213 3.09566 6.58253C3.03818 6.44375 3.02314 6.29105 3.05244 6.14373C3.08175 5.99641 3.15408 5.86109 3.26029 5.75487C3.36651 5.64866 3.50183 5.57633 3.64915 5.54702C3.79647 5.51772 3.94917 5.53276 4.08795 5.59024C4.22672 5.64772 4.34533 5.74507 4.42878 5.86996C4.51223 5.99485 4.55678 6.14169 4.55678 6.29189C4.55678 6.49332 4.47676 6.68649 4.33433 6.82891C4.19191 6.97134 3.99874 7.05136 3.79731 7.05136ZM6.0757 7.05136C5.92549 7.05136 5.77866 7.00681 5.65377 6.92336C5.52887 6.83991 5.43153 6.7213 5.37405 6.58253C5.31657 6.44375 5.30153 6.29105 5.33083 6.14373C5.36013 5.99641 5.43247 5.86109 5.53868 5.75487C5.64489 5.64866 5.78022 5.57633 5.92754 5.54702C6.07486 5.51772 6.22756 5.53276 6.36633 5.59024C6.50511 5.64772 6.62372 5.74507 6.70717 5.86996C6.79062 5.99485 6.83516 6.14169 6.83516 6.29189C6.83516 6.49332 6.75515 6.68649 6.61272 6.82891C6.47029 6.97134 6.27712 7.05136 6.0757 7.05136ZM8.35409 7.05136C8.20388 7.05136 8.05704 7.00681 7.93215 6.92336C7.80726 6.83991 7.70992 6.7213 7.65244 6.58253C7.59495 6.44375 7.57991 6.29105 7.60922 6.14373C7.63852 5.99641 7.71085 5.86109 7.81707 5.75487C7.92328 5.64866 8.0586 5.57633 8.20592 5.54702C8.35324 5.51772 8.50595 5.53276 8.64472 5.59024C8.78349 5.64772 8.90211 5.74507 8.98556 5.86996C9.06901 5.99485 9.11355 6.14169 9.11355 6.29189C9.11355 6.49332 9.03354 6.68649 8.89111 6.82891C8.74868 6.97134 8.55551 7.05136 8.35409 7.05136Z"></path>
                       </svg>
                       840 Comment
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -70,7 +67,7 @@ const BlogDetails9 = () => {
           <div className="blog-details-content">
             <div className="row justify-content-center g-4">
               <div className="col-lg-8">
-               {/*  <p className="first-para">
+                {/*  <p className="first-para">
                   Welcome to our blog details page, your gateway to in-depth
                   captivating narratives. Dive into thought-provoking
                   articles,and engaging content that goes beyond the surface
@@ -95,7 +92,7 @@ const BlogDetails9 = () => {
                     communication."
                   </p>
                   <h3 className="blockquote-author">Leslie Alexander</h3> */}
-                 {/*  <svg
+                {/*  <svg
                     className="quotes"
                     xmlns="http://www.w3.org/2000/svg"
                     width={93}
@@ -104,16 +101,19 @@ const BlogDetails9 = () => {
                   >
                     <path d="M52.3886 44.806L92.5 88.7114V0.5H52.3886V44.806ZM0.5 44.806L40.61 88.7114V0.5H0.5V44.806Z" />
                   </svg> */}
-                  <h3> Understanding Brand Identity</h3>
+                <h3> Understanding Brand Identity</h3>
                 <p>
-                Building a strong brand identity is essential for any business looking to establish itself in the 
-marketplace and connect with its target audience. Brand identity encompasses the visual 
-elements, messaging, values, and personality that distinguish a brand from its competitors 
-and resonate with customers. It's not just about having a memorable logo or catchy slogan; 
-it's about crafting a cohesive and compelling brand story that communicates who you are, 
-what you stand for, and why customers should choose you over the competition.
+                  Building a strong brand identity is essential for any business
+                  looking to establish itself in the marketplace and connect
+                  with its target audience. Brand identity encompasses the
+                  visual elements, messaging, values, and personality that
+                  distinguish a brand from its competitors and resonate with
+                  customers. It's not just about having a memorable logo or
+                  catchy slogan; it's about crafting a cohesive and compelling
+                  brand story that communicates who you are, what you stand for,
+                  and why customers should choose you over the competition.
                 </p>
-               {/*  </blockquote> */}
+                {/*  </blockquote> */}
                 <div className="row mb-50">
                   <div className="col-lg-12">
                     <img
@@ -124,46 +124,54 @@ what you stand for, and why customers should choose you over the competition.
                 </div>
                 <h3>The Role of Brand Identity in Business Success</h3>
                 <p>
-                Differentiation: In today's crowded marketplace, standing out from the competition is 
-more challenging than ever. A strong brand identity helps businesses di erentiate 
-themselves by communicating their unique value proposition and setting themselves 
-apart from competitors.
+                  Differentiation: In today's crowded marketplace, standing out
+                  from the competition is more challenging than ever. A strong
+                  brand identity helps businesses di erentiate themselves by
+                  communicating their unique value proposition and setting
+                  themselves apart from competitors.
                 </p>
                 <p>
-                Trust and Credibility: A well-defined brand identity builds trust and credibility with 
-customers by conveying professionalism, consistency, and reliability. When customers 
-perceive a brand as trustworthy, they're more likely to choose it over alternatives and 
-become repeat buyers.
+                  Trust and Credibility: A well-defined brand identity builds
+                  trust and credibility with customers by conveying
+                  professionalism, consistency, and reliability. When customers
+                  perceive a brand as trustworthy, they're more likely to choose
+                  it over alternatives and become repeat buyers.
                 </p>
                 <p>
-                Emotional Connection: Brand identity goes beyond rational features and benefits; it 
-taps into customers' emotions and aspirations. Brands that resonate on an emotional 
-level with their audience can forge deeper connections, foster loyalty, and command 
-premium pricing.
+                  Emotional Connection: Brand identity goes beyond rational
+                  features and benefits; it taps into customers' emotions and
+                  aspirations. Brands that resonate on an emotional level with
+                  their audience can forge deeper connections, foster loyalty,
+                  and command premium pricing.
                 </p>
                 <p>
-                Brand Loyalty: A strong brand identity cultivates loyalty among customers, turning 
-them into brand advocates who willingly promote and recommend the brand to 
-others. Brand loyalists are more resistant to competitive o erings and more likely to 
-stick with the brand through ups and downs.
+                  Brand Loyalty: A strong brand identity cultivates loyalty
+                  among customers, turning them into brand advocates who
+                  willingly promote and recommend the brand to others. Brand
+                  loyalists are more resistant to competitive o erings and more
+                  likely to stick with the brand through ups and downs.
                 </p>
                 <p>
-                Consistency: Consistency is key to building a strong brand identity. By maintaining 
-consistency across all brand touchpoints, including visual identity, messaging, tone of 
-voice, and customer experience, businesses can reinforce their brand's positioning 
-and strengthen brand recall and recognition.
+                  Consistency: Consistency is key to building a strong brand
+                  identity. By maintaining consistency across all brand
+                  touchpoints, including visual identity, messaging, tone of
+                  voice, and customer experience, businesses can reinforce their
+                  brand's positioning and strengthen brand recall and
+                  recognition.
                 </p>
                 <p>
-                At Sepnoty, we understand the importance of brand identity and its impact on business 
-success. Our team of experts specializes in helping businesses develop and refine their brand 
-identity to create meaningful connections with their audience and drive long-term loyalty 
-and advocacy.
+                  At Sepnoty, we understand the importance of brand identity and
+                  its impact on business success. Our team of experts
+                  specializes in helping businesses develop and refine their
+                  brand identity to create meaningful connections with their
+                  audience and drive long-term loyalty and advocacy.
                 </p>
                 <p>
-                Long-Term Value: Investing in brand identity is an investment in the long-term success 
-and sustainability of the business. A strong brand identity can command higher 
-prices, attract top talent, and weather market fluctuations more e ectively, ultimately 
-delivering greater value to stakeholders.
+                  Long-Term Value: Investing in brand identity is an investment
+                  in the long-term success and sustainability of the business. A
+                  strong brand identity can command higher prices, attract top
+                  talent, and weather market fluctuations more e ectively,
+                  ultimately delivering greater value to stakeholders.
                 </p>
                 <div className="blog-details-img-grp">
                   <div className="row g-4 mb-50">
@@ -183,10 +191,13 @@ delivering greater value to stakeholders.
                 </div>
                 <h3>Building a Strong Brand with Sepnoty's Expertise</h3>
                 <p>
-                By partnering with Sepnoty, businesses can unlock the full potential of their brand identity 
-and leverage it as a powerful asset for driving business growth and success. Our expertise, 
-creativity, and strategic approach to brand identity enable us to help clients build strong, 
-resilient brands that resonate with their audience and stand the test of time.
+                  By partnering with Sepnoty, businesses can unlock the full
+                  potential of their brand identity and leverage it as a
+                  powerful asset for driving business growth and success. Our
+                  expertise, creativity, and strategic approach to brand
+                  identity enable us to help clients build strong, resilient
+                  brands that resonate with their audience and stand the test of
+                  time.
                 </p>
                 <ul>
                   <li>
@@ -198,10 +209,12 @@ resilient brands that resonate with their audience and stand the test of time.
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Brand Strategy: We work closely with clients to develop comprehensive brand 
-strategies that align with their business objectives, target audience, and competitive 
-landscape. Our strategic approach ensures that every aspect of the brand identity is 
-carefully considered and strategically executed for maximum impact.
+                    Brand Strategy: We work closely with clients to develop
+                    comprehensive brand strategies that align with their
+                    business objectives, target audience, and competitive
+                    landscape. Our strategic approach ensures that every aspect
+                    of the brand identity is carefully considered and
+                    strategically executed for maximum impact.
                   </li>
                   <li>
                     <svg
@@ -212,10 +225,12 @@ carefully considered and strategically executed for maximum impact.
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Visual Identity: Our talented design team specializes in creating visually compelling 
-brand identities that reflect the essence of the brand and resonate with its audience. 
-From logo design and color palettes to typography and imagery, we craft cohesive and 
-memorable visual identities that leave a lasting impression.
+                    Visual Identity: Our talented design team specializes in
+                    creating visually compelling brand identities that reflect
+                    the essence of the brand and resonate with its audience.
+                    From logo design and color palettes to typography and
+                    imagery, we craft cohesive and memorable visual identities
+                    that leave a lasting impression.
                   </li>
                   <li>
                     <svg
@@ -226,10 +241,12 @@ memorable visual identities that leave a lasting impression.
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Messaging and Positioning: E ective brand messaging is essential for communicating 
-the brand's value proposition and positioning in the market. We help clients develop 
-clear and compelling messaging frameworks that articulate their unique selling points 
-and resonate with their target audience.
+                    Messaging and Positioning: E ective brand messaging is
+                    essential for communicating the brand's value proposition
+                    and positioning in the market. We help clients develop clear
+                    and compelling messaging frameworks that articulate their
+                    unique selling points and resonate with their target
+                    audience.
                   </li>
                   <li>
                     <svg
@@ -240,10 +257,11 @@ and resonate with their target audience.
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Brand Experience: A consistent brand experience is critical for building trust and 
-loyalty with customers. We collaborate with clients to ensure that every interaction 
-with the brand, whether online or o line, reflects its core values, personality, and 
-promise to customers.
+                    Brand Experience: A consistent brand experience is critical
+                    for building trust and loyalty with customers. We
+                    collaborate with clients to ensure that every interaction
+                    with the brand, whether online or o line, reflects its core
+                    values, personality, and promise to customers.
                   </li>
                   <li>
                     <svg
@@ -254,10 +272,12 @@ promise to customers.
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Brand Guardianship: Building a strong brand is an ongoing process that requires 
-vigilant guardianship to maintain consistency and relevance over time. We provide 
-ongoing support and guidance to help clients safeguard their brand identity and adapt 
-to evolving market trends and consumer preferences.
+                    Brand Guardianship: Building a strong brand is an ongoing
+                    process that requires vigilant guardianship to maintain
+                    consistency and relevance over time. We provide ongoing
+                    support and guidance to help clients safeguard their brand
+                    identity and adapt to evolving market trends and consumer
+                    preferences.
                   </li>
                   <li>
                     <svg
@@ -268,10 +288,11 @@ to evolving market trends and consumer preferences.
                     >
                       <path d="M0.376831 8.16821C-0.247095 8.54593 -0.0579659 9.49862 0.662688 9.60837C1.24211 9.69666 1.52052 10.3701 1.17304 10.8431C0.740845 11.4312 1.27942 12.2389 1.98713 12.0639C2.55609 11.9231 3.07065 12.4387 2.9302 13.0088C2.75556 13.718 3.56158 14.2577 4.14855 13.8246C4.62054 13.4764 5.29275 13.7554 5.38073 14.336C5.49024 15.0581 6.44099 15.2476 6.81798 14.6224C7.12107 14.1198 7.84864 14.1198 8.15171 14.6224C8.52867 15.2476 9.47943 15.0581 9.58896 14.336C9.67707 13.7554 10.3492 13.4764 10.8211 13.8246C11.4081 14.2577 12.2142 13.718 12.0395 13.0088C11.899 12.4387 12.4136 11.9231 12.9826 12.0639C13.6903 12.2389 14.2289 11.4312 13.7967 10.8431C13.4492 10.3701 13.7276 9.69653 14.307 9.60837C15.0276 9.49864 15.2168 8.54597 14.5929 8.16821C14.0912 7.86452 14.0912 7.13547 14.5929 6.83178C15.2168 6.45407 15.0277 5.50138 14.307 5.39162C13.7276 5.30334 13.4492 4.62989 13.7967 4.15695C14.2289 3.56879 13.6903 2.76112 12.9826 2.93613C12.4136 3.07687 11.8991 2.5613 12.0395 1.99115C12.2141 1.28199 11.4081 0.742345 10.8211 1.17541C10.3492 1.52356 9.67695 1.2446 9.58896 0.664029C9.47945 -0.0580599 8.5287 -0.247606 8.15171 0.377594C7.84863 0.880237 7.12106 0.880237 6.81798 0.377594C6.44103 -0.247596 5.49027 -0.0580833 5.38073 0.664029C5.29263 1.24462 4.62054 1.5236 4.14855 1.17541C3.56158 0.742345 2.75554 1.28201 2.9302 1.99115C3.07065 2.56126 2.55612 3.07686 1.98713 2.93613C1.2794 2.76113 0.740845 3.56879 1.17304 4.15695C1.52049 4.62989 1.24209 5.30346 0.662688 5.39162C-0.0579425 5.50136 -0.247105 6.45403 0.376831 6.83178C0.878459 7.13548 0.878459 7.86453 0.376831 8.16821Z" />
                     </svg>
-                    Measurable Results: At Sepnoty, we believe in the power of data-driven decision
-making. We track and analyze key brand metrics to evaluate the e ectiveness of our 
-brand identity e orts and make data-driven adjustments to optimize performance 
-and drive continuous improvement.
+                    Measurable Results: At Sepnoty, we believe in the power of
+                    data-driven decision making. We track and analyze key brand
+                    metrics to evaluate the e ectiveness of our brand identity e
+                    orts and make data-driven adjustments to optimize
+                    performance and drive continuous improvement.
                   </li>
                 </ul>
               </div>
@@ -294,35 +315,31 @@ and drive continuous improvement.
                   <Link href="/blog">Health Care</Link>
                 </li>
               </ul>
-
-
-
-              
             </div>
             <ul className="social-list">
               <li>
-                <a href="https://www.linkedin.com/">
+                <Link href="https://www.linkedin.com/">
                   <i className="bi bi-linkedin" />
                   <span>LinkedIn</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.facebook.com/">
+                <Link href="https://www.facebook.com/">
                   <i className="bi bi-facebook" />
                   <span>Facebook</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://twitter.com/">
+                <Link href="https://twitter.com/">
                   <i className="bi bi-twitter-x" />
                   <span>Twitter</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="https://www.instagram.com/">
+                <Link href="https://www.instagram.com/">
                   <i className="bi bi-instagram" />
                   <span>Instagram</span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -331,7 +348,7 @@ and drive continuous improvement.
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="/blog/InnovativeStrategies">
+                    <Link href="/blog/InnovativeStrategies">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -357,11 +374,12 @@ and drive continuous improvement.
                         </svg>
                         <span>PRV PROJECT</span>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
                     <p>
-                    Innovative Strategies for Small Business Growth: Lessons from Sepnoty
+                      Innovative Strategies for Small Business Growth: Lessons
+                      from Sepnoty
                     </p>
                   </div>
                 </div>
@@ -370,7 +388,7 @@ and drive continuous improvement.
                     <p>Challenges creating structure multiple brand system.</p>
                   </div>
                   <div className="star-btn">
-                    <a href="">
+                    <Link href="">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -396,7 +414,7 @@ and drive continuous improvement.
                           />
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
