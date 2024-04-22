@@ -27,14 +27,19 @@ const Home1Contact = () => {
 
   const handlePhoneInputChange = () => {
     const { name, value } = event.target;
-
-    if (name === "phone" && value.trim().length > 10) {
+    const newValue = value.replace(/\D/g, "");
+    event.target.value = newValue;
+    if (name === "phone" && newValue.length > 10) {
       setPhonenumberError("*Phone number should not exceed 10 digits");
     } else {
-      setUserDetails({ ...userDetails, [name]: value });
+      // Update userDetails with newValue, not the original value
+      setUserDetails({ ...userDetails, [name]: newValue });
+
       // Clear the phone number error if the input is valid
-      if (name === "phone" && value.trim().length <= 10) {
+      if (name === "phone" && newValue.length === 10) {
         setPhonenumberError("");
+      } else {
+        setPhonenumberError("*Please enter your 10-digit phone number");
       }
     }
   };
@@ -293,6 +298,7 @@ const Home1Contact = () => {
                         <div className="form-inner">
                           <label>Phone *</label>
                           <input
+                            type="tel"
                             id="phoneInput"
                             name="phone"
                             value={userDetails.phone}
