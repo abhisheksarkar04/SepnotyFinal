@@ -453,7 +453,7 @@ const Header1 = () => {
                     </ul> */}
                   </li>
                   <li>
-                    <Link href="/blog/blog-standard">Blog</Link>
+                    <Link href="/blogs">Blog</Link>
                     {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "blog" ? "active" : ""
@@ -576,7 +576,7 @@ const Header1 = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">Portfolio </Link>
+                        <Link href="/portfolios">Portfolio </Link>
                         {/* <span
                           className={`dropdown-icon2 two ${
                             state.activeSubMenu === "portfolio" ? "active" : ""
