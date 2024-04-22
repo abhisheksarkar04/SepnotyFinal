@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const PortfolioDetailsPage = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -14,20 +14,23 @@ const PortfolioDetailsPage = () => {
       >
         <div className="container">
           <div className="portfolio-details-thumb mb-80">
-            <img
-              src="/assets/img/innerpage/data analytics.jpg"
-              alt=""
-            />
+            <img src="/assets/img/innerpage/data analytics.jpg" alt="" />
           </div>
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3> Market Analysis Tool
-
-                </h3>
+                <h3> Market Analysis Tool</h3>
                 <p>
-                We crafted a tailored market analysis tool for Client A, enabling comprehensive data collection and analysis. This custom solution empowers Client A to track market trends, understand consumer behavior, and gain valuable competitor insights. With intuitive functionality, the tool facilitates informed decision-making and strategic planning. Our market analysis tool equips Client A with the competitive edge needed to thrive in their industry.</p>               
-               <div className="row mb-60">
+                  We crafted a tailored market analysis tool for Client A,
+                  enabling comprehensive data collection and analysis. This
+                  custom solution empowers Client A to track market trends,
+                  understand consumer behavior, and gain valuable competitor
+                  insights. With intuitive functionality, the tool facilitates
+                  informed decision-making and strategic planning. Our market
+                  analysis tool equips Client A with the competitive edge needed
+                  to thrive in their industry.
+                </p>
+                <div className="row mb-60">
                   <div className="col-lg-12">
                     <img
                       src="/assets/img/innerpage/Social Media Marketing Campaign.jpg"
@@ -37,7 +40,16 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                Our Market Analysis Tool offers robust data gathering and analysis capabilities, enabling thorough examination of market trends, consumer behavior, and competitor insights. With intuitive interface and advanced functionalities, users can easily navigate and interpret complex data sets. Customizable reporting options facilitate tailored insights, empowering informed decision-making and strategic planning. Gain a comprehensive understanding of your market landscape and unlock valuable opportunities with our powerful Market Analysis Tool.
+                  Our Market Analysis Tool offers robust data gathering and
+                  analysis capabilities, enabling thorough examination of market
+                  trends, consumer behavior, and competitor insights. With
+                  intuitive interface and advanced functionalities, users can
+                  easily navigate and interpret complex data sets. Customizable
+                  reporting options facilitate tailored insights, empowering
+                  informed decision-making and strategic planning. Gain a
+                  comprehensive understanding of your market landscape and
+                  unlock valuable opportunities with our powerful Market
+                  Analysis Tool.
                 </p>
                 <ul className="features">
                   <li>
@@ -54,7 +66,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Advanced Data Processing and Cleaning Techniques
-
                   </li>
                   <li>
                     <svg
@@ -70,8 +81,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Customized Data Visualization and Reporting
-
-
                   </li>
                   <li>
                     <svg
@@ -102,8 +111,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Scalable and Flexible Architecture
-
-
                   </li>
                   <li>
                     <svg
@@ -119,8 +126,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Robust Security and Compliance Measures
-
-
                   </li>
                   <li>
                     <svg
@@ -136,8 +141,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Automated Data Pipelines and Workflows
-
-
                   </li>
                 </ul>
                 <div className="row mt-50 mb-60">
@@ -149,7 +152,18 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Our strategic initiatives have yielded remarkable results, elevating decision-making accuracy by 40% and driving a 25% increase in sales revenue via targeted marketing campaigns. By optimizing processes, we've enhanced operational efficiency by 30% and slashed customer churn rates by 20% through proactive retention strategies. Furthermore, our keen market analysis identified new opportunities, fostering a 15% revenue growth, while streamlined data analysis processes saved 20% in resource costs, solidifying our commitment to sustainable growth and innovation.</p>
+                <p>
+                  Our strategic initiatives have yielded remarkable results,
+                  elevating decision-making accuracy by 40% and driving a 25%
+                  increase in sales revenue via targeted marketing campaigns. By
+                  optimizing processes, we've enhanced operational efficiency by
+                  30% and slashed customer churn rates by 20% through proactive
+                  retention strategies. Furthermore, our keen market analysis
+                  identified new opportunities, fostering a 15% revenue growth,
+                  while streamlined data analysis processes saved 20% in
+                  resource costs, solidifying our commitment to sustainable
+                  growth and innovation.
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -265,10 +279,7 @@ const PortfolioDetailsPage = () => {
                 </div>
               </div>
               <div className="portfolio-details-banner">
-                <img
-                  src="/assets/img/innerpage/image 125.jpg"
-                  alt=""
-                />
+                <img src="/assets/img/innerpage/image 125.jpg" alt="" />
                 <div className="portfolio-details-banner-content">
                   <h2>
                     Ready to <span>work with us?</span>
@@ -285,7 +296,7 @@ const PortfolioDetailsPage = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="/portfolio/UI-UXPortfolio">
+                    <Link href="/portfolio/UI-UXPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -311,12 +322,10 @@ const PortfolioDetailsPage = () => {
                         </svg>
                         <span>PRV PROJECT</span>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
-                    <p>
-                    UI-UX Portfolio
-                    </p>
+                    <p>UI-UX Portfolio</p>
                   </div>
                 </div>
                 {/*  <div className="single-navigation two text-end">

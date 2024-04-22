@@ -5,7 +5,7 @@ import Link from "next/link";
 import useWow from "@/hooks/useWow";
 
 const PortfolioInfoFlow = () => {
-  useWow()
+  useWow();
   useEffect(() => {
     const infoflow1TextItem = document.querySelectorAll(".infoflow-wrap");
     console.log(infoflow1TextItem);
@@ -217,7 +217,7 @@ const PortfolioInfoFlow = () => {
               data-wow-delay="400ms"
               data-wow-duration="1500ms"
             >
-              <Link href="/" className="load-btn">
+              <Link href="" className="load-btn">
                 <span>
                   Load More
                   <svg viewBox="0 0 13 20">

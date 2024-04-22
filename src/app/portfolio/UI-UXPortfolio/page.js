@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const PortfolioDetailsPage = () => {
-  useWow()
+  useWow();
   return (
     <MainLayout>
       <div
@@ -14,19 +14,24 @@ const PortfolioDetailsPage = () => {
       >
         <div className="container">
           <div className="portfolio-details-thumb mb-80">
-            <img
-              src="/assets/img/innerpage/UIUX design portfolio.jpg"
-              alt=""
-            />
+            <img src="/assets/img/innerpage/UIUX design portfolio.jpg" alt="" />
           </div>
           <div className="row g-lg-4 gy-5 mb-80 ">
             <div className="col-lg-8">
               <div className="portfolio-details-content">
-                <h3>Website Redesign
-
-                </h3>
+                <h3>Website Redesign</h3>
                 <p>
-                We initiated a comprehensive overhaul of the client's website, focusing on enhancing user experience while staying abreast of contemporary design trends. By meticulously redesigning key elements, we crafted a visually appealing and intuitive interface that captivates visitors. Our approach prioritized seamless navigation and accessibility, ensuring users can effortlessly engage with the website's content. The result is a modernized online platform that not only reflects the client's brand identity but also elevates their digital presence for increased engagement and conversion.                            </p>
+                  We initiated a comprehensive overhaul of the client's website,
+                  focusing on enhancing user experience while staying abreast of
+                  contemporary design trends. By meticulously redesigning key
+                  elements, we crafted a visually appealing and intuitive
+                  interface that captivates visitors. Our approach prioritized
+                  seamless navigation and accessibility, ensuring users can
+                  effortlessly engage with the website's content. The result is
+                  a modernized online platform that not only reflects the
+                  client's brand identity but also elevates their digital
+                  presence for increased engagement and conversion.{" "}
+                </p>
                 <div className="row mb-60">
                   <div className="col-lg-12">
                     <img
@@ -37,7 +42,14 @@ const PortfolioDetailsPage = () => {
                 </div>
                 <h3>Key Features</h3>
                 <p>
-                Our Website Redesign service offers a fresh and contemporary look, aligning seamlessly with modern design standards. We prioritize enhancing user experience through intuitive navigation and visually engaging elements. By revamping key features and optimizing functionality, we ensure a seamless browsing experience across all devices. Elevate your online presence and captivate your audience with our expertly crafted Website Redesign solution.
+                  Our Website Redesign service offers a fresh and contemporary
+                  look, aligning seamlessly with modern design standards. We
+                  prioritize enhancing user experience through intuitive
+                  navigation and visually engaging elements. By revamping key
+                  features and optimizing functionality, we ensure a seamless
+                  browsing experience across all devices. Elevate your online
+                  presence and captivate your audience with our expertly crafted
+                  Website Redesign solution.
                 </p>
                 <ul className="features">
                   <li>
@@ -54,8 +66,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     User-Centric Design Approach
-
-
                   </li>
                   <li>
                     <svg
@@ -71,7 +81,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Responsive and Adaptive Design
-
                   </li>
                   <li>
                     <svg
@@ -102,7 +111,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Interactive and Engaging Elements
-
                   </li>
                   <li>
                     <svg
@@ -118,7 +126,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Cross-Platform Compatibility
-
                   </li>
                   <li>
                     <svg
@@ -134,7 +141,6 @@ const PortfolioDetailsPage = () => {
                       />
                     </svg>{" "}
                     Brand Consistency and Identity Integration
-
                   </li>
                 </ul>
                 <div className="row mt-50 mb-60">
@@ -146,7 +152,15 @@ const PortfolioDetailsPage = () => {
                   </div>
                 </div>
                 <h3>Project Results</h3>
-                <p>Our innovative strategies have yielded significant digital advancements. We've increased website engagement by 30% and mobile app retention rates by 25%. E-commerce conversion rates saw a 20% boost, and user satisfaction scores surged by 35%. Additionally, our streamlined dashboard tasks and accelerated product development time by 40% and 20%, respectively, reflect our commitment to efficiency and excellence.</p>
+                <p>
+                  Our innovative strategies have yielded significant digital
+                  advancements. We've increased website engagement by 30% and
+                  mobile app retention rates by 25%. E-commerce conversion rates
+                  saw a 20% boost, and user satisfaction scores surged by 35%.
+                  Additionally, our streamlined dashboard tasks and accelerated
+                  product development time by 40% and 20%, respectively, reflect
+                  our commitment to efficiency and excellence.
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -262,10 +276,7 @@ const PortfolioDetailsPage = () => {
                 </div>
               </div>
               <div className="portfolio-details-banner">
-                <img
-                  src="/assets/img/innerpage/image 128.jpg"
-                  alt=""
-                />
+                <img src="/assets/img/innerpage/image 128.jpg" alt="" />
                 <div className="portfolio-details-banner-content">
                   <h2>
                     Ready to <span>work with us?</span>
@@ -282,7 +293,7 @@ const PortfolioDetailsPage = () => {
               <div className="details-navigation">
                 <div className="single-navigation">
                   <div className="star-btn">
-                    <a href="/portfolio/CybersecuritySolutionsPortfolio">
+                    <Link href="/portfolio/CybersecuritySolutionsPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -308,12 +319,10 @@ const PortfolioDetailsPage = () => {
                         </svg>
                         <span>PRV PROJECT</span>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="content">
-                    <p>
-                    Cybersecurity Solutions Portfolio
-                    </p>
+                    <p>Cybersecurity Solutions Portfolio</p>
                   </div>
                 </div>
                 <div className="single-navigation two text-end">
@@ -321,7 +330,7 @@ const PortfolioDetailsPage = () => {
                     <p>Data Analytics Portfolio</p>
                   </div>
                   <div className="star-btn">
-                    <a href="/portfolio/DataAnalyticsPortfolio">
+                    <Link href="/portfolio/DataAnalyticsPortfolio">
                       <div className="bg">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -347,7 +356,7 @@ const PortfolioDetailsPage = () => {
                           />
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
