@@ -397,7 +397,7 @@ const Header1 = () => {
                     </ul> */}
                   </li>
                   <li>
-                    <Link href="/case-study">Case Study</Link>
+                    <Link href="/about">ABOUT</Link>
                     {/* <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "case-study" ? "active" : ""
@@ -563,8 +563,8 @@ const Header1 = () => {
                       }`}
                     >
                       <li>
-                        <Link href="/blog">
-                          About
+                        <Link href="/case-study">
+                          CASESTUDY
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={10}
